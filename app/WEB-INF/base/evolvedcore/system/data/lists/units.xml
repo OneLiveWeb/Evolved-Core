@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<unitss>
+  <units id="percentage" name="Percentage">Percentage</units>
+  <units id="currency" name="Currency">Currency</units>
+</unitss>

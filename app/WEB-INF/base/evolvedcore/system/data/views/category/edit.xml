@@ -1,0 +1,11 @@
+
+<properties>
+ 
+   <property id="name">Category Name</property>
+  <property id="categoryimage">Category Image</property>
+ 
+  <!-- 
+  <property id="imagemode" type="list">Media Mode</property>
+   -->
+ 
+</properties>

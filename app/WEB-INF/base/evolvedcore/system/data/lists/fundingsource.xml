@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fundingsources>
+  <fundingsource id="selffundded" name="Self Funded">Self Funded</fundingsource>
+  <fundingsource id="wsib" name="Workplace Safety and Insurance Board (WSIB)">Workplace Safety and Insurance Board (WSIB)</fundingsource>
+  <fundingsource id="osap" name="Ontario Student Assistance Program">Ontario Student Assistance Program</fundingsource>
+  <fundingsource id="employmentontario" name="Employment Ontario">Employment Ontario</fundingsource>
+  <fundingsource id="employers" name="Employers">Employers</fundingsource>
+  <fundingsource id="aboriginal" name="Aboriginal Band Councils">Aboriginal Band Councils</fundingsource>
+  <fundingsource id="other" name="Other - please specify">Other - please specify</fundingsource>
+  <fundingsource id="secondcareer" name="Second Career">Second Career</fundingsource>
+</fundingsources>

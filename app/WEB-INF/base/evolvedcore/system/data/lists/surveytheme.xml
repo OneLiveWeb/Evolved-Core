@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<surveythemes>
+  <surveytheme id="bluesteel">Black</surveytheme>
+
+  <surveytheme id="fire">Red</surveytheme>
+  <surveytheme id="evolved">Comment Evolved</surveytheme>
+  <surveytheme id="hotel">Hotel</surveytheme>
+  <surveytheme id="pub">Pub</surveytheme>
+  <surveytheme id="grey">Slate Grey</surveytheme>
+  <surveytheme id="dent">Clean Black</surveytheme>
+    <surveytheme id="huron">Huron</surveytheme>
+      <surveytheme id="blackwhite">Black and White</surveytheme>
+        <surveytheme id="coffee">Coffee</surveytheme>
+  
+</surveythemes>

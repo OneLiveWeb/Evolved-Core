@@ -1,0 +1,8 @@
+
+<properties>
+    <property id="category" viewtype="testcategory" index="true" stored="true" editable="true" required="true">Category</property>
+  <property id="count" required="true"  editable="true" stored="true" index="true" keyword="true" >Number of Questions</property>
+  
+  
+  
+</properties>

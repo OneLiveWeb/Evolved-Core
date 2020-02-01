@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+  <property id="sequencenumber"/>  
+  <property id="id"/>  
+  <property id="available"/>  
+  <property id="account"/>  
+  <property id="college"/>  
+  <property id="class"/>  
+  <property id="product"/> 
+</root>

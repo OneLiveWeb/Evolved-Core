@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+  <!-- 
+  <data id="report">Report</data>
+   -->  
+  <data id="storeOrder">Orders</data>  
+  <data id="product">Products</data>  
+  <data id="prepaid" name="Prepaid Codes"/>  
+  <data id="classtemplate" name="Class Template"/>  
+  <data id="learningGroup">Classes</data>  
+  <element id="course">Modules</element>  
+  <data id="testplan" name="Activities"/>  
+  <data id="question">Question Bank</data>  
+  <data id="product" name="Products"/>  
+  <data id="userprofile" recordstatus="deleted"> 
+    <name><![CDATA[User Profile]]></name> 
+  </data>  
+  <data id="faq" name="FAQ"/>  
+  <property id="division" href="/views/modules/division/index.html" recordstatus="deleted">Divisions</property>  
+  <property id="librarycollection" href="/views/modules/collection/index.html" recordstatus="deleted">Collections</property>  
+  <data id="test" name="Completed Activities"/>  
+  <data id="library" recordstatus="deleted">Libraries</data>  
+  <property id="order" href="/views/modules/order/index.html" recordstatus="deleted">Orders</property>  
+  <element id="attendance"> 
+    <name><![CDATA[Attendance]]></name> 
+  </element>  
+  <data id="user"> 
+    <name><![CDATA[Users]]></name> 
+  </data>  
+  <data id="tides"> 
+    <name><![CDATA[Tide Data]]></name> 
+  </data>  
+  <data id="tidelocation">
+    <name><![CDATA[Tide Location]]></name>
+  </data> 
+  <data id="adbank">
+    <name><![CDATA[Ads]]></name>
+  </data>
+  
+  
+  <data id="reports">
+  Reports
+  </data>
+  <data id="lrsactivities">
+    <name>XAPI activity log</name>
+  </data>
+  
+</root>

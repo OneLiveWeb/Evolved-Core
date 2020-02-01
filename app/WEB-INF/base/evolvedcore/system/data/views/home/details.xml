@@ -1,0 +1,9 @@
+<properties index="true" stored="true" keyword="true">
+	<property id="price"/>
+	<property id="house_num"/>
+	<property id="street"/>
+	<property id="city"/>
+	<property id="bedrooms" />
+	<property id="fullbaths" />
+	  <property id="remks" />
+</properties>

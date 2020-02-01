@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties> 
+  <property id="locale" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[locale]]></language> 
+    </name> 
+  </property>  
+  <property id="name" index="true" multilanguage="true" filter="false" deleted="false" editable="true" stored="true" sortable="true" keyword="false">New
+    <name>
+      <language id="de"><![CDATA[Identität]]></language>
+      <language id="en"><![CDATA[Name]]></language>
+      <language id="es"><![CDATA[Nombre]]></language>
+      <language id="fr"><![CDATA[Identité]]></language>
+    </name>
+  </property>
+</properties>

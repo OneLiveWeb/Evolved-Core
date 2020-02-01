@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testmodes>
+  <testmode id="test" name="Test">Test</testmode>
+  <testmode id="survey" name="Survey">Survey</testmode>
+  <testmode id="application" name="Application Form">Application Form</testmode>
+  <testmode id="quiz" name="Quiz">Quiz</testmode>
+  <testmode id="assignment" name="Assignment">Assignment</testmode>
+  <testmode id="exam" name="Final Exam">Final Exam</testmode>
+  <testmode name="Presentation" id="presentation">Presentation</testmode>
+  <testmode id="video" name="Video Presentation">Video Presentation</testmode>
+</testmodes>

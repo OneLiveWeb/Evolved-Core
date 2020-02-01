@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties> 
+  <property id="id" index="true" stored="true" keyword="true" internalfield="false" deleted="false" datatype="list" searchtype="asset" viewtype="asset">Lock Id 
+    <name> 
+      <language id="en"><![CDATA[Id]]></language> 
+    </name> 
+  </property>  
+  <property id="nodeid" editable="true" index="true" stored="true" deleted="false">Node Id 
+    <name>
+      <language id="en"><![CDATA[nodeid]]></language>
+    </name>
+  </property>  
+  <property id="ownerid" editable="true" index="true" stored="true" deleted="false">Owner Id 
+    <name> 
+      <language id="en"><![CDATA[ownerid]]></language> 
+    </name> 
+  </property>  
+  <property id="date" editable="true" datatype="date" viewtype="date" index="true" stored="true" sortable="true" internalfield="false" deleted="false" searchtype="asset">Date 
+    <name> 
+      <language id="en"><![CDATA[DATE]]></language> 
+    </name> 
+  </property>  
+  <property id="locked" editable="true" index="true" stored="true" deleted="false">Locked 
+    <name> 
+      <language id="en"><![CDATA[locked]]></language> 
+    </name> 
+  </property>  
+  <property id="sourcepath" index="true" stored="true" deleted="false" searchtype="asset">Path
+    <name> 
+      <language id="en"><![CDATA[Source Path]]></language> 
+    </name> 
+  </property>  
+  <property id="mastereditclusterid" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[Master Edit Cluster]]></language> 
+    </name> 
+  </property>  
+  <property id="recordmodificationdate" index="true" deleted="false" editable="false" stored="true" viewtype="time" sortable="true" searchcomponent="datesearch" datatype="date">New
+    <name> 
+      <language id="de"><![CDATA[Rekord bearbeiten Datum]]></language>  
+      <language id="en"><![CDATA[Record Edit Date]]></language>  
+      <language id="es"><![CDATA[Record Edit Fecha]]></language>  
+      <language id="fr"><![CDATA[Date d&#39;édition de l&#39;enregistrement]]></language> 
+    </name> 
+  </property> 
+</properties>

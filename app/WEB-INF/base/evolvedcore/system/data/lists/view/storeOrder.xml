@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+  <property id="storeOrderadvancedsearch" moduleid="storeOrder" systemdefined="true" byassettype="false">Advanced Search</property>
+  <property id="storeOrderresultstable" moduleid="storeOrder" systemdefined="true" byassettype="false">Results Table</property>
+    <data id="storeOrdermy_account" moduleid="storeOrder" systemdefined="true" ordering="1358970750797">My Account</data>
+    <data id="storeOrderfull_order_details" moduleid="storeOrder" systemdefined="false" ordering="1363720614026">Full Order Details</data>
+  
+</properties>

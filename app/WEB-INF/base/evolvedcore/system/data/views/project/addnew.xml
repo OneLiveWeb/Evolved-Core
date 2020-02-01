@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+ 
+   
+ 
+   <property id="title" editable="true" required="true">Project Title</property>
+   
+   <property id="caption" editable="true" viewtype="html" required="true">Project Description</property>
+ 
+ 	       <property id="shortcaption" editable="true" viewtype="text" tooltip="This is displayed as a short description of the project on various pages.">Short Caption</property>
+ 	
+
+   <property id="creativefields" type="list" viewtype="multiselect" columns="3">Creative Fields</property>
+   <property id="tags" >Additional Keywords</property>
+ 
+   <property id="worktype" type="list" >Type of Work</property>
+   <property id="mediatype" type="list" required="true" >Type of Media</property>
+   
+
+	<property id="toolsused" type="list" viewtype="multiselect" required="true">Tools used on this project</property>
+    <property id="projectdisplayformat" type="list" index="true" keyword="true" stored="true" editable="true">Display Format</property>
+
+
+	<property id="jobfield" required="true"/>
+
+</properties>

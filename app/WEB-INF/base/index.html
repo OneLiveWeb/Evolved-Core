@@ -1,0 +1,15 @@
+$evolvedcore.toast("Welcome to the Construction Demo App");
+$evolvedcore.createNotification("TEST", "Welcome to the Construction Demo App");
+
+##<img class="img-fluid" src="/evolved/photos/1580331733150.jpg"/>
+$pages.include("/evolvedcore/index.html")
+##<a class="btn btn-default" href="/evolved/test/index.html">Articulate example</a>
+
+###set($photos = $evolvedcore.getPageManager().getChildrenPathsSorted("/evolved/photos"))
+#foreach($photo in $photos)
+
+<img class="img-fluid" src="$photo"/> $photo
+
+
+
+#end

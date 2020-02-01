@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties beanname="xmlFileSearcher">
+  <property id="house_num" externalid="HOUSENUM" index="true" stored="true" searchtype="home">House Number:</property>
+  <property id="street" externalid="STREET" index="true" stored="true" searchtype="home">Street:</property>
+  <property id="str_type" externalid="STR_TYPE" index="true" stored="true" searchtype="home">Street Type:</property>
+  <property id="str_dir" externalid="STR_DIR" index="true" stored="true" searchtype="home">Street Direction:</property>
+  <property id="unitnum" externalid="UNITNUM" index="true" stored="true" searchtype="home">Unit Num:</property>
+  <property id="age" externalid="AGE" index="true" stored="true" searchtype="home">Age:</property>
+  <property id="district" externalid="DISTRICT" index="true" stored="true" searchtype="home">District:</property>
+  <property id="subdistrict" externalid="SUBDISTRICT" index="true" stored="true" searchtype="home">Sub District:</property>
+  <property id="propsize2" externalid="PROPSIZE2" index="true" stored="true" searchtype="home">Property Size 2:</property>
+  <property id="lotsize" externalid="LOTSIZE" index="true" stored="true" searchtype="home">Lot Size</property>
+  <property id="propover" externalid="PROPOVER" index="true" stored="true" searchtype="home">Prop Over</property>
+  <property id="features1" externalid="FEATURES1" index="true" stored="true" searchtype="home">Features 1</property>
+  <property id="features2" externalid="FEATURES2" index="true" stored="true" searchtype="home">Features 2</property>
+  <property id="features3" externalid="FEATURES3" index="true" stored="true" searchtype="home">Features 3</property>
+  <property id="features4" externalid="FEATURES4" index="true" stored="true" searchtype="home">Features 4</property>
+  <property id="features5" externalid="FEATURES5" index="true" stored="true" searchtype="home">Features 5</property>
+  <property id="features6" externalid="FEATURES6" index="true" stored="true" searchtype="home">Features 6</property>
+  <property id="features7" externalid="FEATURES7" index="true" stored="true" searchtype="home">Features 7</property>
+  <property id="ext3" externalid="EXT2" index="true" stored="true" searchtype="home">Ext 2</property>
+  <property id="ext4" externalid="EXT3" index="true" stored="true" searchtype="home">Ext 3</property>
+  <property id="int1" externalid="INT1" index="true" stored="true" searchtype="home">Int 1</property>
+  <property id="int2" externalid="INT2" index="true" stored="true" searchtype="home">Int 2</property>
+  <property id="int3" externalid="INT3" index="true" stored="true" searchtype="home">Int 3</property>
+  <property id="int4" externalid="INT4" index="true" stored="true" searchtype="home">Int 4</property>
+  <property id="int5" externalid="INT5" index="true" stored="true" searchtype="home">Int 5</property>
+  <property id="leasetype" externalid="LEASETYPE" index="true" stored="true" searchtype="home">Lease Type</property>
+  <property id="salelease1" externalid="SALELEASE1" index="true" stored="true" searchtype="home">Sale Lease 1</property>
+  <property id="salelease2" externalid="SALELEASE2" index="true" stored="true" searchtype="home">Sale Lease 2</property>
+  <property id="access1" externalid="ACCESS1" index="true" stored="true" searchtype="home">Access 1</property>
+  <property id="access2" externalid="ACCESS2" index="true" stored="true" searchtype="home">Access 2</property>
+  <property id="access3" externalid="ACCESS3" index="true" stored="true" searchtype="home">Access 3</property>
+  <property id="outdoor1" externalid="OUTDOOR1" index="true" stored="true" searchtype="home">Outdoor 1</property>
+  <property id="outdoor2" externalid="OUTDOOR2" index="true" stored="true" searchtype="home">Outdoor 2</property>
+  <property id="outdoor3" externalid="OUTDOOR3" index="true" stored="true" searchtype="home">Outdoor 3</property>
+  <property id="outdoor4" externalid="OUTDOOR4" index="true" stored="true" searchtype="home">Outdoor 4</property>
+  <property id="outdoor5" externalid="OUTDOOR5" index="true" stored="true" searchtype="home">Outdoor 5</property>
+  <property id="water2" externalid="WATER2" index="true" stored="true" searchtype="home">Water 2</property>
+  <property id="water3" externalid="WATER3" index="true" stored="true" searchtype="home">Water 3</property>
+  <property id="rentcrt" externalid="RENTCRT" index="true" stored="true" searchtype="home">rentcrt</property>
+  <property id="siteinflu1" externalid="SITEINFLU1" index="true" stored="true" searchtype="home">New</property>
+  <property id="siteinflu2" externalid="SITEINFLU2" index="true" stored="true" searchtype="home">New</property>
+  <property id="siteinflu3" externalid="SITEINFLU3" index="true" stored="true" searchtype="home">New</property>
+  <property id="siteinflu4" externalid="SITEINFLU4" index="true" stored="true" searchtype="home">New</property>
+  <property id="siteinflu5" externalid="SITEINFLU5" index="true" stored="true" searchtype="home">New</property>
+  <property id="siteinflu6" externalid="SITEINFLU6" index="true" stored="true" searchtype="home">New</property>
+  <property id="soil1" externalid="SOIL1" index="true" stored="true" searchtype="home">Soil 1</property>
+  <property id="soil2" externalid="SOIL2" index="true" stored="true" searchtype="home">Soil 2</property>
+  <property id="numrental" externalid="NUMRENTAL" index="true" stored="true" searchtype="home">Num Rental</property>
+  <property id="bachbedunits" externalid="BACHBEDUNITS" index="true" stored="true" searchtype="home">Bach Bed Units</property>
+  <property id="onebedunits" externalid="ONEBEDUNITS" index="true" stored="true" searchtype="home">One Bed Units</property>
+  <property id="twobedunits" externalid="TWOBEDUNITS" index="true" stored="true" searchtype="home">Two Bed Units</property>
+  <property id="threebedunits" externalid="THREEBEDUNITS" index="true" stored="true" searchtype="home">Three Bed Units</property>
+  <property id="fourbedunits" externalid="FOURBEDUNITS" index="true" stored="true" searchtype="home">Four Bed Units</property>
+  <property id="halfbaths" externalid="HALFBATHS" index="true" stored="true" searchtype="home">Half Baths</property>
+  <property id="numbeds" externalid="NUMBEDS" index="true" stored="true" searchtype="home">Num Beds</property>
+  <property id="parkd" externalid="PARKD" index="true" stored="true" searchtype="home">Parkd</property>
+  <property id="style1" externalid="STYLE2" index="true" stored="true" searchtype="home">Style 2</property>
+  <property id="farmf1" externalid="FARMF1" index="true" stored="true" searchtype="home">Farm F1</property>
+  <property id="farmf2" externalid="FARMF2" index="true" stored="true" searchtype="home">Farm F2</property>
+  <property id="farmf3" externalid="FARMF3" index="true" stored="true" searchtype="home">Farm F3</property>
+  <property id="found1" externalid="FOUND1" index="true" stored="true" searchtype="home">Found 1</property>
+  <property id="found2" externalid="FOUND2" index="true" stored="true" searchtype="home">Found 2</property>
+  <property id="found3" externalid="FOUND3" index="true" stored="true" searchtype="home">Found 3</property>
+  <property id="status" externalid="STATUS" index="true" stored="true" searchtype="home">Status</property>
+  <property id="boar_counter" externalid="BOARD_COUNTER" index="true" stored="true" searchtype="home">Board Counter</property>
+  <property id="mlsnum2" externalid="MLSNUM2" index="true" stored="true" searchtype="home">MLSNUM2</property>
+  <property id="legaldesc" externalid="LEGALDESC" index="true" stored="true" searchtype="home">Legal Description</property>
+  <property id="type2" externalid="TYPE2" index="true" stored="true" searchtype="home">Type 2</property>
+  <property id="type3" externalid="TYPE3" index="true" stored="true" searchtype="home">Type 3</property>
+  <property id="heating1" externalid="HEATING1" index="true" stored="true" searchtype="home">Heating 1</property>
+  <property id="heating2" externalid="HEATING2" index="true" stored="true" searchtype="home">Heating 2</property>
+  <property id="heating3" externalid="HEATING3" index="true" stored="true" searchtype="home">Heating 3</property>
+  <property id="heating4" externalid="HEATING4" index="true" stored="true" searchtype="home">Heating 4</property>
+  <property id="extfea1" externalid="EXTFEA1" index="true" stored="true" searchtype="home">Extfea1</property>
+  <property id="extfea2" externalid="EXTFEA2" index="true" stored="true" searchtype="home">Extfea2</property>
+  <property id="extfea3" externalid="EXTFEA3" index="true" stored="true" searchtype="home">Extfea3</property>
+  <property id="extfea4" externalid="EXTFEA4" index="true" stored="true" searchtype="home">Extfea4</property>
+  <property id="extfea5" externalid="EXTFEA5" index="true" stored="true" searchtype="home">Extfea5</property>
+  <property id="extfea6" externalid="EXTFEA6" index="true" stored="true" searchtype="home">Extfea6</property>
+  <property id="extfea7" externalid="EXTFEA7" index="true" stored="true" searchtype="home">Extfea7</property>
+  <property id="extfea8" externalid="EXTFEA8" index="true" stored="true" searchtype="home">Extfea8</property>
+  <property id="blevel1" externalid="BLEVEL1" index="true" stored="true" searchtype="home">BLevel 1</property>
+  <property id="blevel2" externalid="BLEVEL2" index="true" stored="true" searchtype="home">BLevel 2</property>
+  <property id="blevel3" externalid="BLEVEL3" index="true" stored="true" searchtype="home">BLevel 3</property>
+  <property id="blevel4" externalid="BLEVEL4" index="true" stored="true" searchtype="home">BLevel 4</property>
+  <property id="fireprot1" externalid="FIREPROT1" index="true" stored="true" searchtype="home">Fire Protection 1</property>
+  <property id="fireprot2" externalid="FIREPROT2" index="true" stored="true" searchtype="home">Fire Protection 2</property>
+  <property id="fireprot3" externalid="FIREPROT3" index="true" stored="true" searchtype="home">Fire Protection 3</property>
+  <property id="fireprot4" externalid="FIREPROT4" index="true" stored="true" searchtype="home">Fire Protection 4</property>
+  <property id="fireprot5" externalid="FIREPROT5" index="true" stored="true" searchtype="home">Fire Protection 5</property>
+  <property id="garaget1" externalid="GARAGET1" index="true" stored="true" searchtype="home">Garage T1</property>
+  <property id="garaget2" externalid="GARAGET2" index="true" stored="true" searchtype="home">Garage T2</property>
+  <property id="garaget3" externalid="GARAGET3" index="true" stored="true" searchtype="home">Garage T3</property>
+  <property id="park" externalid="PARK" index="true" stored="true" searchtype="home">Park</property>
+  <property id="propzone" externalid="PROPZONE" index="true" stored="true" searchtype="home">Prop zone</property>
+  <property id="salelease1" externalid="SALELEASE1" index="true" stored="true" searchtype="home">Sale Lease 1</property>
+  <property id="salelease2" externalid="SALELEASE2" index="true" stored="true" searchtype="home">Sale Lease 2</property>
+  <property id="serv2" externalid="SERV2" index="true" stored="true" searchtype="home">Serv 2</property>
+  <property id="serv1" externalid="SERV1" index="true" stored="true" searchtype="home">Serv 1</property>
+  <property id="serv3" externalid="SERV3" index="true" stored="true" searchtype="home">Serv 3</property>
+  <property id="serv4" externalid="SERV4" index="true" stored="true" searchtype="home">Serv 4</property>
+  <property id="serv5" externalid="SERV5" index="true" stored="true" searchtype="home">Serv 5</property>
+  <property id="utilities1" externalid="UTILITIES1" index="true" stored="true" searchtype="home">Utilities 1</property>
+  <property id="utilities2" externalid="UTILITIES2" index="true" stored="true" searchtype="home">Utilities 2</property>
+  <property id="utilities3" externalid="UTILITIES3" index="true" stored="true" searchtype="home">Utilities 3</property>
+  <property id="utilities4" externalid="UTILITIES4" index="true" stored="true" searchtype="home">Utilities 4</property>
+  <property id="utilities5" externalid="UTILITIES5" index="true" stored="true" searchtype="home">Utilities 5</property>
+  <property id="construct1" externalid="CONSTRUCT1" index="true" stored="true" searchtype="home">Construct 1</property>
+  <property id="construct2" externalid="CONSTRUCT2" index="true" stored="true" searchtype="home">Construct 2</property>
+  <property id="construct3" externalid="CONSTRUCT3" index="true" stored="true" searchtype="home">Construct 3</property>
+  <property id="rentrate1" externalid="RENTRATE1" index="true" stored="true" searchtype="home">Rent Rate 1</property>
+  <property id="rentrate2" externalid="RENTRATE2" index="true" stored="true" searchtype="home">Rent Rate 2</property>
+  <property id="rentrate3" externalid="RENTRATE3" index="true" stored="true" searchtype="home">Rent Rate 3</property>
+  <property id="rentrate4" externalid="RENTRATE4" index="true" stored="true" searchtype="home">Rent Rate 4</property>
+  <property id="rentrate5" externalid="RENTRATE5" index="true" stored="true" searchtype="home">Rent Rate 5</property>
+  <property id="rentrate6" externalid="RENTRATE6" index="true" stored="true" searchtype="home">Rent Rate 6</property>
+  <property id="waterfrontyn" externalid="WATERFRONTYN" index="true" stored="true" searchtype="home">Water Front YN</property>
+  <property id="waterfrontname" externalid="WATERFRONTNAME" index="true" stored="true" searchtype="home">Water Front Name</property>
+  <property id="address1" index="true" stored="true" editable="true" searchtype="home">Address:</property>
+  <property id="postalcode" externalid="PROPCODE" index="true" stored="true" editable="true" searchtype="home">Postal Code:</property>
+  <property id="city" externalid="CITY" index="true" stored="true" editable="true" searchtype="home">City:</property>
+  <property id="province" index="true" stored="true" editable="true" type="list" searchtype="home" datatype="list">Province:</property>
+  <property id="country" index="true" stored="true" editable="true" type="list" searchtype="home" datatype="list">Country:</property>
+  <property id="price" externalid="LIST_PRICE" index="true" stored="true" editable="true" type="number" searchtype="home" datatype="number">Listing Price:</property>
+  <property id="bathrooms" externalid="FULLBATHS" index="true" stored="true" editable="true" type="number" searchtype="home" datatype="number">Number of Bathrooms:</property>
+  <property id="bathroomnotes"/>
+  
+  <property id="bedrooms" externalid="NUMBEDS" index="true" stored="true" editable="true" type="number" searchtype="home" datatype="number">Number of Bedrooms:</property>
+  <property id="bedroomnotes"/>
+  
+  <property id="featuresummary" index="true" stored="true" editable="true" searchtype="home">Feature Summary:</property>
+  <property id="floorspace" index="true" stored="true" editable="true" searchtype="home">Floor Space:</property>
+  <property id="type" externalid="TYPE1" index="true" stored="true" editable="true" type="list" viewtype="multiselect" searchtype="home" datatype="list" required="false">Property Type:</property>
+  <property id="propertytax" index="true" stored="true" editable="true" searchtype="home" required="false">Property Taxes:</property>
+  <property id="yearbuild" index="true" stored="true" editable="true" searchtype="home" required="false">Built In:</property>
+  <property id="storeys" index="true" stored="true" editable="true" searchtype="home" required="false">Number of Storeys:</property>
+  <property id="services" index="true" stored="true" editable="true" type="list" viewtype="multiselect" searchtype="home" datatype="list" required="false">Services:</property>
+  <property id="property_size" externalid="PROPSIZE1" index="true" stored="true" editable="true" type="list" viewtype="multiselect" searchtype="home" datatype="list" required="false">Property Size:</property>
+  <property id="exterior" externalid="EXT1" index="true" stored="true" editable="true" type="list" viewtype="multiselect" searchtype="home" datatype="list" required="false">Exterior:</property>
+  <property id="style" externalid="STYLE1" index="true" stored="true" editable="true" type="list" viewtype="multiselect" searchtype="home" datatype="list" required="false">Style:</property>
+  <property id="driveway" index="true" stored="true" editable="true" type="list" viewtype="multiselect" searchtype="home" datatype="list" required="false">Driveway:</property>
+  <property id="waterfront_features" index="true" stored="true" editable="true" type="list" viewtype="multiselect" searchtype="home" datatype="list" required="false">Waterfront Features:</property>
+  <property id="land_features" index="true" stored="true" editable="true" type="list" viewtype="multiselect" searchtype="home" datatype="list" required="false">Land Features:</property>
+  <property id="foundation" index="true" stored="true" editable="true" type="list" viewtype="multiselect" searchtype="home" datatype="list" required="false">Foundation:</property>
+  <property id="basement" index="true" stored="true" editable="true" type="list" viewtype="multiselect" searchtype="home" datatype="list" required="false">Basement:</property>
+  <property id="garage_type" externalid="GARAGE" index="true" stored="true" editable="true" type="list" viewtype="multiselect" searchtype="home" datatype="list" required="false">Garage:</property>
+  <property id="water" externalid="WATER1" index="true" stored="true" editable="true" type="list" viewtype="multiselect" searchtype="home" datatype="list" required="false">Water:</property>
+  <property id="sewer" externalid="SEWER" index="true" stored="true" editable="true" type="list" viewtype="multiselect" searchtype="home" datatype="list" required="false">Sewer:</property>
+  <property id="flooring" index="true" stored="true" editable="true" type="list" viewtype="multiselect" searchtype="home" datatype="list" required="false">Flooring:</property>
+  <property id="hvac" index="true" stored="true" editable="true" type="list" viewtype="multiselect" searchtype="home" datatype="list" required="false">HVAC:</property>
+  <property id="fuel" index="true" stored="true" editable="true" type="list" viewtype="multiselect" searchtype="home" datatype="list" required="false">Fireplace:</property>
+  <property id="purchase_type" index="true" stored="true" editable="true" type="list" viewtype="multiselect" searchtype="home" datatype="list" required="false">Type:</property>
+  <property id="features" index="true" stored="true" editable="true" type="list" viewtype="multiselect" searchtype="home" datatype="list" required="false">Features:</property>
+  <property id="roof" index="true" stored="true" editable="true" type="list" viewtype="multiselect" searchtype="home" datatype="list" required="false">Roof:</property>
+  <property id="rental_equipment" index="true" stored="true" editable="true" type="list" viewtype="multiselect" searchtype="home" datatype="list" required="false">Rental Equipment:</property>
+  <property id="other_type" index="true" stored="true" editable="true" searchtype="home">Property Type Remarks:</property>
+  <property id="other_driveway" index="true" stored="true" editable="true" searchtype="home">Drive Remarks:</property>
+  <property id="other_basement" index="true" stored="true" editable="true" searchtype="home">Basement Remarks:</property>
+
+</properties>

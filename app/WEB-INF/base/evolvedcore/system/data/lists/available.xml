@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<availables> 
+  <available id="true" name="Available"/>  
+  <available id="false" name="Redeemed"/>  
+  <available id="cancelled" name="Cancelled"/>
+</availables>

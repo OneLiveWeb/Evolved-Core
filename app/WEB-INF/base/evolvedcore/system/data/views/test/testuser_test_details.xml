@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <property id="class"/>
+  <property id="name"/>
+  <property id="attempted"/>
+  <property id="status"/>
+
+  <property id="description"/>
+</root>

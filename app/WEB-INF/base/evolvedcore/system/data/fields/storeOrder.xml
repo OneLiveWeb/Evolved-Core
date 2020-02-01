@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties lazy-init="true"> 
+  <property id="id" index="true" keyword="true" stored="true" editable="true" searchtype="storeOrder">Order #</property>  
+  <property id="customer" index="true" keyword="true" stored="true" editable="true" type="list" listid="user" internalfield="false" datatype="list" searchtype="storeOrder">Customer</property>  
+  <property id="products" index="true" stored="true" editable="true" type="list" listid="product" internalfield="false" datatype="list" searchtype="storeOrder">Products</property>  
+  <property id="categories" keyword="true" stored="true" editable="true" searchtype="storeOrder">Default Category</property>  
+  <property id="orderdate" index="true" stored="true" editable="true" sortable="true" type="date" viewtype="date" internalfield="false" datatype="date" searchtype="storeOrder">Order Date</property>  
+  <property id="rogersponumber" index="true" stored="true" editable="true" internalfield="false" searchtype="storeOrder">AS400 PO Number</property>  
+  <property id="orderstatus" index="true" stored="true" editable="true" type="list" viewtype="list" internalfield="false" datatype="list" searchtype="storeOrder">Status</property>  
+  <property id="shippingstatus" index="true" stored="true" editable="true" type="list" internalfield="false" datatype="list" searchtype="storeOrder">Shipping Status</property>  
+  <property id="edistatus" index="true" stored="true" editable="true" type="list" internalfield="false" datatype="list" searchtype="storeOrder">EDI Status</property>  
+  <property id="distributor" index="true" stored="true" editable="true" type="list" viewtype="multiselect" internalfield="false" defaultoperation="matches" datatype="list" searchtype="storeOrder">Distributor</property>  
+  <property id="csvgenerated" index="true" stored="true" editable="true" sortable="true" type="boolean" internalfield="false" datatype="boolean" searchtype="storeOrder">CSV Generated</property>  
+  <property id="batchid" index="true" stored="true" editable="true" searchtype="storeOrder">Batch ID</property>  
+  <property id="freshstatus" index="true" stored="true" editable="true" internalfield="false" searchtype="storeOrder">Freschbooks Status</property>  
+  <property id="transactionid" index="true" stored="true" editable="true" internalfield="false" searchtype="storeOrder">Transaction Id</property>  
+  <property id="sendemail" index="true" stored="true" editable="true" sortable="true" type="boolean" internalfield="false" datatype="boolean" searchtype="storeOrder">Email Invoice Notifications</property>  
+  <property id="sendsnailmail" index="true" stored="true" editable="true" sortable="true" type="boolean" internalfield="false" datatype="boolean" searchtype="storeOrder">Mail Invoice Notifications</property>  
+  <property id="prepaid" index="true" stored="true" type="list" viewtype="text" internalfield="false" datatype="list" searchtype="storeOrder">Voucher Code</property>  
+  <property id="shipping-address1" index="true" keyword="true" stored="true" editable="true" internalfield="false" searchtype="storeOrder">shipping-address1</property>  
+  <property id="shipping-address2" index="true" stored="true" editable="true" searchtype="storeOrder">shipping-address2</property>  
+  <property id="shipping-city" index="true" keyword="true" filter="true" stored="true" editable="true" internalfield="false" searchtype="storeOrder">shipping-city</property>  
+  <property id="shipping-country" index="true" stored="true" editable="true" searchtype="storeOrder">shipping-country</property>  
+  <property id="shipping-zip" index="true" stored="true" editable="true" searchtype="storeOrder">shipping-zip</property>  
+  <property id="shipping-description" index="true" stored="true" editable="true" searchtype="storeOrder">shipping-description</property>  
+  <property id="billing-address1" index="true" stored="true" editable="true" searchtype="storeOrder">billing-address1</property>  
+  <property id="billing-address2" index="true" stored="true" editable="true" searchtype="storeOrder">billing-address2</property>  
+  <property id="billing-city" index="true" stored="true" editable="true" searchtype="storeOrder">billing-city</property>  
+  <property id="billing-state" index="true" stored="true" editable="true" searchtype="storeOrder">billing-state</property>  
+  <property id="billing-country" index="true" stored="true" editable="true" searchtype="storeOrder">billing-country</property>  
+  <property id="billing-zip" index="true" stored="true" editable="true" searchtype="storeOrder">billing-zip</property>  
+  <property id="billing-description" index="true" stored="true" editable="true" searchtype="storeOrder">billing-description</property>  
+  <property id="ordertotal" index="true" stored="true" editable="true" sortable="true" type="double" internalfield="false" datatype="double" searchtype="storeOrder" legacy="total">total</property>  
+  <property id="subtotal" index="true" stored="true" editable="true" sortable="true" type="double" internalfield="false" datatype="double" searchtype="storeOrder">subtotal</property>  
+  <property id="totalshipping" index="true" stored="true" editable="true" sortable="true" type="double" internalfield="false" datatype="double" searchtype="storeOrder">totalshipping</property>  
+  <property id="tax" index="true" stored="true" editable="true" sortable="true" type="double" internalfield="false" datatype="double" searchtype="storeOrder">tax</property>  
+  <property id="paymentmethod" index="true" stored="true" editable="true" type="list" internalfield="false" datatype="list" searchtype="storeOrder">Payment Method</property>  
+  <property id="cardnumbermasked" index="true" stored="true" editable="true" searchtype="storeOrder">cardnumbermasked</property>  
+  <property id="cardexpirydate" index="true" stored="true" editable="true" searchtype="storeOrder">cardexpirydate</property>  
+  <property id="fee" index="true" stored="true" editable="true" sortable="true" type="double" internalfield="false" datatype="double" searchtype="storeOrder">Credit Card Fees</property>  
+  <property id="net" index="true" stored="true" editable="true" searchtype="storeOrder">Net Transaction</property>  
+  <property id="stripefee" index="true" stored="true" editable="true" sortable="true" type="double" internalfield="false" datatype="double" searchtype="storeOrder">Stripe Fees</property>  
+  <property id="profitshare" index="true" stored="true" editable="true" sortable="true" type="double" internalfield="false" datatype="double" searchtype="storeOrder">Profit Share</property>  
+  <property id="cardtype" index="true" stored="true" editable="true" searchtype="storeOrder">Credit Card Type</property>  
+  <property id="region" index="true" stored="true" editable="true" type="list" viewtype="list" listchild="country" datatype="list" searchtype="storeOrder">Region</property>  
+  <property id="state" index="true" stored="true" editable="true" type="list" viewtype="list" datatype="list" foreignkeyid="country" searchtype="storeOrder">State</property>  
+  <property id="international" index="true" stored="true" editable="true" sortable="true" type="boolean" datatype="boolean" searchtype="storeOrder">International</property>  
+  <property id="hasprofitshare" index="true" stored="true" editable="true" sortable="true" type="boolean" datatype="boolean" searchtype="storeOrder">Has Profit Share</property>  
+  <property id="learninggroup" index="true" stored="true" editable="true" type="list" listid="learningGroup" internalfield="false" datatype="list" searchtype="storeOrder">Class</property>  
+  <property id="country" index="true" stored="true" editable="true" type="list" viewtype="list" listchild="state" datatype="list" searchtype="storeOrder" beanname="dataSearcher" foreignkeyid="region">Country</property>  
+  <property id="forcetestmode" index="true" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[forcetestmode]]></language> 
+    </name> 
+  </property>  
+  <property id="applicationid" index="true" editable="true" stored="true" searchtype="facebook">New
+    <name> 
+      <language id="en"><![CDATA[applicationid]]></language> 
+    </name> 
+  </property>  
+  <property id="taxexemptamount" searchtype="item">New
+    <name> 
+      <language id="en"><![CDATA[Tax Exempt Amount]]></language> 
+    </name> 
+  </property>  
+  <property id="processingstate" index="true" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[processingstate]]></language> 
+    </name> 
+  </property>  
+  <property id="balancetransaction" index="true" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[balancetransaction]]></language> 
+    </name> 
+  </property>  
+  <property id="stripechargeid" index="true" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[stripechargeid]]></language> 
+    </name> 
+  </property>  
+  <property id="stripetoken" index="true" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[stripetoken]]></language> 
+    </name> 
+  </property>  
+  <property id="gateway" index="true" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[gateway]]></language> 
+    </name> 
+  </property>  
+  <property id="shippingprice" index="true" deleted="false" editable="true" stored="true">New
+    <name>
+      <language id="en"><![CDATA[shippingprice]]></language>
+    </name>
+  </property>
+</properties>

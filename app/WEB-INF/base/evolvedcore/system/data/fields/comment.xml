@@ -1,0 +1,13 @@
+
+<properties prefix="comment" beanname="dataSearcher">
+  <property id="id" index="true" stored="true" editable="true" searchtype="comment" internalfield="true">Id</property>
+  <property id="name" index="true" stored="true" editable="true" searchtype="comment" internalfield="false">Title</property>
+  <property id="sourcepath" searchtype="comment">SourcePath</property>
+  <property id="searchtype" index="true" stored="true" editable="true" searchtype="comment">searchtype</property>
+  <property id="externalid" index="true" stored="true" editable="true" searchtype="comment">externalid</property>
+  <property id="userprofile" listid="user" index="true" stored="true" editable="true" type="list" searchtype="comment" internalfield="false" datatype="list">User</property>
+  <property id="date" index="true" stored="true" editable="true" sortable="true" type="date" viewtype="datetime" searchtype="comment" internalfield="false" datatype="date">Date</property>
+  <property id="commentstatus" index="true" stored="true" editable="true" type="list" searchtype="comment" internalfield="false" datatype="list">Status</property>
+  <property id="text" index="true" stored="true" editable="true" searchtype="comment" internalfield="false">Comment Text</property>
+  <property id="commentranking" index="true" stored="true" editable="true" type="list" searchtype="comment" internalfield="false" datatype="list">Comment Ranking</property>
+</properties>

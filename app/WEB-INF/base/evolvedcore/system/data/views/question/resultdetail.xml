@@ -1,0 +1,4 @@
+<properties>
+<property id="text" required="true" html="true" editable="true" stored="true" index="true" keyword="true" >Question Text</property>
+
+</properties>

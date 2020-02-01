@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties lazy-init="true"> 
+  <property id="id" index="true" stored="true" editable="true" internalfield="true" searchtype="testbenchsetting">Id</property>  
+  <property id="name" index="true" stored="true" editable="true" searchtype="testbenchsetting">Name</property>  
+  <property id="sourcepath" searchtype="testbenchsetting">SourcePath</property>  
+  <property id="productresulttype" index="true" stored="true" editable="true" type="list" internalfield="false" datatype="list" searchtype="testbenchsetting">Product result type</property>  
+  <property id="checkoutflow" index="true" stored="true" editable="true" type="list" internalfield="false" datatype="list" searchtype="testbenchsetting">Checkout Flow</property>  
+  <property id="productpagetype" index="true" stored="true" editable="true" type="list" internalfield="false" datatype="list" searchtype="testbenchsetting">Product Page Layout</property>  
+  <property id="defaultrecipient" index="true" stored="true" editable="true" searchtype="testbenchsetting">Default Recipient for Contact Forms</property>  
+  <property id="notifyonsubmit" index="true" stored="true" editable="true" sortable="true" type="boolean" datatype="boolean" searchtype="testbenchsetting">Email default recipients when an online activity is completed</property>  
+  <property id="homepage" index="true" stored="true" editable="true" type="list" internalfield="false" datatype="list" searchtype="testbenchsetting">Homepage Type</property>  
+  <property id="sitename" index="true" stored="true" editable="true" internalfield="false" searchtype="testbenchsetting">Site Title</property>  
+  <property id="hidetoolbar" index="true" stored="true" editable="true" sortable="true" type="boolean" internalfield="false" datatype="boolean" searchtype="testbenchsetting">Hide Toolbar</property>  
+  <property id="browsertitle" index="true" stored="true" editable="true" internalfield="false" searchtype="testbenchsetting">Browser Title</property>  
+  <property id="showbanner" index="true" stored="true" editable="true" sortable="true" type="boolean" internalfield="false" datatype="boolean" searchtype="testbenchsetting">Show Banner</property>  
+  <property id="activemodules" index="true" keyword="true" filter="false" stored="false" editable="true" sortable="true">New
+    <name> 
+      <language id="en"><![CDATA[activemodules]]></language> 
+    </name> 
+  </property>  
+  <property id="product-frontend-resulttype" index="true" keyword="true" filter="false" stored="false" editable="true" sortable="true">New
+    <name> 
+      <language id="en"><![CDATA[product-frontend-resulttype]]></language> 
+    </name> 
+  </property>  
+  <property id="shopnowpagetype" index="true" keyword="true" filter="false" stored="false" editable="true" sortable="true">New
+    <name> 
+      <language id="en"><![CDATA[shopnowpagetype]]></language> 
+    </name> 
+  </property>  
+  <property id="assetresulttype" index="true" keyword="true" filter="false" stored="false" editable="true" sortable="true">New
+    <name> 
+      <language id="en"><![CDATA[assetresulttype]]></language> 
+    </name> 
+  </property>  
+  <property id="notes" index="true" filter="false" deleted="false" editable="true" stored="true" sortable="true" keyword="false">New
+    <name> 
+      <language id="de"><![CDATA[Notizen]]></language>  
+      <language id="en"><![CDATA[Notes]]></language>  
+      <language id="es"><![CDATA[notas]]></language>  
+      <language id="fr"><![CDATA[Remarques]]></language> 
+    </name> 
+  </property>  
+  <property id="googleanalytics" index="true" stored="true" editable="true" sortable="true">Google Analytics code</property>  
+  <property id="gtmhead" index="true" stored="true" editable="true" sortable="true">Google Tag Manager Head Code</property>  
+  <property id="gtmbody" index="true" stored="true" editable="true" sortable="true">Google Tag Manager Body Code</property>  
+  <property id="receipttext" index="true" stored="true" editable="true" sortable="true">Receipt Header Text</property>  
+  <property id="seokeywords" index="true" stored="true" editable="true" sortable="true">SEO Keywords - default page</property>  
+  <property id="description" index="true" stored="true" editable="true" sortable="true">Receipt Header Text</property> 
+  <property id="statement-siteroot" index="true" stored="true" editable="true" sortable="true">Statement Site Root</property>   
+  <property id="lrs-endpoint" index="true" stored="true" editable="true" sortable="true">Learning Record Store Endpoint</property>  
+  <property id="lrs-auth" index="true" stored="true" editable="true" sortable="true">Learning Record Store Auth String</property>  
+  <property id="lrs-username" index="true" stored="true" editable="true" sortable="true">Learning Record Store User</property>  
+  <property id="lrs-password" index="true" stored="true" editable="true" sortable="true">Learning Record Store Password</property>  
+  <property id="lrs-lastretrievedate" index="true" stored="true" editable="true" sortable="true" type="date">Learning Record Store Last Retrieve Date</property>  
+  <property id="description" index="true" stored="true" editable="true" sortable="true">Receipt Header Text</property>  
+  <property id="passmark" index="true" stored="true" editable="true" sortable="true" internalfield="false" note="As decimal, eg 0.8 as 80%." datatype="double">Set Default Pass Mark
+  </property>  
+</properties>

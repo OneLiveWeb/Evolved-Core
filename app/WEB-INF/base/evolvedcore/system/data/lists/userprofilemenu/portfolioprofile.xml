@@ -1,0 +1,4 @@
+<page>
+	<a page="classlist.html"  type="toplevel" id="courses"  useajax="false" name="My Courses" />
+	<a page="tests/index.html"  type="toplevel" id="projects"  useajax="false"  name="My Previous Tests" />
+</page>

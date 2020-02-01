@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties> 
+  <property id="method" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[method]]></language> 
+    </name> 
+  </property>  
+  <property id="type" index="true" indextype="not_analyzed" internalfield="false" deleted="false" datatype="list" editable="true" stored="true" searchtype="planentry" required="true">New
+    <name>
+      <language id="en"><![CDATA[Entry Type]]></language>
+    </name>
+  </property>
+</properties>

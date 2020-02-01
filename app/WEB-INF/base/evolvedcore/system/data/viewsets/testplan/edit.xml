@@ -1,0 +1,5 @@
+			
+<viewset>
+  <view fieldname="testplan" id="testplan/edit" name="Plan Details"/>
+    <view fieldname="testplan" id="testplan/edit" name="Plan Categories"/>
+</viewset>

@@ -1,0 +1,13 @@
+<properties>
+ 	<property id="id" required="true" editable="true" stored="true" index="true" keyword="true" >ID</property>
+    <property id="name" required="true"  editable="true" stored="true" index="true" keyword="true" >Course Name</property>
+  	<property id="shortdescription" required="true" html="true" editable="true" stored="true" index="true" keyword="true" >Course Description</property>
+ 
+ 
+
+
+
+ 
+  
+  
+</properties>

@@ -1,0 +1,24 @@
+<property>
+	<property id="and">And</property>
+	<property id="or">Or</property>
+	<property id="not">Not</property>
+	<property id="boolean">True/False</property>
+	<property id="user">User</property>
+	<property id="group">Group</property>	
+	<property id="settingsgroup">Role</property>	
+	<property id="userprofile">Role Value</property>	
+	<!--  property id="permission">User Permission</property -->	
+	<property id="action">Action</property>	
+	<property id="referer">Referrer</property>	
+	<property id="pageproperty">xconf Property</property>	
+	<property id="pagevalue">Page Value</property>	
+	<property id="question">Question Value</property>
+	
+	<property id="test" type="action" method="TestbenchPermissionModule.checkExceededMaximumAttempts">Limit Users attempts</property>	
+	<property id="score" type="action" method="TestbenchPermissionModule.checkMinimumScore">Check scores</property>	
+	<property id="benchmode" type="action" method="TestbenchPermissionModule.checkBenchMode">Check Bench Mode</property>	
+		
+	
+</property>
+
+	

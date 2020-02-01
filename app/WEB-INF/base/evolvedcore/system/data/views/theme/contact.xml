@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<property id="contactdisplayname" />
+	<property id="contactoccupation" />
+	<property id="contactlocation" />
+	<property id="contactemail"/>
+	<property id="contactphone"/>
+	<property id="resume" />
+</properties>

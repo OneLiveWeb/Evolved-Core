@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testtypes>
+  <testtype id="internal">Internal</testtype>
+  <testtype id="application" name="Application Form">Application Form</testtype>
+  <testtype id="survey" name="Survey">Survey</testtype>
+  <testtype id="planentry">New Default</testtype>
+  <testtype id="presentation" name="Presentation">Presentation</testtype>
+</testtypes>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties lazy-init="true" beanname="elasticXmlFileSearcher" prefix="classmodules"> 
+  <property id="id" index="true" stored="true" editable="true" internalfield="true" searchtype="classmodules">Id</property>  
+  <property id="name" index="true" stored="true" editable="true" searchtype="classmodules">Name</property>  
+  <property id="classtemplate" index="true" stored="true" editable="true" type="list" internalfield="false" datatype="list" searchtype="classmodules">Class Template</property>  
+  <property id="order" index="true" stored="true" editable="true" sortable="true" type="long" viewtype="text" internalfield="false" datatype="long" searchtype="classmodules">order</property>  
+  <property id="learninggroup" index="true" stored="true" editable="true" type="list" listid="learningGroup" internalfield="false" datatype="list" searchtype="classmodules">Class</property>  
+  <property id="course" index="true" stored="true" editable="true" type="list" internalfield="false" datatype="list">course</property>  
+  <property id="sourcepath" searchtype="address">New
+    <name>
+      <language id="en"><![CDATA[SourcePath]]></language>
+    </name>
+  </property>
+</properties>

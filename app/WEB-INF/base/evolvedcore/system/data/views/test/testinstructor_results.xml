@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <property id="user"/>
+  <property id="plan"/>
+  <property id="starttime"/>
+  <property id="attempted"/>
+  <property id="correct"/>
+  <property id="total"/>
+  <property id="status"/>
+  <property id="elapsedtime"/>
+</root>

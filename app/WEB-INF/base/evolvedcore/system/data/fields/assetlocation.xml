@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties> 
+  <property id="assetid" index="true" filter="false" deleted="false" editable="false" stored="true" viewtype="asset" sortable="true" keyword="false" datatype="list">New
+    <name> 
+      <language id="en"><![CDATA[Asset]]></language> 
+    </name> 
+  </property>  
+  <property id="geoicon" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[geoicon]]></language> 
+    </name> 
+  </property>  
+  <property id="position_lng" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[position_lng]]></language> 
+    </name> 
+  </property>  
+  <property id="position_lat" index="true" deleted="false" editable="true" stored="true">New
+    <name>
+      <language id="en"><![CDATA[position_lat]]></language>
+    </name>
+  </property>
+</properties>

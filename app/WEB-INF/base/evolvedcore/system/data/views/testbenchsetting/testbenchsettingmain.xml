@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <property id="sitename"/>
+  <property id="browsertitle" note="Displays in the browser tab area"/>
+  <property id="showbanner" note="Show a banner above the menu"/>
+
+  <property id="homepage"/>
+  <property id="hidetoolbar"/>
+  <property id="gtmhead"/>
+  <property id="gtmbody"/>
+    <property id="googleanalytics"/>
+  
+</root>

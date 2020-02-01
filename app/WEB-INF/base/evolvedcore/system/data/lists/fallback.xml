@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fallbacks> 
+  <fallback id="bootstrap" name="Bootstrap/E-learning" folder="/WEB-INF/base/bootstrapfrontend"/>  
+  <fallback id="emshare" name="EMShare DAM" folder="/WEB-INF/base/emshare"/>
+</fallbacks>

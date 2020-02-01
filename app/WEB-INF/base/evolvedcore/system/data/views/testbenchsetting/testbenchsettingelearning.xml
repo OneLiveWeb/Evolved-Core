@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <property id="passmark"/>
+  <property id="lrs-endpoint"/>  
+  <property id="lrs-auth" />  
+  <property id="lrs-username" />  
+  <property id="lrs-password" />  
+  <property id="lrs-lastretrievedate"/>  
+  <property id="statement-siteroot"/>  
+  
+</root>

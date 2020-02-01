@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+  <property id="address1"/>
+  <property id="city"/>
+  <property id="price"/>
+  <property id="mlsnum"/>
+  <property id="flag"/>
+  <property id="bathrooms"/>
+  <property id="bedrooms"/>
+</properties>

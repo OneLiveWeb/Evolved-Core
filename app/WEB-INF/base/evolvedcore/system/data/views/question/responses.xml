@@ -1,0 +1,18 @@
+
+<properties>
+	
+	<property id="responsetext" />
+	<property id="responseimage" />
+	<property id="matrixtype" />
+	<property id="correct"/>
+	
+	<property id="uselist" index="true" stored="true" editable="true" sortable="true" type="boolean" viewtype="boolean" searchtype="response" internalfield="false" datatype="boolean">Use List</property>
+  <property id="listid" index="true" stored="true" editable="true" searchtype="response" internalfield="false" >List</property>
+	
+	<property id="maxvalueforrow" index="true" stored="true" editable="true" searchtype="response">Max Value for row</property>
+  <property id="includeintotalcalculation" index="true" stored="true" editable="true" sortable="true" type="boolean" searchtype="response" internalfield="false" datatype="boolean">Include in total calculation</property>
+    <property id="units"/>
+  
+  <property id="datatype" index="true" stored="true" editable="true" searchtype="response" internalfield="false">Data Type for field</property>
+	
+</properties>

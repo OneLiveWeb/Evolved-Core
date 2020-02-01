@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<endpoints> 
+  <endpoint id="moduletidelocationcreate" httpmethod="POST" docsection="moduletidelocation" url="/${mediadbappid}/services/module/tidelocation/create"> 
+    <samplerequest><![CDATA[{ "name": "JSON Tide Location Test" }]]></samplerequest>  
+    <name><![CDATA[Create a new Tide Location]]></name> 
+  </endpoint>  
+  <endpoint id="moduletidelocationdelete" httpmethod="DELETE" docsection="moduletidelocation" url="/${mediadbappid}/services/module/tidelocation/data/101"> 
+    <name><![CDATA[Delete Data]]></name> 
+  </endpoint>  
+  <endpoint id="moduletidelocationretrieve" httpmethod="GET" docsection="moduletidelocation" url="/${mediadbappid}/services/module/tidelocation/data/101"> 
+    <name><![CDATA[Load Data ]]></name> 
+  </endpoint>  
+  <endpoint id="moduletidelocationsearch" httpmethod="POST" docsection="moduletidelocation" url="/${mediadbappid}/services/module/tidelocation/search"> 
+    <samplerequest><![CDATA[{ "page": "1", "hitsperpage":"20", "query": { "terms":[{ "field": "id", "operator": "matches", "value": "*" }] } }]]></samplerequest>  
+    <name><![CDATA[Search for Tide Location]]></name> 
+  </endpoint>  
+  <endpoint id="moduletidelocationupdate" httpmethod="PUT" docsection="moduletidelocation" url="/${mediadbappid}/services/module/tidelocation/data/101">
+    <samplerequest><![CDATA[{ "name": "JSON NAME CHANGE" }]]></samplerequest>
+    <name><![CDATA[Update Data]]></name>
+  </endpoint> 
+</endpoints>

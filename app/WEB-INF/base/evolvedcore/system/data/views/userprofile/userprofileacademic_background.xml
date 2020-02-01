@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <property id="highschool"/>
+  <property id="highschooltranscript"/>
+  <property id="firstaidcertification"/>
+  <property id="hazmattests"/>
+  <property id="ofmcomplete"/>
+  <property id="ofmlevel"/>
+  <property id="postsecondary"/>
+  <property id="professionalfirefighter"/>
+  <property id="professional-title"/>
+  <property id="volunteerfire"/>
+  <property id="volunteer-fire-time"/>
+</root>

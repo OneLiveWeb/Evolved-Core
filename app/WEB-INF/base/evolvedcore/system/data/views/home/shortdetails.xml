@@ -1,0 +1,18 @@
+<properties>
+  
+
+<property id="bedrooms" editable="true">Bedrooms </property>
+<property id="bathrooms" editable="true">Bathrooms </property>
+<property id="floorspace" editable="true">Floor Space </property>
+
+<property id="storeys" editable="true">Storeys </property>
+<property id="yearbuilt" editable="true">Built in </property>
+<property id="property_size">Land Size </property>
+
+
+<property id="propertytaxes" editable="true">Property Taxes </property>
+
+<property id="title" >Title </property>
+
+
+</properties>

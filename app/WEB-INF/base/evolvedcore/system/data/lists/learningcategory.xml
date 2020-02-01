@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<learningcategories>
+  <learningcategory id="cpat" name="CPAT">CPAT</learningcategory>
+  <learningcategory id="hazmat" name="HazMat">HazMat</learningcategory>
+  <learningcategory id="investigator" name="investigator">investigator</learningcategory>
+</learningcategories>

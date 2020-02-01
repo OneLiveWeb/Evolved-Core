@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<filterss>
+  <filters id="courseshoponly" name="Only available in the Course Shop.  Not available for vendor codes.">Only available in the Course Shop. Not available for vendor codes.</filters>
+  <filters id="vendorcodeonly" name="Only available with a Vendor Code">Only available with a Vendor Code</filters>
+</filterss>

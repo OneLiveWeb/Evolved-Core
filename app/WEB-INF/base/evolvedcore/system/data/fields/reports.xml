@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties> 
+  <property id="name" index="true" multilanguage="true" deleted="false" editable="true" stored="true" sortable="true" filter="false" keyword="false">Report Name
+    <name> 
+      <language id="en"><![CDATA[Report Name]]></language> 
+    </name> 
+  </property>  
+  <property id="ordering" index="true" deleted="false" editable="true" stored="true" sortable="true" datatype="number" filter="false" keyword="false">Ordering
+    <name> 
+      <language id="en"><![CDATA[Ordering]]></language> 
+    </name> 
+  </property>  
+  <property id="searchtype" index="true" deleted="false" editable="true" stored="true" searchtype="reports">Search Type
+    <name> 
+      <language id="en"><![CDATA[Search Type]]></language> 
+    </name> 
+  </property>  
+  <property id="charttype" index="true" deleted="false" editable="true" stored="true" datatype="list">Chart Type
+    <name> 
+      <language id="en"><![CDATA[Chart Type]]></language> 
+    </name> 
+  </property>  
+  <property id="reporttype" index="true" deleted="false" editable="true" stored="true" datatype="list">Report Type
+    <name> 
+      <language id="en"><![CDATA[Report Type]]></language> 
+    </name> 
+  </property>  
+  <property id="ticklabel" index="true" deleted="false" editable="true" stored="true">x-axis Tick Label
+    <name> 
+      <language id="en"><![CDATA[x-axis Tick Label]]></language> 
+    </name> 
+  </property>  
+  <property id="script" index="true" deleted="false" editable="true" stored="true" sortable="true" filter="false" keyword="false">Custom Script
+    <name> 
+      <language id="en"><![CDATA[Custom Script]]></language> 
+    </name> 
+  </property>  
+  <property id="dashboard" index="true" deleted="false" editable="true" stored="true">Show on Dashboard
+    <name> 
+      <language id="en"><![CDATA[Show on Dashboard]]></language> 
+    </name> 
+  </property>  
+  <property id="id" index="true" internalfield="true" deleted="false" editable="true" stored="true" sortable="true" filter="false" keyword="false">ID
+    <name> 
+      <language id="en"><![CDATA[ID]]></language> 
+    </name> 
+  </property>  
+  <property id="sourcepath">New
+    <name> 
+      <language id="en"><![CDATA[SourcePath]]></language> 
+    </name> 
+  </property>  
+  <property id="aggs" index="true" editable="true" stored="true">Custom Aggregation JSON
+    <name> 
+      <language id="en"><![CDATA[Custom Aggregation JSON]]></language> 
+    </name> 
+  </property>  
+  <property id="x_axis_title" index="true" editable="true" stored="true">X-Axis Title</property>  
+  <property id="y_axis_title" index="true" editable="true" stored="true">Y-Axis Title</property>  
+  <property id="scalefactor" type="double" index="true" editable="true" stored="true">Data Scale Factor</property>  
+  <property id="outputtype" index="true" deleted="false" editable="true" stored="true">New
+    <name>
+      <language id="en"><![CDATA[outputtype]]></language>
+    </name>
+  </property>
+</properties>

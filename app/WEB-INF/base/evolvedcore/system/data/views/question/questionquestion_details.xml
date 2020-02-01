@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <property id="text"/>
+  <property id="reference"/>
+  <property id="linkedquestion"/>
+  <property id="questioncategory"/>
+  <property id="intro"/>
+  <property id="quizid"/>
+  <property id="uselist"/>
+  <property id="listid"/>
+  <property id="hint"/>
+  <property id="required"/>
+  <property id="autoclassify"/>
+</root>

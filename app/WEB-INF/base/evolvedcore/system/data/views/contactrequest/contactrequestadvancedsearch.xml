@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <property id="firstname"/>
+  <property id="lastname"/>
+  <property id="subject"/>
+  <property id="email"/>
+  <property id="phone"/>
+  <property id="requeststatus"/>
+</root>

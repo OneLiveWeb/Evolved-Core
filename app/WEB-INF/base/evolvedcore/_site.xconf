@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<page>
+   <property name="applicationid">evolvedcore</property>
+   <property name="catalogid">evolvedcore/system</property>
+
+
+    <inner-layout id="applevel">${applicationid}/theme/layouts/application.html</inner-layout>
+
+    <!-- Properties -->
+
+
+
+
+    <script id="jquery" src="/${applicationid}/components/javascript/jquery-3.4.1.min.js" />
+
+
+    <script id="bootstrap" src="/${applicationid}/bootstrap/js/bootstrap.js" />
+    <style id="bootstrap" href='/${applicationid}/bootstrap/css/bootstrap.min.css' />
+
+    <script id="nav" src="/${applicationid}/theme/styles/navbar-top-fixed.css" />
+
+
+
+
+
+
+</page>

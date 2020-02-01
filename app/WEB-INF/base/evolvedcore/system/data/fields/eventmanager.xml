@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties beanname="dataSearcher"> 
+  <property id="id" index="true" editable="true" keyword="true"> 
+    <name> 
+      <language id="en"><![CDATA[id]]></language> 
+    </name> 
+  </property>  
+  <property id="name" index="true" editable="true" keyword="true"> 
+    <name> 
+      <language id="en"><![CDATA[Name]]></language> 
+    </name> 
+  </property>  
+  <property id="notes" index="true" editable="true" keyword="true"> 
+    <name> 
+      <language id="en"><![CDATA[Notes]]></language> 
+    </name> 
+  </property>  
+  <property id="lastrandate" index="true" editable="true" keyword="true" internalfield="false" isbadge="false" required="false" filter="false" multilanguage="false" datatype="date" autocreatefromexif="false" writenametoexif="false"> 
+    <name> 
+      <language id="en"><![CDATA[Last Ran Date]]></language> 
+    </name> 
+  </property>  
+  <!-- 
+
+TODO: Add lastrannodeid?
+Add logs?
+
+  <property id="notificationproperties" index="true" keyword="true" stored="true" editable="true" datatype="objectarray" viewtype="notificationproperties"> 
+    <name> 
+      <language id="en">Properties</language>  
+    </name> 
+    <property id="key" index="true" stored="true" editable="true">key</property>
+    <property id="value" index="true" stored="true" editable="true">Value</property>   
+  </property>
+   -->  
+  <property id="mastereditclusterid" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[Master Edit Cluster]]></language> 
+    </name> 
+  </property>  
+  <property id="recordmodificationdate" index="true" deleted="false" stored="true" viewtype="time" sortable="true" searchcomponent="datesearch" editable="false" datatype="date">New
+    <name>
+      <language id="de"><![CDATA[Rekord bearbeiten Datum]]></language>
+      <language id="en"><![CDATA[Record Edit Date]]></language>
+      <language id="es"><![CDATA[Record Edit Fecha]]></language>
+      <language id="fr"><![CDATA[Date d&#39;édition de l&#39;enregistrement]]></language>
+    </name>
+  </property> 
+</properties>

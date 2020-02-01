@@ -341,7 +341,38 @@
 		<property name="cacheManager"><ref bean="timedCacheManager"/></property>
 		
 	</bean>
-	<bean id="siteData" class="org.openedit.servlet.SiteData" scope="prototype">
+
+	<bean id="EvolvedCoreModule" class="org.netevolved.EvolvedCoreModule"  >
+		<property name="moduleManager">
+			<ref bean="moduleManager" />
+		</property>
 	</bean>
-	
+
+
+	<bean id="cameraActivity" class="org.netevolved.android.CameraActivity" scope="prototype">
+
+	</bean>
+
+
+
+
+	<bean id="evolvedCore" class="org.netevolved.EvolvedCore"  >
+		<property name="moduleManager">
+			<ref bean="moduleManager" />
+		</property>
+		<property name="engine">
+			<ref bean="OpenEditEngine" />
+		</property>
+	</bean>
+
+	<bean id="locationManager" class="org.netevolved.android.LocationManager" >
+		<property name="evolvedCore">
+			<ref bean="evolvedCore" />
+		</property>
+	</bean>
+
+
+
+
+
 </beans>

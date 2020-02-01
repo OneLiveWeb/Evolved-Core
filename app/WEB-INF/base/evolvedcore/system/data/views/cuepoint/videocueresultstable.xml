@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <property id="asset"/>
+  <property id="departmentasset"/>
+  <property id="name"/>
+  <property id="sourcepath"/>
+  <property id="timecode"/>
+</root>

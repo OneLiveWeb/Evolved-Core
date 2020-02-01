@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+  <property id="questiontype"/>
+  <property id="text"/>
+  <!-- 
+  <property id="media"/>
+   -->
+  <property id="explanation"/>
+  <property id="hint"/>
+  <property id="required"/>
+  <property id="cuetarget"/>
+
+
+</properties>

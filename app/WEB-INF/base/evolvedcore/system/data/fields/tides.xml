@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties prefix="tides" beanname="dataSearcher"> 
+  <property id="id" index="true" internalfield="true" editable="true" stored="true" sortable="true" filter="false" keyword="false">New
+    <name> 
+      <language id="de"><![CDATA[Id]]></language>  
+      <language id="en"><![CDATA[Id]]></language>  
+      <language id="es"><![CDATA[Id]]></language>  
+      <language id="fr"><![CDATA[Id]]></language> 
+    </name> 
+  </property>  
+  <property id="name" index="true" multilanguage="true" editable="true" stored="true" sortable="true" filter="false" keyword="false">New
+    <name> 
+      <language id="de"><![CDATA[Identität]]></language>  
+      <language id="en"><![CDATA[Name]]></language>  
+      <language id="es"><![CDATA[Nombre]]></language>  
+      <language id="fr"><![CDATA[Identité]]></language> 
+    </name> 
+  </property>  
+  <property id="sourcepath">New
+    <name> 
+      <language id="en"><![CDATA[SourcePath]]></language> 
+    </name> 
+  </property>  
+  <property id="tidedate" index="true" editable="true" stored="true" internalfield="false" isbadge="false" required="false" multilanguage="false" deleted="false" datatype="date" autocreatefromexif="false" writenametoexif="false" viewtype="datetime" rendertype="datetime" filter="false" keyword="false">New
+    <name> 
+      <language id="en"><![CDATA[Date and Time]]></language> 
+    </name> 
+  </property>  
+  <property id="tideheight" index="true" editable="true" stored="true" internalfield="false" isbadge="false" required="false" multilanguage="false" deleted="false" datatype="double" autocreatefromexif="false" writenametoexif="false" filter="false" keyword="false">New
+    <name> 
+      <language id="en"><![CDATA[height]]></language> 
+    </name> 
+  </property>  
+  <property id="tidelocation" index="true" internalfield="false" editable="true" isbadge="false" required="false" multilanguage="false" deleted="false" datatype="list" stored="true" autocreatefromexif="false" writenametoexif="false" filter="false" keyword="false">New
+    <name>
+      <language id="en"><![CDATA[Location]]></language>
+    </name>
+  </property> 
+</properties>

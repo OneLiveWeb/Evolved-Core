@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+ 
+   
+   <property id="description" editable="true">Search: </property>
+   <property id="title" editable="true">Project Title</property>
+   <property id="caption" editable="true" viewtype="html">Project Description</property>
+   <property id="owner" viewtype="list" index="true" keyword="true" stored="true" editable="false" searchtype="member">Owner</property>
+    
+  
+
+
+ 
+
+
+</properties>

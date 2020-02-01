@@ -1,0 +1,8 @@
+<permissions name="Ecommerce">
+
+	<permission id="browseproducts" permissiontype="ecommerce" name="Browse Products" description="Browse the main product catalog" ordering="200"/>
+	<permission id="checkout" permissiontype="ecommerce" name="Purchase Products" description="Checkout" ordering="200"/>
+	
+</permissions>
+
+	

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+  <property id="accountadvancedsearch" moduleid="account" systemdefined="true" byassettype="false">Advanced Search</property>
+  <property id="accountresultstable" moduleid="account" systemdefined="true" byassettype="false">Results Table</property>
+  <property id="accountbatchedit" moduleid="account" systemdefined="true" byassettype="false">Batch Edit</property>
+  <property id="accountpopupdetail" moduleid="account" systemdefined="true" byassettype="false">Popup Details</property>
+  <property id="accountheaderdetail" moduleid="account" systemdefined="true" byassettype="false">Header Details</property>
+</properties>

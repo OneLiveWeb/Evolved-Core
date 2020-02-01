@@ -1,0 +1,11 @@
+<properties>
+  
+  <property id="starttime"  />
+  <property id="plan" index="true" stored="true" editable="true" required="true">Test</property>
+  <property id="percentage" />
+  <property id="correct" index="false" stored="false" editable="true" required="true">Correct Responses</property>
+  <property id="incorrect" index="false" stored="false" editable="true" required="true">Incorrect Responses</property>
+  <property id="attempted" index="false" stored="false" editable="true" required="true">Questions Attempted</property>
+  <property id="total" index="false" stored="false" editable="true" required="true">Total Questions</property>
+ 
+</properties>

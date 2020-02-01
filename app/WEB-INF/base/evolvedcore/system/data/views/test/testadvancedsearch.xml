@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+  <property id="name"/>  
+  <property id="plan"/>  
+  <property id="testmode"/>  
+  <property id="attempted"/>  
+  <property id="starttime"/>  
+  <property id="user"/>
+</root>

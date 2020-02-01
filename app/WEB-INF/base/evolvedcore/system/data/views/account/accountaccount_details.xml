@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <property id="owner"/>
+  <property id="app"/>
+  <property id="application"/>
+  <property id="catalogid"/>
+  <property id="applicationid"/>
+</root>

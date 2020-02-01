@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <data id="productproduct_details" moduleid="product" systemdefined="false" ordering="1">Product Details</data>
+  <data id="productstore_search" moduleid="product" systemdefined="true" ordering="1344521076435">Store Search</data>
+  <data id="productbatchedit" moduleid="product" systemdefined="true" ordering="1360001870275">Batch Edit</data>
+  <data id="productadvancedsearch" moduleid="product" systemdefined="true" ordering="1358521388841">Advanced Search</data>
+  <data id="productmedia" moduleid="product" systemdefined="false" ordering="1360256364727" rendertype="table" rendertable="prodmedia" renderexternalid="product">Additional Media</data>
+  <data id="productspecial_fields" name="Special Fields" moduleid="product" systemdefined="false" ordering="3"/>
+  <data id="productresultstable" moduleid="product" systemdefined="true" ordering="1376356320337">Results Table</data>
+  
+ 
+ 
+ 
+</root>

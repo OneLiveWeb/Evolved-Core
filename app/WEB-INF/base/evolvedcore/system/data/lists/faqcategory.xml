@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<faqcategories>
+  <faqcategory id="a" name="Category 1" order="1">Category 1</faqcategory>
+  <faqcategory id="b" name="Category 2" order="2">Category 2</faqcategory>
+  <faqcategory id="c" name="Category 3" order="3">Category 3</faqcategory>
+  <faqcategory id="d" name="Category 4" order="4">Category 4</faqcategory>
+  <faqcategory id="e" name="Category 5" order="5">Category 5</faqcategory>
+  <faqcategory id="f" name="Category 6" order="6">Category 6</faqcategory>
+  <faqcategory id="g" name="Category 7" order="7">Category 7</faqcategory>
+  <faqcategory id="h" name="Category 8" order="8">Category 8</faqcategory>
+  <faqcategory id="i" name="Category 9" order="9">Category 9</faqcategory>
+  <faqcategory id="j" name="Category 10" order="10">Category 10</faqcategory>
+</faqcategories>

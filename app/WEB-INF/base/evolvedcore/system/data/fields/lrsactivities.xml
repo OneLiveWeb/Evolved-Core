@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties allowdynamicfields="true" beanname="dataSearcher"> 
+  <property id="id" index="true" stored="true" keyword="true" internalfield="true" sortable="true" filter="false" editable="false">ID 
+    <name> 
+      <language id="de"><![CDATA[Ich würde]]></language>  
+      <language id="en"><![CDATA[ID]]></language>  
+      <language id="es"><![CDATA[identificación]]></language>  
+      <language id="fr"><![CDATA[ID]]></language> 
+    </name> 
+  </property>  
+  <property id="description" defaultoperation="freeform" index="true" stored="true" sortable="true" editable="false">All Fields 
+    <name> 
+      <language id="de"><![CDATA[All Fields]]></language>  
+      <language id="en"><![CDATA[All Fields]]></language>  
+      <language id="es"><![CDATA[Todos]]></language>  
+      <language id="fr"><![CDATA[Tous les champs]]></language> 
+    </name> 
+  </property>  
+  <property id="userid" listid="user" editable="true" index="true" stored="true" sortable="true" datatype="list" viewtype="user" keyword="false">User 
+    <name> 
+      <language id="de"><![CDATA[Benutzer]]></language>  
+      <language id="en"><![CDATA[User]]></language>  
+      <language id="es"><![CDATA[Usuario]]></language>  
+      <language id="fr"><![CDATA[Utilisateur]]></language> 
+    </name> 
+  </property>  
+  <property id="date" index="true" editable="true" deleted="false" stored="true" datatype="date">Date 
+    <name> 
+      <language id="en"><![CDATA[Date]]></language> 
+    </name> 
+  </property>  
+  <property id="actorname" index="true" editable="true" deleted="false" stored="true" keyword="true">Name 
+    <name> 
+      <language id="en"><![CDATA[Actor Name]]></language> 
+    </name> 
+  </property>  
+  <property id="actortype" index="true" editable="true" deleted="false" stored="true">Actor Type 
+    <name> 
+      <language id="en"><![CDATA[Actor Type]]></language> 
+    </name> 
+  </property>  
+  <!-- 
+  <property id="verb" index="true" editable="true" deleted="false" stored="true" keyword="true">
+    <name> 
+      <language id="en"><![CDATA[Verb Display]]></language> 
+    </name> 
+  </property>
+   -->  
+  <property id="verbid" index="true" editable="true" deleted="false" stored="true" internalfield="false" isbadge="false" required="false" multilanguage="false" highlight="false" autocreatefromexif="false" writenametoexif="false" listid="tincanverb" viewtype="list" rendertype="list" filter="false" datatype="list" keyword="false">Verb URI 
+    <name> 
+      <language id="en"><![CDATA[Verb ]]></language> 
+    </name> 
+  </property>  
+  <property id="object" index="true" editable="true" deleted="false" stored="true">Object 
+    <name> 
+      <language id="en"><![CDATA[Object]]></language> 
+    </name> 
+  </property>  
+  <property id="learningGroup" index="true" editable="true" deleted="false" stored="true" datatype="list">Class 
+    <name> 
+      <language id="en"><![CDATA[Class]]></language> 
+    </name> 
+  </property>  
+  <property id="course" index="true" editable="true" deleted="false" stored="true" datatype="list" internalfield="false" isbadge="false" viewtype="list" rendertype="list" required="false" filter="false" multilanguage="false" highlight="false" autocreatefromexif="false" keyword="false" writenametoexif="false">Module 
+    <name> 
+      <language id="en"><![CDATA[Module]]></language> 
+    </name> 
+  </property>  
+  <property id="testplan" index="true" editable="true" deleted="false" stored="true" datatype="list">Test Plan 
+    <name> 
+      <language id="en"><![CDATA[Test Plan]]></language> 
+    </name> 
+  </property>  
+  <property id="question" index="true" editable="true" deleted="false" stored="true" datatype="list">Question 
+    <name> 
+      <language id="en"><![CDATA[Question]]></language> 
+    </name> 
+  </property>  
+  <property id="src" index="true" editable="true" deleted="false" stored="true">JSON source data 
+    <name> 
+      <language id="en"><![CDATA[JSON source data]]></language> 
+    </name> 
+  </property>  
+  <property id="UUID" index="true" editable="true" deleted="false" stored="true" indextype="not_analyzed">Tin Can ID 
+    <name> 
+      <language id="en"><![CDATA[Tin Can ID]]></language> 
+    </name> 
+  </property>  
+  <property id="success" index="true" editable="true" deleted="false" stored="true" datatype="boolean">Result Success 
+    <name> 
+      <language id="en"><![CDATA[Result Success]]></language> 
+    </name> 
+  </property>  
+  <property id="completion" index="true" editable="true" deleted="false" stored="true" datatype="boolean">Result Completion 
+    <name> 
+      <language id="en"><![CDATA[Result Completion]]></language> 
+    </name> 
+  </property>  
+  <property id="response" index="true" editable="true" deleted="false" stored="true">Result Response 
+    <name> 
+      <language id="en"><![CDATA[Result Response]]></language> 
+    </name> 
+  </property>  
+  <property id="scaled" index="true" editable="true" deleted="false" stored="true" datatype="number">Percentage Score 
+    <name> 
+      <language id="en"><![CDATA[Percentage Score]]></language> 
+    </name> 
+  </property>  
+  <property id="raw" index="true" editable="true" deleted="false" stored="true" datatype="number">Raw Score 
+    <name> 
+      <language id="en"><![CDATA[Raw Score]]></language> 
+    </name> 
+  </property>  
+  <property id="min" index="true" editable="true" deleted="false" stored="true" datatype="number">Min Score 
+    <name> 
+      <language id="en"><![CDATA[Min Score]]></language> 
+    </name> 
+  </property>  
+  <property id="max" index="true" editable="true" deleted="false" stored="true" datatype="number">Max Score 
+    <name> 
+      <language id="en"><![CDATA[Max Score]]></language> 
+    </name> 
+  </property>  
+  <property id="period" index="true" deleted="false" stored="true" sortable="true" legacy="duration" datatype="number" editable="false">Activity Duration (seconds) 
+    <name> 
+      <language id="en"><![CDATA[Activity Duration (seconds)]]></language> 
+    </name> 
+  </property>  
+  <property id="name" index="true" multilanguage="true" deleted="false" editable="true" stored="true" sortable="true" keyword="true" filter="false">New 
+    <name> 
+      <language id="de"><![CDATA[Identität]]></language>  
+      <language id="en"><![CDATA[Name]]></language>  
+      <language id="es"><![CDATA[Nombre]]></language>  
+      <language id="fr"><![CDATA[Identité]]></language> 
+    </name> 
+  </property>  
+  <property id="email" index="true" indextype="not_analyzed" internalfield="false" editable="true" sortable="false" required="false" internaluse="false" multilanguage="false" deleted="false" stored="true" searchtype="lrsactivities" autocreatefromexif="false" writenametoexif="false" filter="false" keyword="false">New 
+    <name> 
+      <language id="en"><![CDATA[Email]]></language> 
+    </name> 
+  </property>  
+  <property id="activity" index="true" internalfield="false" deleted="false" indextype="not_analyzed" editable="true" stored="true" required="true">Activity URI 
+    <name> 
+      <language id="en"><![CDATA[Activity URI]]></language> 
+    </name> 
+  </property>  
+  <property id="catalogid" index="true" deleted="false" editable="true" stored="true" sortable="true" filter="false" keyword="false">New 
+    <name> 
+      <language id="de"><![CDATA[CatalogID]]></language>  
+      <language id="en"><![CDATA[CatalogID]]></language>  
+      <language id="es"><![CDATA[CatalogID]]></language>  
+      <language id="fr"><![CDATA[CatalogID]]></language> 
+    </name> 
+  </property>  
+  <property id="verb_display" index="true" deleted="false" editable="true" stored="true" keyword="true">New 
+    <name> 
+      <language id="en"><![CDATA[verb_display]]></language> 
+    </name> 
+  </property>  
+  <property id="testid" listid="test" index="true" deleted="false" editable="true" stored="true" datatype="list">Test 
+    <name> 
+      <language id="en"><![CDATA[Test]]></language> 
+    </name> 
+  </property>  
+  <property id="activitydefinition" index="true" deleted="false" editable="true" stored="true" internalfield="false" isbadge="false" required="false" multilanguage="false" highlight="false" autocreatefromexif="false" writenametoexif="false" filter="false" keyword="false">New 
+    <name> 
+      <language id="en"><![CDATA[Activity ]]></language> 
+    </name> 
+  </property>  
+  <property id="objecttype" index="true" deleted="false" editable="true" stored="true" internalfield="false" isbadge="false" required="false" multilanguage="false" highlight="false" autocreatefromexif="false" writenametoexif="false" filter="false" keyword="false">New 
+    <name> 
+      <language id="en"><![CDATA[Object Type]]></language> 
+    </name> 
+  </property>  
+  <property id="activitydescription" index="true" deleted="false" editable="true" stored="true" keyword="true" internalfield="false" isbadge="false" required="false" multilanguage="false" highlight="false" autocreatefromexif="false" writenametoexif="false" filter="false">New 
+    <name> 
+      <language id="en"><![CDATA[Activity Description]]></language> 
+    </name> 
+  </property>  
+  <property id="sourcepath" deleted="false">New 
+    <name> 
+      <language id="en"><![CDATA[SourcePath]]></language> 
+    </name> 
+  </property>  
+  <property id="result" index="true" deleted="false" stored="true" sortable="true" filter="false" editable="false" keyword="false">New 
+    <name> 
+      <language id="de"><![CDATA[Status]]></language>  
+      <language id="en"><![CDATA[Status]]></language>  
+      <language id="es"><![CDATA[Estado]]></language>  
+      <language id="fr"><![CDATA[Statut]]></language> 
+    </name> 
+  </property>  
+  <property id="filename" index="true" deleted="false" editable="true" stored="true" internalfield="false" isbadge="false" required="false" multilanguage="false" highlight="false" autocreatefromexif="false" writenametoexif="false" filter="false" keyword="false">New 
+    <name> 
+      <language id="en"><![CDATA[File Name]]></language> 
+    </name> 
+  </property>  
+  <property id="assetid" index="true" deleted="false" stored="true" viewtype="asset" sortable="true" datatype="list" filter="false" editable="false" keyword="false">New 
+    <name> 
+      <language id="en"><![CDATA[Asset]]></language> 
+    </name> 
+  </property>  
+  <property id="groupingids" index="true" deleted="false" editable="true" stored="true" internalfield="false" isbadge="false" required="false" multilanguage="false" highlight="false" autocreatefromexif="false" writenametoexif="false" viewtype="multiselect" rendertype="multiselect" filter="false" keyword="false">New 
+    <name> 
+      <language id="en"><![CDATA[Grouping Ids]]></language> 
+    </name> 
+  </property>  
+  <property id="parentids" index="true" deleted="false" editable="true" stored="true" internalfield="false" isbadge="false" required="false" multilanguage="false" highlight="false" autocreatefromexif="false" writenametoexif="false" filter="false" keyword="false">New 
+    <name> 
+      <language id="en"><![CDATA[Parent IDS]]></language> 
+    </name> 
+  </property>  
+  <property id="searchtype" index="true" deleted="false" editable="true" stored="true" searchtype="lrsactivities" internalfield="false" isbadge="false" required="false" multilanguage="false" highlight="false" autocreatefromexif="false" writenametoexif="false" filter="false" keyword="false">New 
+    <name> 
+      <language id="en"><![CDATA[Search Type]]></language> 
+    </name> 
+  </property>  
+  <property id="verbdisplay" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[verbdisplay]]></language> 
+    </name> 
+  </property>  
+  <property id="_" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[_]]></language> 
+    </name> 
+  </property>  
+  <property id="verb" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[Verb]]></language> 
+    </name> 
+  </property>  
+  <property id="ip" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[ip]]></language> 
+    </name> 
+  </property>  
+  <property id="referringpage" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[referringpage]]></language> 
+    </name> 
+  </property>  
+  <property id="user-agent" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[user-agent]]></language> 
+    </name> 
+  </property>  
+  <property id="note" index="true" deleted="false" stored="true" sortable="true">New 
+    <name> 
+      <language id="en"><![CDATA[Note]]></language> 
+    </name> 
+  </property>  
+  <property id="applicationid" index="true" deleted="false" editable="true" stored="true" searchtype="facebook">New 
+    <name> 
+      <language id="en"><![CDATA[applicationid]]></language> 
+    </name> 
+  </property>  
+  <property id="dataid" index="true" deleted="false" datatype="list" stored="true" sortable="true">New
+    <name>
+      <language id="en"><![CDATA[Asset]]></language>
+    </name>
+  </property>
+</properties>

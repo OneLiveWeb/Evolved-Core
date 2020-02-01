@@ -1,0 +1,17 @@
+<property>
+	
+	 <property id="line">Line</property>
+	 <property id="bar">Bar</property>
+	 	 <property id="horizontalbar">Horizontal Bar</property>
+	 
+	 <property id="radar">Radar</property>
+	 <property id="doughnutandpie">Donut and Pie</property>
+	 <property id="polararea">Polar Area</property>
+	 <property id="bubble">Bubble</property>
+	 <property id="scatter">Scatter</property>
+	
+	
+	
+</property>
+
+	

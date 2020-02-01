@@ -1,0 +1,19 @@
+<properties>
+	<property id="exterior"/>
+	<property id="style" />
+	<property id="driveway"/>
+	<property id="waterfront_features" />
+	<property id="land_features" />
+	<property id="foundation" />
+	<property id="basement" />
+	<property id="garage_type" />
+	<property id="water"/>
+	<property id="sewer" />
+	<property id="flooring" />
+	<property id="hvac" />
+	<property id="fuel" />
+	<property id="purchase_type" />
+	<property id="features" />
+	<property id="roof" />
+	<property id="rental_equipment" />
+</properties>

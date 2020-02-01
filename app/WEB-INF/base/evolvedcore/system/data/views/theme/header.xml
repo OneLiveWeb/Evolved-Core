@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+  <!--  content -->
+  <property id="title"/>
+  <property id="subheading"/>
+  <property id="logo"/>
+  <!--  styles -->
+  <property id="headerstyle"/>
+  <property id="headerheight"/>
+  <property id="headercolor" viewtype="colors">Header Colour</property>
+  <property id="navbarcolor" viewtype="colors">Navbar Default Colour</property>
+  <property id="panelprimarycolor" viewtype="colors">Primary Panel Colour</property>
+  <property id="headerfont" viewtype="font2"/>
+  <property id="sitebanner"/>
+</properties>

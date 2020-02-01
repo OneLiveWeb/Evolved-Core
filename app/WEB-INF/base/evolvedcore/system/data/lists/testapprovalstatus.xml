@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testapprovalstatuss>
+  <testapprovalstatus id="pending" name="Pending">Pending</testapprovalstatus>
+  <testapprovalstatus id="rejected" name="Rejected">Rejected</testapprovalstatus>
+  <testapprovalstatus id="approved" name="Approved">Approved</testapprovalstatus>
+</testapprovalstatuss>

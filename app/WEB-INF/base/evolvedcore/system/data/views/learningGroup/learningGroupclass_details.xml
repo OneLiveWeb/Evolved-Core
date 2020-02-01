@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+  <property id="name"/>  
+  <property id="course"/>  
+  <property id="college"/>  
+  <property id="classsize"/>  
+  <property id="contactinformation"/>  
+  <property id="pre-requisites"/>  
+  <property id="passmark"/>  
+  <property id="startdate"/>  
+  <property id="enddate"/>  
+  <property id="starttime"/>  
+  <property id="endtime"/>  
+  <property id="instructor"/>  
+  <property id="classtemplate"/>  
+  <property id="registrationdeadline"/>  
+  <property id="termsandconditions"/>  
+  <property id="classstatus"/>  
+  <property id="courseobjectives"/>  
+  <property id="deliverytype"/>  
+  <property id="pre-requisites"/>  
+  <property id="audience"/>  
+  <property id="capped"/>  
+  <property id="cap"/>  
+  <property id="createcertificates"/>
+  <property id="timelinerules"/>
+</root>

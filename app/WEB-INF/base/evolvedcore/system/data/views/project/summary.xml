@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+ 
+   
+ 
+   <property id="title" editable="true">Project Title</property>
+   <property id="caption" editable="true" viewtype="html">Project Description</property>
+ 
+ 	
+
+   <property id="creativefields" type="list" viewtype="multiselect">Creative Fields</property>
+   <property id="tags" >Additional Keywords</property>
+ 
+  <property id="worktype" type="list" >Type of Work</property>
+  <property id="mediatype" type="list">Type of Media</property>
+ 
+ 
+  <property id="visibility" type="list">Visibility</property>
+ 
+  <property id="allowcomments" type="boolean">Allow Comments on this project</property>
+  <property id="mature" type="boolean">Contains Mature Content</property>
+ 
+  
+
+<property id="toolsused" type="list" viewtype="multiselect">Tools used on this project</property>
+
+
+
+
+</properties>

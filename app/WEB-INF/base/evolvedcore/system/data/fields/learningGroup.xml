@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties> 
+  <property id="id" index="true" keyword="true" stored="true" editable="true" searchtype="learningGroup" required="true">ID</property>  
+  <property id="name" index="true" keyword="true" stored="true" editable="true" searchtype="learningGroup" required="true">Class Name</property>  
+  <property id="description" index="true" keyword="true" stored="true" editable="true" searchtype="learningGroup" internalfield="false" required="true">Class Description</property>  
+  <property id="contactinformation" index="true" stored="true" editable="true" searchtype="learningGroup">Contact Information</property>  
+  <property id="startdate" index="true" stored="true" editable="true" sortable="true" type="date" searchtype="learningGroup" internalfield="false" datatype="date">Start Date</property>  
+  <property id="enddate" index="true" stored="true" editable="true" sortable="true" type="date" searchtype="learningGroup" internalfield="false" datatype="date">End Date</property>  
+  <property id="registrationdeadline" index="true" stored="true" editable="true" sortable="true" type="date" searchtype="learningGroup" internalfield="false" datatype="date">Registration Deadline</property>  
+  <property id="cap" index="true" stored="true" editable="true" sortable="true" type="number" searchtype="learningGroup" internalfield="false" datatype="number">Class Size</property>  
+  <property id="classtemplate" index="true" stored="true" editable="true" type="list" searchtype="learningGroup" internalfield="false" datatype="list">Class Template</property>  
+  <property id="classstatus" index="true" stored="true" editable="true" type="list" searchtype="learningGroup" internalfield="false" datatype="list">Class Status</property>  
+  <property id="organization" index="true" stored="true" editable="true" type="list" searchtype="learningGroup" internalfield="false" datatype="list">Organization</property>  
+  <property id="capped" index="true" stored="true" editable="true" sortable="true" type="boolean" searchtype="learningGroup" internalfield="false" datatype="boolean">Is this a capped class</property>  
+  <property id="starttime" index="true" stored="true" editable="true" searchtype="learningGroup">Start Time</property>  
+  <property id="endtime" index="true" stored="true" editable="true" searchtype="learningGroup">End Time</property>  
+  <property id="filters" index="true" stored="true" editable="true" type="list" searchtype="learningGroup" internalfield="false" datatype="list">Filters</property>  
+  <property id="createcertificates" index="true" stored="true" editable="true" sortable="true" type="boolean" searchtype="learningGroup" internalfield="false" datatype="boolean">Create Certificates</property>  
+  <property id="excludefromcatalog" index="true" stored="true" editable="true" sortable="true" type="boolean" searchtype="learningGroup" internalfield="false" datatype="boolean">Exclude From Catalog</property>  
+  <property id="class_name" index="true" stored="true" editable="true" searchtype="learningGroup">Class Name</property>  
+  <property id="class_description" index="true" stored="true" editable="true" searchtype="learningGroup">Class Description</property>  
+  <property id="contact_information" index="true" stored="true" editable="true" searchtype="learningGroup">Contact Information</property>  
+  <property id="start_date" index="true" stored="true" editable="true" searchtype="learningGroup">Start Date</property>  
+  <property id="end_date" index="true" stored="true" editable="true" searchtype="learningGroup">End Date</property>  
+  <property id="registration_deadline" index="true" stored="true" editable="true" searchtype="learningGroup">Registration Deadline</property>  
+  <property id="class_size" index="true" stored="true" editable="true" searchtype="learningGroup">Class Size</property>  
+  <property id="class_template" index="true" stored="true" editable="true" searchtype="learningGroup">Class Template</property>  
+  <property id="class_status" index="true" stored="true" editable="true" searchtype="learningGroup">Class Status</property>  
+  <property id="is_this_a_capped_class" index="true" stored="true" editable="true" searchtype="learningGroup">Is this a capped class</property>  
+  <property id="start_time" index="true" stored="true" editable="true" searchtype="learningGroup">Start Time</property>  
+  <property id="end_time" index="true" stored="true" editable="true" searchtype="learningGroup">End Time</property>  
+  <property id="create_certificates" index="true" stored="true" editable="true" searchtype="learningGroup">Create Certificates</property>  
+  <property id="exclude_from_catalog" index="true" stored="true" editable="true" searchtype="learningGroup">Exclude From Catalog</property>  
+  <property id="timelinerules" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[timelinerules]]></language> 
+    </name> 
+  </property>  
+  <property id="deliverytype" index="true" internalfield="false" deleted="false" datatype="list" editable="true" stored="true" searchtype="product">New 
+    <name> 
+      <language id="en"><![CDATA[Delivery Type]]></language> 
+    </name> 
+  </property>  
+  <property id="courseobjectives" index="true" deleted="false" editable="true" stored="true" searchtype="product">New 
+    <name> 
+      <language id="en"><![CDATA[Course Objectives]]></language> 
+    </name> 
+  </property>  
+  <property id="audience" index="true" internalfield="false" deleted="false" datatype="list" editable="true" stored="true" searchtype="product">New 
+    <name> 
+      <language id="en"><![CDATA[Audience]]></language> 
+    </name> 
+  </property>  
+  <property id="pre-requisites" index="true" deleted="false" editable="true" stored="true" searchtype="product">New 
+    <name> 
+      <language id="en"><![CDATA[Pre-requisites]]></language> 
+    </name> 
+  </property>  
+  <property id="termsandconditions" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[termsandconditions]]></language> 
+    </name> 
+  </property>  
+  <property id="instructor" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[instructor]]></language> 
+    </name> 
+  </property>  
+  <property id="college" index="true" internalfield="false" deleted="false" datatype="list" editable="true" stored="true" searchtype="course" keyword="true">New 
+    <name> 
+      <language id="en"><![CDATA[Organization]]></language> 
+    </name> 
+  </property>  
+  <property id="course" index="true" internalfield="false" deleted="false" datatype="list" editable="true" stored="true">New
+    <name>
+      <language id="en"><![CDATA[course]]></language>
+    </name>
+  </property>
+</properties>

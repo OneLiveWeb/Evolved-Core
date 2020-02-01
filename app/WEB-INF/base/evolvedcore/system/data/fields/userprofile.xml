@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties allowdynamicfields="true"> 
+  <property id="id" index="true" stored="true" keyword="true" internalfield="true" sortable="true" filter="false" editable="false">ID 
+    <name> 
+      <language id="de"><![CDATA[Ich würde]]></language>  
+      <language id="en"><![CDATA[ID]]></language>  
+      <language id="es"><![CDATA[identificación]]></language>  
+      <language id="fr"><![CDATA[ID]]></language> 
+    </name> 
+  </property>  
+  <property id="userid" listid="user" editable="true" index="true" stored="true" internalfield="true" sortable="true" filter="false" keyword="false" datatype="list">User 
+    <name> 
+      <language id="de"><![CDATA[Benutzer]]></language>  
+      <language id="en"><![CDATA[User]]></language>  
+      <language id="es"><![CDATA[Usuario]]></language>  
+      <language id="fr"><![CDATA[Utilisateur]]></language> 
+    </name> 
+  </property>  
+  <property id="settingsgroup" editable="true" index="true" stored="true" datatype="list" sortable="true" filter="false" keyword="false">Role 
+    <name> 
+      <language id="de"><![CDATA[Rolle]]></language>  
+      <language id="en"><![CDATA[Role]]></language>  
+      <language id="es"><![CDATA[Papel]]></language>  
+      <language id="fr"><![CDATA[Rôle]]></language> 
+    </name> 
+  </property>  
+  <property id="view_asset_resultstable" index="true" stored="true" internalfield="true" editable="true" sortable="true" filter="false" keyword="false">View Table Results 
+    <name> 
+      <language id="de"><![CDATA[Ansicht Tabellenergebnisse]]></language>  
+      <language id="en"><![CDATA[View Table Results]]></language>  
+      <language id="es"><![CDATA[Ver Resultados de la mesa]]></language>  
+      <language id="fr"><![CDATA[Voir les Résultats de la table]]></language> 
+    </name> 
+  </property>  
+  <property id="view_asset_advancedsearch" index="true" stored="true" internalfield="true" editable="true" sortable="true" filter="false" keyword="false">Asset Search 
+    <name> 
+      <language id="de"><![CDATA[Asset-Suche]]></language>  
+      <language id="en"><![CDATA[Asset Search]]></language>  
+      <language id="es"><![CDATA[búsqueda de activos]]></language>  
+      <language id="fr"><![CDATA[Recherche d&#39;item]]></language> 
+    </name> 
+  </property>  
+  <property id="profilesearchfilters" index="true" stored="true" internalfield="true" sortable="true" filter="false" editable="false" keyword="false">Filters Used By Search 
+    <name> 
+      <language id="de"><![CDATA[Filter von Such]]></language>  
+      <language id="en"><![CDATA[Filters Used By Search]]></language>  
+      <language id="es"><![CDATA[Los filtros usados ​​por Search]]></language>  
+      <language id="fr"><![CDATA[Filtres utilisés par la Recherche]]></language> 
+    </name> 
+  </property>  
+  <property id="hideassettype" index="true" stored="true" internalfield="true" viewtype="multiselect" datatype="list" listid="assettype" editable="true"> 
+    <name> 
+      <language id="de"><![CDATA[verstecken Asset-Typen]]></language>  
+      <language id="en"><![CDATA[Hidden Asset Types]]></language>  
+      <language id="es"><![CDATA[Ocultar los tipos de activos]]></language>  
+      <language id="fr"><![CDATA[Cacher les Types d&#39;item]]></language> 
+    </name> 
+  </property>  
+  <property id="maximize_screen" index="true" stored="true" internalfield="true" sortable="true" filter="false" editable="false" keyword="false">Maximize 
+    <name> 
+      <language id="de"><![CDATA[maximieren]]></language>  
+      <language id="en"><![CDATA[Maximize]]></language>  
+      <language id="es"><![CDATA[Maximizar]]></language>  
+      <language id="fr"><![CDATA[Maximiser]]></language> 
+    </name> 
+  </property>  
+  <property id="sourcepath" index="true" stored="true" internalfield="true" sortable="true" filter="false" editable="false" keyword="false">Source Path 
+    <name> 
+      <language id="de"><![CDATA[Source-Pfad]]></language>  
+      <language id="en"><![CDATA[Source Path]]></language>  
+      <language id="es"><![CDATA[Ruta de origen]]></language>  
+      <language id="fr"><![CDATA[Chemin d&#39;accès d&#39;origine]]></language> 
+    </name> 
+  </property>  
+  <property id="last_selected_module" index="true" stored="true" internalfield="true" sortable="true" filter="false" editable="false" keyword="false">Last Selected Module 
+    <name> 
+      <language id="de"><![CDATA[zuletzt gewählte Modul]]></language>  
+      <language id="en"><![CDATA[Last Selected Module]]></language>  
+      <language id="es"><![CDATA[Última módulo seleccionado]]></language>  
+      <language id="fr"><![CDATA[Dernier module sélectionné]]></language> 
+    </name> 
+  </property>  
+  <property id="last_selected_library" index="true" stored="true" internalfield="true" sortable="true" filter="false" editable="false" keyword="false">Last Selected Library 
+    <name> 
+      <language id="de"><![CDATA[zuletzt ausgewählte Bibliothek]]></language>  
+      <language id="en"><![CDATA[Last Selected Library]]></language>  
+      <language id="es"><![CDATA[Última biblioteca seleccionada]]></language>  
+      <language id="fr"><![CDATA[Dernière bibliothèque sélectionnée]]></language> 
+    </name> 
+  </property>  
+  <property id="maximize_player" index="true" stored="true" internalfield="true" sortable="true" filter="false" editable="false" keyword="false">false 
+    <name> 
+      <language id="de"><![CDATA[falsch]]></language>  
+      <language id="en"><![CDATA[false]]></language>  
+      <language id="es"><![CDATA[falso]]></language>  
+      <language id="fr"><![CDATA[faux]]></language> 
+    </name> 
+  </property>  
+  <property id="expand_media_sidebar" index="true" stored="true" internalfield="true" sortable="true" filter="false" editable="false" keyword="false">true 
+    <name> 
+      <language id="de"><![CDATA[wahr]]></language>  
+      <language id="en"><![CDATA[true]]></language>  
+      <language id="es"><![CDATA[cierto]]></language>  
+      <language id="fr"><![CDATA[vrai]]></language> 
+    </name> 
+  </property>  
+  <property id="assethitsperpage" index="true" stored="true" listid="hitcount" editable="true" sortable="true" filter="false" keyword="false" datatype="list">Number of Assets to view per page 
+    <name> 
+      <language id="de"><![CDATA[Anzahl der Assets pro Seite zu sehen]]></language>  
+      <language id="en"><![CDATA[Number of Assets to view per page]]></language>  
+      <language id="es"><![CDATA[Número de Activos para ver por página]]></language>  
+      <language id="fr"><![CDATA[Nombre d&#39;items à afficher par page]]></language> 
+    </name> 
+  </property>  
+  <property id="modulehitsperpage" index="true" stored="true" listid="hitcount" editable="true" sortable="true" filter="false" keyword="false" datatype="list">Number of rows show on Module results 
+    <name> 
+      <language id="de"><![CDATA[Anzahl der Zeilen zeigen Modul Ergebnisse]]></language>  
+      <language id="en"><![CDATA[Number of rows show on Module results]]></language>  
+      <language id="es"><![CDATA[Número de filas muestran en los resultados del módulo]]></language>  
+      <language id="fr"><![CDATA[Nombre de lignes affichées sur le module des résultats]]></language> 
+    </name> 
+  </property>  
+  <property id="opencollections" index="true" stored="true" internalfield="true" sortable="true" filter="false" editable="false" keyword="false">Open Collection Tabs 
+    <name> 
+      <language id="de"><![CDATA[offene Sammellaschen]]></language>  
+      <language id="en"><![CDATA[Open Collection Tabs]]></language>  
+      <language id="es"><![CDATA[Abrir aquí Collection]]></language>  
+      <language id="fr"><![CDATA[Ouvrir Tables de Collection]]></language> 
+    </name> 
+  </property>  
+  <property id="selectedcollection" index="true" stored="true" editable="true" deleted="false">Selected Collection 
+    <name> 
+      <language id="en"><![CDATA[selectedcollection]]></language> 
+    </name> 
+  </property>  
+  <!--  Data Merge -->  
+  <property id="asset/assettype/default/general" index="true" keyword="true" stored="false" editable="true" sortable="true" filter="false">New 
+    <name> 
+      <language id="en"><![CDATA[asset/assettype/default/general]]></language> 
+    </name> 
+  </property>  
+  <property id="resultview" index="true" stored="true" editable="true" sortable="true" filter="false" keyword="false" datatype="list">New 
+    <name> 
+      <language id="de"><![CDATA[Standardergebnisansicht]]></language>  
+      <language id="en"><![CDATA[Default Result View]]></language>  
+      <language id="es"><![CDATA[El resultado predeterminado Ver]]></language>  
+      <language id="fr"><![CDATA[Vue de Résultat Par Défaut]]></language> 
+    </name> 
+  </property>  
+  <property id="sendcollectionnotifications" index="true" internalfield="true" filter="false" editable="false" keyword="false" datatype="boolean"> 
+    <name> 
+      <language id="en"><![CDATA[Receive Collection Notifications]]></language> 
+    </name> 
+  </property>  
+  <property id="sendapprovalnotifications" index="true" internalfield="true" filter="false" editable="false" keyword="false" datatype="boolean"> 
+    <name> 
+      <language id="en"><![CDATA[Receive Approval / Rejection Notifications]]></language> 
+    </name> 
+  </property>  
+  <property id="lastviewedapp" index="true" editable="true" deleted="false" stored="true"> 
+    <name> 
+      <language id="en"><![CDATA[lastviewedapp]]></language> 
+    </name> 
+  </property>  
+  <property id="emrecordstatus" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[emrecordstatus]]></language> 
+    </name> 
+  </property>  
+  <property id="asset/assetgeneral_details" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[asset/assetgeneral_details]]></language> 
+    </name> 
+  </property>  
+  <property id="lastcatalog" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[lastcatalog]]></language> 
+    </name> 
+  </property>  
+  <property id="tincanmappingssort" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[tincanmappingssort]]></language> 
+    </name> 
+  </property>  
+  <property id="enabled" index="true" deleted="false" datatype="boolean" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[Enabled]]></language> 
+    </name> 
+  </property>  
+  <property id="ofmfirefighter" index="true" note="Select Yes if you have completed the OFM Firefighter Curriculum." internalfield="false" editable="true" viewtype="list" sortable="true" required="true" listid="yesno" deleted="false" datatype="boolean" stored="true" searchtype="userprofile">New 
+    <name> 
+      <language id="en"><![CDATA[OFM Firefighter]]></language> 
+    </name> 
+  </property>  
+  <property id="professionalfirefighter" index="true" note="Select Yes if you are a professional firefighter." internalfield="false" editable="true" viewtype="list" sortable="true" required="true" listid="yesno" deleted="false" datatype="boolean" stored="true" searchtype="userprofile">New 
+    <name> 
+      <language id="en"><![CDATA[Professional Firefighter]]></language> 
+    </name> 
+  </property>  
+  <property id="hazmatoperations" index="true" note="If applying to &lt;strong&gt;Hazmat Operations,&lt;/strong&gt; select Yes if you have completed the written test A and B, or post 2009 test #1." internalfield="false" editable="true" viewtype="list" sortable="true" required="true" listid="yesno" deleted="false" datatype="boolean" stored="true" searchtype="userprofile">New 
+    <name> 
+      <language id="en"><![CDATA[Hazmat Operations]]></language> 
+    </name> 
+  </property>  
+  <property id="volunteerfirefighter" index="true" note="Select Yes if you are working as a volunteer firefighter." internalfield="false" editable="true" viewtype="list" sortable="true" required="true" listid="yesno" deleted="false" datatype="boolean" stored="true" searchtype="userprofile">New 
+    <name> 
+      <language id="en"><![CDATA[Volunteer Firefighter]]></language> 
+    </name> 
+  </property>  
+  <property id="postsecondary" index="true" note="Select Yes if you are currently attending a post-secondary school." internalfield="false" editable="true" viewtype="list" sortable="true" required="true" listid="yesno" deleted="false" datatype="boolean" stored="true" searchtype="userprofile">New 
+    <name> 
+      <language id="en"><![CDATA[Post Secondary Eduction]]></language> 
+    </name> 
+  </property>  
+  <property id="lrsactivitiessort" index="true" deleted="false" editable="true" stored="true">New 
+    <name>
+      <language id="en"><![CDATA[lrsactivitiessort]]></language>
+    </name>
+  </property>  
+  <property id="view_lrsactivities_lrsactivitiesresultstable" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[view_lrsactivities_lrsactivitiesresultstable]]></language> 
+    </name> 
+  </property>  
+  <property id="colorsort" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[colorsort]]></language> 
+    </name> 
+  </property>  
+  <property id="assetopentab" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[assetopentab]]></language> 
+    </name> 
+  </property>  
+  <property id="assetopentabactions" index="true" deleted="false" editable="true" stored="true">New 
+    <name> 
+      <language id="en"><![CDATA[assetopentabactions]]></language> 
+    </name> 
+  </property> 
+</properties>

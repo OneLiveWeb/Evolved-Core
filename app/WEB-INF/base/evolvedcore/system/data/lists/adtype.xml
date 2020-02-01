@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<adtypes> 
+  <adtype id="banner"> 
+    <name> 
+      <language id="en"><![CDATA[Banner]]></language> 
+    </name> 
+  </adtype>  
+  <adtype id="box">
+    <name>
+      <language id="en"><![CDATA[Box]]></language>
+    </name>
+  </adtype>
+</adtypes>

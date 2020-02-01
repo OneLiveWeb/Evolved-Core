@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties> 
+  <property id="date" index="true" datatype="date" stored="true" sortable="true" filter="false" editable="false" keyword="false">New
+    <name> 
+      <language id="de"><![CDATA[Datum]]></language>  
+      <language id="en"><![CDATA[Date]]></language>  
+      <language id="es"><![CDATA[Fecha]]></language>  
+      <language id="fr"><![CDATA[Date]]></language> 
+    </name> 
+  </property>  
+  <property id="sessionstatus" index="true" editable="true" stored="true" internalfield="false" isbadge="false" required="false" multilanguage="false" autocreatefromexif="false" writenametoexif="false" filter="false" keyword="false">New
+    <name> 
+      <language id="en"><![CDATA[Session Status]]></language> 
+    </name> 
+  </property>  
+  <property id="user" index="true" editable="true" stored="true" viewtype="user" sortable="true" datatype="list" internalfield="false" isbadge="false" rendertype="user" required="false" multilanguage="false" autocreatefromexif="false" writenametoexif="false" listid="user" filter="false" keyword="false">New
+    <name> 
+      <language id="de"><![CDATA[Benutzername]]></language>  
+      <language id="en"><![CDATA[User Name]]></language>  
+      <language id="es"><![CDATA[Nombre de usuario]]></language>  
+      <language id="fr"><![CDATA[Nom d'utilisateur]]></language> 
+    </name> 
+  </property>  
+  <property id="timein" index="true" editable="true" stored="true" internalfield="false" isbadge="false" required="false" multilanguage="false" autocreatefromexif="false" writenametoexif="false" filter="false" keyword="false">New
+    <name> 
+      <language id="en"><![CDATA[Time In]]></language> 
+    </name> 
+  </property>  
+  <property id="timeout" index="true" editable="true" stored="true" internalfield="false" isbadge="false" required="false" multilanguage="false" autocreatefromexif="false" writenametoexif="false" filter="false" keyword="false">New
+    <name> 
+      <language id="en"><![CDATA[Time Out]]></language> 
+    </name> 
+  </property>  
+  <property id="name" index="true" editable="true" stored="true" searchtype="attendance">New
+    <name> 
+      <language id="en"><![CDATA[Name]]></language> 
+    </name> 
+  </property>  
+  <property id="id" index="true" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[id]]></language> 
+    </name> 
+  </property>  
+  <property id="sourcepath">New
+    <name>
+      <language id="en"><![CDATA[SourcePath]]></language>
+    </name>
+  </property> 
+</properties>

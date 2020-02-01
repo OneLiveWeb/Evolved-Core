@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <property id="application"/>
+  <property id="apprequired"/>
+  <property id="testplan"/>
+  <property id="partnershipfee"/>
+  <property id="partnershipfeetype"/>
+  <property id="hide"/>
+  <property id="classlist"/>
+  <property id="purchasetype"/>
+  <property id="deliverytype"/>
+  <property id="classtemplate"/>
+</root>

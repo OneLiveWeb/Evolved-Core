@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cuetargets> 
+  <cuetarget id="right-panel" name="Right Panel"/>  
+  <cuetarget id="bottom-banner" name="Bottom Banner"/>  
+  <cuetarget id="product-dialog" name="Product Dialog"/>
+</cuetargets>

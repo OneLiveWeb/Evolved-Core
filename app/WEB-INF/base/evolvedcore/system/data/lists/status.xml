@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<page> 
+  <property id="incomplete" name="Incomplete">Incomplete</property>  
+  <property id="complete" name="Completed">Completed</property>  
+  <property id="inprogress" name="In Progress">In Progress</property> 
+</page>

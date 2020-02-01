@@ -3,6 +3,7 @@
  */
 package org.openedit;
 
+import android.app.Activity;
 import android.content.Context;
 
 import java.io.File;
@@ -59,5 +60,6 @@ public interface WebServer {
 
     public Context getApplicationConext();
 
+    public Activity getActivity();
 
 }

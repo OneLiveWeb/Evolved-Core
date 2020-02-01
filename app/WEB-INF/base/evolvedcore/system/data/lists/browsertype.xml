@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<browsertypes>
+  <browsertype id="mobile">Mobile</browsertype>
+  <browsertype id="tablet">Tablet</browsertype>
+  <browsertype id="desktop">Desktop</browsertype>
+  <browsertype id="unknown">Unknown</browsertype>
+</browsertypes>

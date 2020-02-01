@@ -1,0 +1,4 @@
+<properties>
+	<property id="yearbuild" externalid="built_year" required="false" editable="true">Built In:</property>
+	<property id="features" type="list" viewtype="multiselect" required="false" editable="true">Features:</property>
+</properties>

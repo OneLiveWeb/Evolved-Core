@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+  <property id="description" editable="true">Keywords:</property>
+  <property id="address1" editable="true">Address:</property>
+  <property id="forrent"/>
+  <property id="city" editable="true">City:</property>
+  
+  <property id="price" editable="true" viewtype="minmax" min="0" max="10000000" defaultoperation="betweennumbers" >Listing Price:</property>
+  <property id="type"/>
+  <property id="bathrooms" viewtype="minmax" min="0" max="10" defaultoperation="betweennumbers"/>
+  <property id="bedrooms" viewtype="minmax" min="0" max="10" defaultoperation="betweennumbers"/>
+</properties>

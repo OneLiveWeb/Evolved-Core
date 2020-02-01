@@ -1,0 +1,6 @@
+
+<properties>
+  <property id="name" index="true" stored="true" editable="true" required="true">Test Name</property>
+  
+  
+</properties>

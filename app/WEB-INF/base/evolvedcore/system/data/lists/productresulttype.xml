@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<productresulttypes>
+  <productresulttype id="stacked" name="Stacked">Stacked</productresulttype>
+  <productresulttype id="gallery" name="Gallery">Gallery</productresulttype>
+</productresulttypes>

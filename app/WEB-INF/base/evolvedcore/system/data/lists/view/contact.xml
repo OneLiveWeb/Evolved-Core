@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties> 
+  <property id="contactgeneral" moduleid="contact" systemdefined="false" byassettype="false">General</property>  
+  <property id="contactadvancedsearch" moduleid="contact" systemdefined="true" byassettype="false">Advanced Search</property>  
+  <property id="contactresultstable" moduleid="contact" systemdefined="true" byassettype="false">Results</property>  
+  <property id="contactheaderdetail" moduleid="contact" systemdefined="true" byassettype="false">Header Details</property> 
+</properties>

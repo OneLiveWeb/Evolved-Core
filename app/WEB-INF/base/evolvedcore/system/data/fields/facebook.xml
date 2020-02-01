@@ -1,0 +1,9 @@
+
+<properties prefix="facebook" >
+  <property id="id" index="true" stored="true" searchtype="facebook">Id</property>
+  <property id="name" index="true" stored="true" editable="true" searchtype="facebook">Name</property>
+  <property id="sourcepath" searchtype="facebook">SourcePath</property>
+  <property id="catalogid" index="true" stored="true" editable="true" searchtype="facebook">catalogid</property>
+  <property id="applicationid" index="true" stored="true" editable="true" searchtype="facebook">applicationid</property>
+  <property id="testid" index="true" stored="true" editable="true">testid</property>
+</properties>

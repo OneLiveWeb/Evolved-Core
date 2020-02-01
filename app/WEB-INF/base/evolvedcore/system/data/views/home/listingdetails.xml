@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties index="true" stored="true" keyword="true">
+  <property id="bedrooms"/>
+  <property id="fullbaths"/>
+  <property id="remks"/>
+  <property id="bathrooms"/>
+  <property id="sqftg"/>
+  <property id="floorspace"/>
+</properties>

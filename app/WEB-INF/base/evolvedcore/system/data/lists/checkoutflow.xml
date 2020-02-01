@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<checkoutflows>
+  <checkoutflow id="multi" name="Mulit-step Ecommerce Flow">Mulit-step Ecommerce Flow</checkoutflow>
+  <checkoutflow id="single" name="Single Product Checkout">Single Product Checkout</checkoutflow>
+</checkoutflows>

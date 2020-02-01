@@ -1,0 +1,8 @@
+
+<properties>
+  
+  <property id="description" required="true" html="true" editable="true" stored="true" index="true" keyword="true" >Test Description</property>
+ 
+  
+  
+</properties>

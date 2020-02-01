@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<audiences>
+  <audience id="firefighter" name="Firefighter">Firefighter</audience>
+  <audience id="industrial" name="Industrial">Industrial</audience>
+  <audience id="electrician" name="Electrician">Electrician</audience>
+  <audience id="business" name="Business">Business</audience>
+</audiences>

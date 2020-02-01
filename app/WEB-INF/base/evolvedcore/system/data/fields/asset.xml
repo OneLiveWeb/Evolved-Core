@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties> 
+  <property id="datatype" index="true" listid="datadatatype" filter="false" deleted="false" editable="true" stored="true" keyword="false" datatype="list">New 
+    <name> 
+      <language id="de"><![CDATA[Datentyp]]></language>  
+      <language id="en"><![CDATA[Data Type]]></language>  
+      <language id="es"><![CDATA[Tipo de datos]]></language>  
+      <language id="fr"><![CDATA[Type de données]]></language> 
+    </name> 
+  </property>  
+  <property id="id" index="true" filter="false" internalfield="true" deleted="false" editable="true" stored="true" sortable="true" keyword="false">New 
+    <name> 
+      <language id="de"><![CDATA[Id]]></language>  
+      <language id="en"><![CDATA[Id]]></language>  
+      <language id="es"><![CDATA[Id]]></language>  
+      <language id="fr"><![CDATA[Id]]></language> 
+    </name> 
+  </property>  
+  <property id="name" index="true" multilanguage="true" filter="false" deleted="false" editable="true" stored="true" sortable="true" keyword="false">New 
+    <name> 
+      <language id="de"><![CDATA[Identität]]></language>  
+      <language id="en"><![CDATA[Name]]></language>  
+      <language id="es"><![CDATA[Nombre]]></language>  
+      <language id="fr"><![CDATA[Identité]]></language> 
+    </name> 
+  </property>  
+  <property id="collectionid" index="true" filter="false" deleted="false" editable="false" stored="true" sortable="true" keyword="false">New 
+    <name> 
+      <language id="de"><![CDATA[Sammlung ID]]></language>  
+      <language id="en"><![CDATA[Collection Id]]></language>  
+      <language id="es"><![CDATA[colección Id]]></language>  
+      <language id="fr"><![CDATA[Id Collection]]></language> 
+    </name> 
+  </property>  
+  <property id="caption" index="true" filter="false" legacy="description" deleted="false" editable="true" stored="true" sortable="true" keyword="false">New
+    <name>
+      <language id="de"><![CDATA[Bildunterschrift]]></language>
+      <language id="en"><![CDATA[Caption]]></language>
+      <language id="es"><![CDATA[Subtítulo]]></language>
+      <language id="fr"><![CDATA[Légende]]></language>
+    </name>
+  </property>
+</properties>

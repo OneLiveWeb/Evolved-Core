@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<questiontypes>
+  <questiontype id="multiplechoice">Multiple Choice</questiontype>
+  <questiontype id="dropdown">Drop-down</questiontype>
+  <questiontype id="textfield">Text Field</questiontype>
+  <questiontype id="longanswer">Long Text Area</questiontype>
+  <questiontype id="slider">Slider</questiontype>
+  <questiontype id="gsap">GSAP Animation</questiontype>
+  
+  <questiontype id="info">Info Slide</questiontype>
+  <questiontype id="seperator">Separator</questiontype>
+  <questiontype id="multiselect">Multi-select</questiontype>
+  <questiontype id="fileupload">File Upload</questiontype>
+  <questiontype id="date">Date</questiontype>
+  <questiontype id="breakdown">Percentage Breakdown</questiontype>
+  <questiontype id="grid">Grid</questiontype>
+  <questiontype id="slide" name="Slide">Slide</questiontype>
+</questiontypes>

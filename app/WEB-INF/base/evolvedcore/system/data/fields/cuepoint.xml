@@ -1,0 +1,29 @@
+
+<properties lazy-init="true">
+
+  <property id="id" index="true" keyword="true" stored="true" filter="false" editable="false" sortable="true">Id 
+    <name> 
+      <language id="de"><![CDATA[Ich würde]]></language>  
+      <language id="en"><![CDATA[Id]]></language>  
+      <language id="es"><![CDATA[Carné de identidad]]></language>  
+      <language id="fr"><![CDATA[Id]]></language> 
+    </name> 
+  </property>  
+
+  <property id="cuetype" index="true" stored="true" editable="true" type="list" internalfield="false" datatype="list" required="true" searchtype="planentry" indextype="not_analyzed">Entry Type</property>
+  <property id="timecode" index="true" stored="true" editable="true" sortable="true" type="number" internalfield="false" beanname="dataSearcher" datatype="number" prefix="videocue" searchtype="planentry">Time Code</property>
+
+<property id="keywords" viewtype="tageditor" defaultoperation="andgroup" index="true" stored="true" editable="true" indextype="analyzed" analyzer="tags" keyword="false" filter="false" sortable="true">Tags 
+    <name> 
+      <language id="de"><![CDATA[Tags]]></language>  
+      <language id="en"><![CDATA[Tags]]></language>  
+      <language id="es"><![CDATA[Etiquetas]]></language>  
+      <language id="fr"><![CDATA[Tags]]></language> 
+    </name> 
+  </property>  
+  
+  <property id="name" index="true" stored="true" editable="true" searchtype="testplan" internalfield="false" required="true">Details</property>
+    <property id="assetid" index="true" stored="true" editable="true" type="list" viewtype="asset" dependson="testtype" searchtype="testplan" sourcepath="presentations/${id}" internalfield="false" listid="asset" datatype="list" >Asset</property>
+  <property id="text" index="true" stored="true" editable="true" searchtype="testplan" internalfield="false" required="true">Text</property>
+
+</properties>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+ 
+   
+   <property id="description" editable="true">Search: </property>
+   <property id="title" editable="true">Project Title</property>
+   <property id="caption" editable="true" viewtype="html">Project Description</property>
+ 
+ 
+      <property id="owner" viewtype="list" index="true" keyword="true" stored="true" editable="false">Owner</property>
+   
+   <property id="coverimage" type="asset" >Project Cover Image</property>
+ 
+ 	<!-- Blank canvas, Multiple images, Single Video and Frames -->
+   <property id="template" type="list">Project Template</property>
+   
+   <property id="creativefields" type="list" viewtype="list"  index="true" keyword="true" stored="true" editable="true">Creative Fields</property>
+   <property id="tags"  index="true" keyword="true" stored="true" editable="true" >Additional Keywords</property>
+ 
+  <property id="worktype" type="list" index="true" keyword="true" stored="true" editable="true">Type of Work</property>
+  <property id="mediatype" type="list" index="true" keyword="true" stored="true" editable="true">Type of Media</property>
+ 
+ 
+ 
+  
+ 
+
+<property id="toolsused" type="list" index="true" keyword="true" stored="true" editable="true">Tools used on this project</property>
+
+
+
+ <property id="jobfield"/>
+
+
+</properties>

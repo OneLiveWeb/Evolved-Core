@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties allowdynamicfields="true" beanname="folderSearcher"> 
+  <property id="id" index="true" stored="true" keyword="true" internalfield="true" filter="false" editable="false" sortable="true">ID 
+    <name> 
+      <language id="de"><![CDATA[Ich würde]]></language>  
+      <language id="en"><![CDATA[ID]]></language>  
+      <language id="es"><![CDATA[identificación]]></language>  
+      <language id="fr"><![CDATA[ID]]></language> 
+    </name> 
+  </property>  
+  <property id="operation" indextype="not_analyzed" editable="true" index="true" stored="true" internalfield="true" keyword="false" filter="false" sortable="true">Operation</property>  
+  <property id="verbid" indextype="not_analyzed" editable="true" index="true" stored="true" internalfield="true" keyword="false" filter="false" sortable="true">Verb</property>  
+  <property id="searchtype" index="true" deleted="false" editable="true" stored="true" searchtype="comment">New 
+    <name> 
+      <language id="en"><![CDATA[searchtype]]></language> 
+    </name> 
+  </property>  
+  <property id="name" index="true" multilanguage="true" filter="false" deleted="false" editable="true" stored="true" sortable="true" keyword="false">New
+    <name>
+      <language id="de"><![CDATA[Identität]]></language>
+      <language id="en"><![CDATA[Name]]></language>
+      <language id="es"><![CDATA[Nombre]]></language>
+      <language id="fr"><![CDATA[Identité]]></language>
+    </name>
+  </property>
+</properties>

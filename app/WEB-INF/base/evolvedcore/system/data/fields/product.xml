@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties prefix="product" beanname="productSearcher" lazy-init="true"> 
+  <property id="id" index="true" stored="true" editable="true" searchtype="product">Product ID
+    <name> 
+      <language id="en"><![CDATA[Product ID]]></language> 
+    </name> 
+  </property>  
+  <property id="description" defaultoperation="freeform" index="true" stored="true" sortable="true" editable="false">All Fields 
+    <name> 
+      <language id="de"><![CDATA[All Fields]]></language>  
+      <language id="en"><![CDATA[All Fields]]></language>  
+      <language id="es"><![CDATA[Todos]]></language>  
+      <language id="fr"><![CDATA[Tous les champs]]></language> 
+    </name> 
+  </property>  
+  <property id="sourcepath" index="true" stored="true" editable="true" searchtype="product">Product Sourcepath
+    <name> 
+      <language id="en"><![CDATA[Product Sourcepath]]></language> 
+    </name> 
+  </property>  
+  <property id="name" keyword="true" index="true" stored="true" editable="true" sortable="true" internalfield="false" searchtype="product">Name
+    <name> 
+      <language id="en"><![CDATA[Name]]></language> 
+    </name> 
+  </property>  
+  <property id="code" index="true" stored="true" editable="true" internalfield="false" searchtype="product">Model Code
+    <name> 
+      <language id="en"><![CDATA[Model Code]]></language> 
+    </name> 
+  </property>  
+  <property id="image" index="true" stored="true" editable="true" viewtype="asset" listid="asset" internalfield="false" datatype="list" searchtype="product">Image
+    <name> 
+      <language id="en"><![CDATA[Image]]></language> 
+    </name> 
+  </property>  
+  <property id="descrip" index="true" keyword="true" stored="true" editable="true" viewtype="html" internalfield="false" searchtype="product">Description
+    <name> 
+      <language id="en"><![CDATA[Description]]></language> 
+    </name> 
+  </property>  
+  <property id="recurring" index="true" stored="true" editable="true" sortable="true" viewtype="boolean" internalfield="false" datatype="boolean" searchtype="product">Recurring
+    <name> 
+      <language id="en"><![CDATA[Recurring]]></language> 
+    </name> 
+  </property>  
+  <property id="testplan" index="true" stored="true" editable="true" sortable="true" internalfield="false" datatype="list" searchtype="product" query="testmode:application">Application
+    <name> 
+      <language id="en"><![CDATA[Application]]></language> 
+    </name> 
+  </property>  
+  <property id="classlist" index="true" stored="true" editable="true" viewtype="multiselect" listid="learningGroup" internalfield="false" datatype="list" searchtype="product">Classes included in purchase
+    <name> 
+      <language id="en"><![CDATA[Classes included in purchase]]></language> 
+    </name> 
+  </property>  
+  <property id="minimumquantity" index="true" stored="true" editable="true" sortable="true" internalfield="false" searchtype="product">Minimum Quantity
+    <name> 
+      <language id="en"><![CDATA[Minimum Quantity]]></language> 
+    </name> 
+  </property>  
+  <property id="frequency" index="true" stored="true" editable="true" sortable="true" datatype="list">Frequency
+    <name> 
+      <language id="en"><![CDATA[Frequency]]></language> 
+    </name> 
+  </property>  
+  <property id="allowspartialpayments" index="true" stored="true" editable="true" sortable="true" viewtype="boolean" internalfield="false" datatype="boolean" searchtype="product">Allows Partial Payments
+    <name> 
+      <language id="en"><![CDATA[Allows Partial Payments]]></language> 
+    </name> 
+  </property>  
+  <property id="maxpayperiod" index="true" stored="true" editable="true" sortable="true" datatype="list">Maximum Pay Period
+    <name> 
+      <language id="en"><![CDATA[Maximum Pay Period]]></language> 
+    </name> 
+  </property>  
+  <property id="electronicshipping" index="true" stored="true" editable="true" sortable="true" viewtype="boolean" internalfield="false" datatype="boolean" searchtype="product">Electronic Shipping
+    <name> 
+      <language id="en"><![CDATA[Electronic Shipping]]></language> 
+    </name> 
+  </property>  
+  <property id="productcategory" index="true" stored="true" editable="true" viewtype="list" internalfield="false" datatype="list" searchtype="product">Learning Category
+    <name> 
+      <language id="en"><![CDATA[Learning Category]]></language> 
+    </name> 
+  </property>  
+  <property id="apprequired" index="true" stored="true" editable="true" sortable="true" internalfield="false" datatype="boolean" searchtype="product">Requires Approved Application
+    <name> 
+      <language id="en"><![CDATA[Requires Approved Application]]></language> 
+    </name> 
+  </property>  
+  <property id="credit" index="true" stored="true" editable="true" internalfield="false" searchtype="product">Credits
+    <name> 
+      <language id="en"><![CDATA[Credits]]></language> 
+    </name> 
+  </property>  
+  <property id="creditpurchase" index="true" stored="true" editable="true" sortable="true" internalfield="false" datatype="boolean" searchtype="product">Credit Purchase
+    <name> 
+      <language id="en"><![CDATA[Credit Purchase]]></language> 
+    </name> 
+  </property>  
+  <property id="ordering" index="true" stored="true" editable="true" sortable="true" datatype="number" searchtype="product">Ordering
+    <name> 
+      <language id="en"><![CDATA[Ordering]]></language> 
+    </name> 
+  </property>  
+  <property id="shortdescription" index="true" stored="true" editable="true" searchtype="product" keyword="true">Short Description
+    <name> 
+      <language id="en"><![CDATA[Short Description]]></language> 
+    </name> 
+  </property>  
+  <property id="hide" index="true" stored="true" editable="true" sortable="true" internalfield="false" datatype="boolean" searchtype="product">Hide this product from the catalog
+    <name> 
+      <language id="en"><![CDATA[Hide this product from the catalog]]></language> 
+    </name> 
+  </property>  
+  <property id="purchasetype" index="true" stored="true" editable="true" internalfield="false" datatype="list" searchtype="product">Purchase Type
+    <name> 
+      <language id="en"><![CDATA[Purchase Type]]></language> 
+    </name> 
+  </property>  
+  <property id="classtemplate" index="true" stored="true" editable="true" internalfield="false" datatype="list" searchtype="product">Class Template
+    <name> 
+      <language id="en"><![CDATA[Class Template]]></language> 
+    </name> 
+  </property>  
+  <property id="pre-requisites" index="true" stored="true" editable="true" searchtype="product">Pre-requisites
+    <name> 
+      <language id="en"><![CDATA[Pre-requisites]]></language> 
+    </name> 
+  </property>  
+  <property id="certificationpackage" index="true" stored="true" editable="true" sortable="true" viewtype="boolean" internalfield="false" datatype="boolean" searchtype="product">Certification Package
+    <name> 
+      <language id="en"><![CDATA[Certification Package]]></language> 
+    </name> 
+  </property>  
+  <property id="audience" index="true" stored="true" editable="true" internalfield="false" datatype="list" searchtype="product">Audience
+    <name> 
+      <language id="en"><![CDATA[Audience]]></language> 
+    </name> 
+  </property>  
+  <property id="deliverytype" index="true" stored="true" editable="true" internalfield="false" datatype="list" searchtype="product">Delivery Type
+    <name> 
+      <language id="en"><![CDATA[Delivery Type]]></language> 
+    </name> 
+  </property>  
+  <property id="courseobjectives" index="true" stored="true" editable="true" searchtype="product">Course Objectives
+    <name> 
+      <language id="en"><![CDATA[Course Objectives]]></language> 
+    </name> 
+  </property>  
+  <property id="partnershipfee" index="true" stored="true" editable="true" sortable="true" internalfield="false" searchtype="product">Partnership Fee
+    <name> 
+      <language id="en"><![CDATA[Partnership Fee]]></language> 
+    </name> 
+  </property>  
+  <property id="partnershipfeetype" index="true" stored="true" editable="true" sortable="true" internalfield="false" datatype="list" searchtype="product">Partnership Fee Type
+    <name> 
+      <language id="en"><![CDATA[Partnership Fee Type]]></language> 
+    </name> 
+  </property>  
+  <property id="ecommercedisabled" index="true" stored="true" editable="true" sortable="true" internalfield="false" datatype="boolean" searchtype="product">Ecommerce Disabled
+    <name> 
+      <language id="en"><![CDATA[Ecommerce Disabled]]></language> 
+    </name> 
+  </property>  
+  <property id="items" index="true" stored="true" editable="true" sortable="true" internalfield="false" datatype="list" searchtype="product">Items
+    <name> 
+      <language id="en"><![CDATA[Items]]></language> 
+    </name> 
+  </property>  
+  <property id="createdon" index="true" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[createdon]]></language> 
+    </name> 
+  </property>  
+  <property id="customprice" index="true" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[customprice]]></language> 
+    </name> 
+  </property>  
+  <property id="taxexemptamount" searchtype="product">New
+    <name> 
+      <language id="en"><![CDATA[Tax Exempt Amount]]></language> 
+    </name> 
+  </property>  
+  <property id="ecwidid" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[ecwidid]]></language> 
+    </name> 
+  </property>  
+  <property id="saledescription" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[saledescription]]></language> 
+    </name> 
+  </property>  
+  <property id="originalpath" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[originalpath]]></language> 
+    </name> 
+  </property>  
+  <property id="group" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[group]]></language> 
+    </name> 
+  </property>  
+  <property id="college" index="true" internalfield="false" deleted="false" datatype="list" editable="true" stored="true" searchtype="product" keyword="true">New
+    <name> 
+      <language id="en"><![CDATA[Organization]]></language> 
+    </name> 
+  </property>  
+  <property id="seotitle" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[seotitle]]></language> 
+    </name> 
+  </property>  
+  <property id="seodescription" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[seodescription]]></language> 
+    </name> 
+  </property>  
+  <property id="permalink" index="true" deleted="false" editable="true" stored="true">New
+    <name>
+      <language id="en"><![CDATA[permalink]]></language>
+    </name>
+  </property> 
+</properties>

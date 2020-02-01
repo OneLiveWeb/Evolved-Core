@@ -1,0 +1,5 @@
+<properties>
+	<property id="type" />	
+	<property id="services" />
+	<property id="property_size" />
+</properties>

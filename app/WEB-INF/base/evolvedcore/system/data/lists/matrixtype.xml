@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<matrixtypes>
+  <matrixtype id="row" name="Row">Row</matrixtype>
+  <matrixtype id="column" name="Column">Column</matrixtype>
+</matrixtypes>

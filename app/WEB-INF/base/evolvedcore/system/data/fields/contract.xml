@@ -1,0 +1,12 @@
+
+<properties prefix="contract" beanname="dataSearcher">
+  <property id="id" index="true" stored="true" editable="true" searchtype="contract" internalfield="true">Id</property>
+  <property id="name" index="true" stored="true" editable="true" searchtype="contract">Name</property>
+  <property id="sourcepath" searchtype="contract">SourcePath</property>
+  <property id="accomodationdetails" index="true" stored="true" editable="true" searchtype="contract">Accomodation Details</property>
+  <property id="mealdetails" index="true" stored="true" editable="true" searchtype="contract">Meal Details</property>
+  <property id="traveldetails" index="true" stored="true" editable="true" searchtype="contract">Travel Details</property>
+  <property id="client" index="true" stored="true" editable="true" searchtype="contract">Client</property>
+  <property id="discountdetails" index="true" stored="true" editable="true" searchtype="contract">Discount Details</property>
+  <property id="notes" index="true" stored="true" editable="true">Notes</property>
+</properties>
