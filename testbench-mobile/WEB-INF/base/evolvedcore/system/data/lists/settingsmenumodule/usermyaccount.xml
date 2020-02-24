@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+
+  <property id="profile"  menulevel="toplevel" moduleid="user" path="/views/myaccount/index.html" ordering="10">Profile</property>
+  <property id="accountprefences"  menulevel="toplevel" moduleid="user" path="/views/myaccount/preferences/index.html" ordering="11">Preferences</property>
+
+  <property id="setpassword" menulevel="toplevel" moduleid="user" path="/views/myaccount/setuserpassword.html" ordering="20">Change Password</property>
+  <property id="tests" menulevel="toplevel" moduleid="user" path="/views/myaccount/tests/index.html" ordering="30">Test History</property>
+</properties>
+

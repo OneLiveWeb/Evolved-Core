@@ -1,0 +1,9 @@
+
+<properties>
+  <property id="productresulttype" index="true" stored="true" editable="true" type="list" searchtype="testbenchsetting" internalfield="false" datatype="list">Product result type</property>
+  <property id="checkoutflow" index="true" stored="true" editable="true" type="list" searchtype="testbenchsetting" internalfield="false" datatype="list">Checkout Flow</property>
+  <property id="activemodules" index="true" stored="true" editable="true" type="list" viewtype="multiselect" searchtype="testbenchsetting" internalfield="false" listid="module" datatype="list">Active Modules</property>
+  <property id="productpagetype" index="true" stored="true" editable="true" type="list" searchtype="testbenchsetting" internalfield="false" datatype="list">Product Page Layout</property>
+    <property id="defaultrecipient" />
+  
+</properties>

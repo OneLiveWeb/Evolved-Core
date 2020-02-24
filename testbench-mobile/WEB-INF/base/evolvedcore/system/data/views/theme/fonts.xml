@@ -1,0 +1,9 @@
+<properties>
+		<property id="h1font" viewtype="font2"/>
+		<property id="h2font" viewtype="font2"/>
+		<property id="h3font" viewtype="font2"/>
+		<property id="h4font" viewtype="font2"/>
+		<property id="h5font" viewtype="font2"/>
+		<property id="h6font" viewtype="font2"/>
+		<property id="pfont" viewtype="font2"/>
+</properties>

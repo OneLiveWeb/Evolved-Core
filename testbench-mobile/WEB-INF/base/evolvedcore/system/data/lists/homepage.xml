@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<homepages> 
+  <homepage id="classlist" name="Class List">Class List</homepage>  
+  <homepage id="tests" name="Tests/surveys list">Tests/surveys list</homepage>  
+  <homepage id="freeform" name="Freeform HTML page"/>
+</homepages>

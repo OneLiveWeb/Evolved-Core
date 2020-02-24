@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+  <property id="description"/>
+  <property id="id"/>
+  <property id="available"/>
+  <property id="batchid"/>
+  <property id="user"/>
+  <property id="issuedate"/>
+  <property id="sku"/>
+</root>

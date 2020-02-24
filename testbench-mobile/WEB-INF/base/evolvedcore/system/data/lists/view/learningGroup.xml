@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+  <property id="learningGroupadvancedsearch" moduleid="learningGroup" systemdefined="true" byassettype="false">Advanced Search</property>
+  <property id="learningGroupresultstable" moduleid="learningGroup" systemdefined="true" byassettype="false">Results Table</property>
+  <property id="learningGroupbatchedit" moduleid="learningGroup" systemdefined="true" byassettype="false">Batch Edit</property>
+</properties>

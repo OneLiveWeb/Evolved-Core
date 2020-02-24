@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+  <property id="edit" moduleid="question" systemdefined="true" byassettype="false">Question Edit Details</property>
+  <property id="questionadvancedsearch" moduleid="question" systemdefined="true" byassettype="false">Advanced Search</property>
+  <property id="questionresultstable" moduleid="question" systemdefined="true" byassettype="false">Results Table</property>
+  <property id="questionbatchedit" moduleid="question" systemdefined="true" byassettype="false">Batch Edit</property>
+  
+  
+  
+  
+  
+  
+  
+</properties>

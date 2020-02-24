@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<property id="footercolor" index="true" stored="true"  editable="true" viewtype="color">Footer  Color</property>
+</properties>

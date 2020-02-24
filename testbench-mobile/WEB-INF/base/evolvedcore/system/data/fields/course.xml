@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties> 
+  <property id="id" index="true" keyword="true" stored="true" editable="true" searchtype="course" required="true">ID
+    <name> 
+      <language id="en"><![CDATA[ID]]></language> 
+    </name> 
+  </property>  
+  <property id="description" defaultoperation="freeform" index="true" stored="true" sortable="true" editable="false">All Fields 
+    <name> 
+      <language id="de"><![CDATA[All Fields]]></language>  
+      <language id="en"><![CDATA[All Fields]]></language>  
+      <language id="es"><![CDATA[Todos]]></language>  
+      <language id="fr"><![CDATA[Tous les champs]]></language> 
+    </name> 
+  </property>  
+  <property id="name" index="true" keyword="true" stored="true" editable="true" searchtype="course" internalfield="false" required="true">Module Name
+    <name> 
+      <language id="en"><![CDATA[Module Name]]></language> 
+    </name> 
+  </property>  
+  <property id="coursedescription" legacy="description" index="true" keyword="true" stored="true" editable="true" viewtype="html" searchtype="course" internalfield="false" required="true">Module Description
+    <name> 
+      <language id="en"><![CDATA[Module Description]]></language> 
+    </name> 
+  </property>  
+  <property id="shortdescription" index="true" keyword="true" stored="true" editable="true" viewtype="html" searchtype="course" required="true">Short Description
+    <name> 
+      <language id="en"><![CDATA[Short Description]]></language> 
+    </name> 
+  </property>  
+  <property id="showtimeline" index="true" stored="true" editable="true" sortable="true" searchtype="course" internalfield="false" datatype="boolean">Show Timeline
+    <name> 
+      <language id="en"><![CDATA[Show Timeline]]></language> 
+    </name> 
+  </property>  
+  <property id="college" index="true" internalfield="false" deleted="false" datatype="list" editable="true" stored="true" searchtype="course" keyword="true">New
+    <name> 
+      <language id="en"><![CDATA[Organization]]></language> 
+    </name> 
+  </property>  
+  <property id="enddate" index="true" internalfield="false" deleted="false" datatype="date" editable="true" stored="true" searchtype="course" sortable="true">New
+    <name> 
+      <language id="en"><![CDATA[End Date]]></language> 
+    </name> 
+  </property>  
+  <property id="document" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[document]]></language> 
+    </name> 
+  </property>  
+  <property id="media" index="true" listid="asset" internalfield="false" deleted="false" datatype="list" editable="true" stored="true" searchtype="course" viewtype="asset">New
+    <name> 
+      <language id="en"><![CDATA[Asset]]></language> 
+    </name> 
+  </property>  
+  <property id="startdate" index="true" internalfield="false" deleted="false" datatype="date" editable="true" stored="true" searchtype="course" sortable="true">New
+    <name> 
+      <language id="en"><![CDATA[Start Date]]></language> 
+    </name> 
+  </property>  
+  <property id="available" index="true" internalfield="false" editable="true" viewtype="list" sortable="true" required="true" deleted="false" datatype="list" stored="true" searchtype="course">New
+    <name> 
+      <language id="en"><![CDATA[Available]]></language> 
+    </name> 
+  </property>  
+  <property id="testplan" index="true" internalfield="false" deleted="true" datatype="list" editable="true" stored="true" searchtype="course">New
+    <name> 
+      <language id="en"><![CDATA[Activity]]></language> 
+    </name> 
+  </property>  
+  <property id="time" index="true" dependson="timed" editable="true" dependsonvalue="true" sortable="true" deleted="false" datatype="number" stored="true" searchtype="course" keyword="true">New
+    <name> 
+      <language id="en"><![CDATA[Time (Seconds)]]></language> 
+    </name> 
+  </property>  
+  <property id="sourcepath">New
+    <name>
+      <language id="en"><![CDATA[SourcePath]]></language>
+    </name>
+  </property> 
+    <property id="passmark" index="true" stored="true" editable="true" sortable="true" internalfield="false" note="Sets for all module activities.  Set as decimal, eg 0.8 as 80%." datatype="double">Set Default Pass Mark
+  </property>  
+</properties>

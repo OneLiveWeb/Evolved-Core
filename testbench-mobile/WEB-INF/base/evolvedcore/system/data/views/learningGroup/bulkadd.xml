@@ -1,0 +1,17 @@
+<properties>
+    
+  <property id="classtemplate" required="true">Class Name</property>  
+ 
+  <property id="classsize"/>  
+  <property id="contactinformation"/>  
+  <property id="classstatus"/>  
+  <property id="capped"/>  
+  <property id="cap"/>  
+  <property id="createcertificates"/>
+ 
+   
+
+ 
+  
+  
+</properties>

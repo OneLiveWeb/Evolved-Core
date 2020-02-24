@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tidedurations> 
+  <tideduration id="60" A="9" B="12" C="15" D="18" E="20" F="22" G="24" H="26" I="28" J="30" tideduration="60"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="70" A="10" B="14" C="18" D="21" E="23" F="26" G="28" H="31" I="33" J="35" tideduration="70"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="80" A="11" B="16" C="20" D="24" E="27" F="30" G="32" H="35" I="37" J="40" tideduration="80"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="90" A="13" B="18" C="23" D="27" E="30" F="33" G="36" H="39" I="42" J="45" tideduration="90"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="100" A="14" B="20" C="25" D="30" E="33" F="37" G="40" H="44" I="47" J="50" tideduration="100"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="110" A="16" B="23" C="28" D="32" E="37" F="41" G="44" H="48" I="51" J="55" tideduration="110"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="120" A="17" B="25" C="30" D="35" E="40" F="44" G="48" H="52" I="56" J="60" tideduration="120"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="130" A="19" B="27" C="33" D="38" E="43" F="48" G="52" H="57" I="61" J="65" tideduration="130"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="140" A="20" B="29" C="35" D="41" E="47" F="52" G="56" H="61" I="66" J="70" tideduration="140"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="150" A="22" B="31" C="38" D="44" E="50" F="55" G="60" H="65" I="70" J="75" tideduration="150"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="160" A="23" B="33" C="41" D="47" E="53" F="59" G="64" H="70" I="75" J="80" tideduration="160"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="170" A="24" B="35" C="43" D="50" E="57" F="63" G="69" H="74" I="80" J="85" tideduration="170"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="180" A="26" B="37" C="46" D="53" E="60" F="66" G="73" H="78" I="84" J="90" tideduration="180"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="190" A="27" B="39" C="48" D="56" E="63" F="70" G="77" H="83" I="89" J="95" tideduration="190"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="200" A="29" B="41" C="51" D="59" E="67" F="74" G="81" H="87" I="94" J="100" tideduration="200"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="210" A="30" B="43" C="53" D="62" E="70" F="77" G="85" H="92" I="98" J="105" tideduration="210"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="220" A="32" B="45" C="56" D="65" E="73" F="81" G="89" H="96" I="103" J="110" tideduration="220"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="230" A="33" B="47" C="58" D="68" E="77" F="85" G="93" H="100" I="108" J="115" tideduration="230"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="240" A="34" B="49" C="61" D="71" E="80" F="89" G="97" H="105" I="112" J="120" tideduration="240"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="250" A="36" B="51" C="63" D="74" E="83" F="92" G="101" H="109" I="117" J="125" tideduration="250"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="260" A="37" B="53" C="66" D="77" E="87" F="96" G="105" H="113" I="122" J="130" tideduration="260"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="270" A="39" B="55" C="68" D="80" E="90" F="100" G="109" H="118" I="126" J="135" tideduration="270"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="280" A="40" B="57" C="71" D="83" E="93" F="103" G="113" H="122" I="131" J="140" tideduration="280"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="290" A="42" B="59" C="73" D="86" E="97" F="107" G="117" H="126" I="136" J="145" tideduration="290"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="300" A="43" B="61" C="76" D="89" E="100" F="111" G="121" H="131" I="140" J="150" tideduration="300"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="310" A="45" B="63" C="78" D="92" E="103" F="114" G="125" H="135" I="145" J="155" tideduration="310"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="320" A="46" B="66" C="81" D="94" E="107" F="118" G="129" H="139" I="150" J="160" tideduration="320"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="330" A="47" B="68" C="84" D="97" E="110" F="122" G="133" H="144" I="154" J="165" tideduration="330"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="340" A="49" B="70" C="86" D="100" E="113" F="125" G="137" H="148" I="159" J="170" tideduration="340"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="350" A="50" B="72" C="89" D="103" E="117" F="129" G="141" H="153" I="164" J="175" tideduration="350"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="360" A="52" B="74" C="91" D="106" E="120" F="133" G="145" H="157" I="169" J="180" tideduration="360"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="370" A="53" B="76" C="94" D="109" E="123" F="137" G="149" H="161" I="173" J="185" tideduration="370"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="380" A="55" B="78" C="96" D="112" E="127" F="140" G="153" H="166" I="178" J="190" tideduration="380"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="390" A="56" B="80" C="99" D="115" E="130" F="144" G="157" H="170" I="183" J="195" tideduration="390"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="400" A="57" B="82" C="101" D="118" E="133" F="148" G="161" H="174" I="187" J="200" tideduration="400"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="410" A="59" B="84" C="104" D="121" E="137" F="151" G="165" H="179" I="192" J="205" tideduration="410"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="420" A="60" B="86" C="106" D="124" E="140" F="155" G="169" H="183" I="197" J="210" tideduration="420"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="430" A="62" B="88" C="109" D="127" E="143" F="159" G="173" H="187" I="201" J="215" tideduration="430"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="440" A="63" B="90" C="111" D="130" E="147" F="162" G="177" H="192" I="206" J="220" tideduration="440"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="450" A="65" B="92" C="114" D="133" E="150" F="166" G="181" H="196" I="211" J="225" tideduration="450"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="460" A="66" B="94" C="116" D="136" E="153" F="170" G="185" H="201" I="215" J="230" tideduration="460"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="470" A="67" B="96" C="119" D="139" E="157" F="173" G="189" H="205" I="220" J="235" tideduration="470"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="480" A="69" B="98" C="122" D="142" E="160" F="177" G="193" H="209" I="225" J="240" tideduration="480"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="490" A="70" B="100" C="124" D="145" E="163" F="181" G="197" H="214" I="229" J="245" tideduration="490"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="500" A="72" B="102" C="127" D="148" E="167" F="185" G="202" H="218" I="234" J="250" tideduration="500"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="510" A="73" B="104" C="129" D="151" E="170" F="188" G="206" H="222" I="239" J="255" tideduration="510"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="520" A="75" B="107" C="132" D="153" E="173" F="192" G="210" H="227" I="243" J="260" tideduration="520"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="530" A="76" B="109" C="134" D="156" E="177" F="196" G="214" H="231" I="248" J="265" tideduration="530"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="540" A="78" B="111" C="137" D="159" E="180" F="199" G="218" H="235" I="253" J="270" tideduration="540"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="550" A="79" B="113" C="139" D="162" E="183" F="203" G="222" H="240" I="257" J="275" tideduration="550"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="560" A="80" B="115" C="142" D="165" E="187" F="207" G="226" H="244" I="262" J="280" tideduration="560"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="570" A="82" B="117" C="144" D="168" E="190" F="210" G="230" H="248" I="267" J="285" tideduration="570"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="580" A="83" B="119" C="147" D="171" E="193" F="214" G="234" H="253" I="272" J="290" tideduration="580"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="590" A="85" B="121" C="149" D="174" E="197" F="218" G="238" H="257" I="276" J="295" tideduration="590"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="600" A="86" B="123" C="152" D="177" E="200" F="221" G="242" H="262" I="281" J="300" tideduration="600"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="610" A="88" B="125" C="154" D="180" E="203" F="225" G="246" H="266" I="286" J="305" tideduration="610"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="620" A="89" B="127" C="157" D="183" E="207" F="229" G="250" H="270" I="290" J="310" tideduration="620"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="630" A="90" B="129" C="160" D="186" E="210" F="232" G="254" H="275" I="295" J="315" tideduration="630"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="640" A="92" B="131" C="162" D="189" E="213" F="236" G="258" H="279" I="300" J="320" tideduration="640"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="650" A="93" B="133" C="165" D="192" E="217" F="240" G="262" H="283" I="304" J="325" tideduration="650"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="660" A="95" B="135" C="167" D="195" E="220" F="244" G="266" H="288" I="309" J="330" tideduration="660"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="670" A="96" B="137" C="170" D="198" E="223" F="247" G="270" H="292" I="314" J="335" tideduration="670"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="680" A="98" B="139" C="172" D="201" E="227" F="251" G="274" H="296" I="318" J="340" tideduration="680"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="690" A="99" B="141" C="175" D="204" E="230" F="255" G="278" H="301" I="323" J="345" tideduration="690"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="700" A="100" B="143" C="177" D="207" E="233" F="258" G="282" H="305" I="328" J="350" tideduration="700"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="710" A="102" B="145" C="180" D="210" E="237" F="262" G="286" H="309" I="332" J="355" tideduration="710"> 
+    <name/> 
+  </tideduration>  
+  <tideduration id="720" A="103" B="147" C="182" D="213" E="240" F="266" G="290" H="314" I="337" J="360" tideduration="720">
+    <name/>
+  </tideduration> 
+</tidedurations>

@@ -1,0 +1,8 @@
+<permissions name="CMS Permissions">
+
+		<permission id="contentedit" permissiontype="cms" name="Edit Content" description="Enabled Content Editing CMS tools" ordering="200"/>
+
+	
+</permissions>
+
+	

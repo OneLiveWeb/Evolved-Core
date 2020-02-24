@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+  <property id="name"/>  
+  <property id="descrip"/>  
+  <property id="timed"/>  
+  <property id="time"/>  
+  <property id="passmark"/>
+  <property id="testmode"/>  
+  <property id="presentation"/>  
+  <property id="shortdescription"/>  
+  <property id="showelapsedtime"/>  
+  <property id="testtype"/>
+</root>

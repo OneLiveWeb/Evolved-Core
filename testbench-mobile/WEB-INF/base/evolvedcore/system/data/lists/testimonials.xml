@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testimonialss>
+  <testimonials name="Ian Miller" testimonial="This product rocks!" productid="101" id="1410367961269">Ian Miller</testimonials>
+  <testimonials name="Tom Jones" testimonial="This is really cool" productid="101" id="1410367971451">Tom Jones</testimonials>
+  <testimonials name="asdf" date="sadf" testimonial="sadf" productid="106" id="1410385663751">asdf</testimonials>
+  <testimonials name="asdf" date="asdf" testimonial="sadf" productid="106" id="1410385668631">asdf</testimonials>
+  <testimonials name="asdf" testimonial="asdf" productid="106" id="1410385672527">asdf</testimonials>
+</testimonialss>

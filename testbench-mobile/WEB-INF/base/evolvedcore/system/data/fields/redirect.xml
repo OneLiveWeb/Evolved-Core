@@ -1,0 +1,15 @@
+
+<properties prefix="redirect" beanname="dataSearcher" lazy-init="true">
+  <property id="id" index="true" stored="true" searchtype="redirect">Id</property>
+  <property id="name" index="true" stored="true" editable="true" searchtype="redirect">Name</property>
+  <property id="sourcepath" searchtype="redirect">SourcePath</property>
+  <property id="key" index="true" stored="true" editable="true" searchtype="redirect">key</property>
+  <property id="url" index="true" stored="true" editable="true" searchtype="redirect">url</property>
+  <property id="domain" index="true" stored="true" editable="true" searchtype="redirect">domain</property>
+  <property id="folder" index="true" stored="true" editable="true" searchtype="redirect">folder</property>
+  <property id="standaloneusersandgroups" index="true" stored="true" editable="true" sortable="true" type="boolean" internalfield="false" datatype="boolean" searchtype="redirect">Stand Alone Users and Groups</property>
+  <property id="catalogid" index="true" stored="true" editable="true" searchtype="redirect">catalogid</property>
+  <property id="applicationid" index="true" stored="true" editable="true" searchtype="redirect">applicationid</property>
+  <property id="fallback" index="true" stored="true" editable="true" type="list" internalfield="false" datatype="list" searchtype="redirect">fallback</property>
+  <property id="owner" index="true" keyword="true" stored="true" editable="true" type="list" viewtype="list" listid="user" internalfield="false" datatype="list" listcatalogid="system">Owner</property>
+</properties>

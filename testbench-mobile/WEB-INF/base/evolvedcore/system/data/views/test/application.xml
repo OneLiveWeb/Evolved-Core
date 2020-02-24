@@ -1,0 +1,8 @@
+<properties>
+  
+  <property id="starttime"  />
+  <property id="plan" index="true" stored="true" editable="true" required="true">Application</property>
+    <property id="status" index="true" stored="true" editable="true" type="list" searchtype="test" datatype="list" required="true">Status</property>
+  
+ 
+</properties>

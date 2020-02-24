@@ -1,0 +1,16 @@
+<rows>
+
+	<row id="tincan1" webeventlistener="tincan" action="test/*"></row>
+	<row id="tincan2" webeventlistener="tincan" action="learninggroup/*"></row>
+	<row id="tincan3" webeventlistener="tincan" action="module/*"></row>
+	<row id="tincan4" webeventlistener="tincan" action="product/*"></row>
+	<row id="tincan5" webeventlistener="tincan" action="video/*"></row>
+	<row id="tincan6" webeventlistener="tincan" action="tincan/*"></row>
+	<row id="tincan7" webeventlistener="tincan" action="asset/*"></row>
+	<row id="tincan8" webeventlistener="tincan" action="user/*"></row>
+	<row id="tincan9" webeventlistener="tincan" action="librarycollection/*"></row>
+
+	<row id="tincan10" webeventlistener="tincan" action="*"></row>
+
+
+</rows>

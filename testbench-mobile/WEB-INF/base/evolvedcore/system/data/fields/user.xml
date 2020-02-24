@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties> 
+  <property id="id" index="true" keyword="true" stored="true" searchtype="user" internalfield="true">ID
+    <name> 
+      <language id="en"><![CDATA[ID]]></language> 
+    </name> 
+  </property>  
+  <property id="phone" index="true" keyword="true" stored="true" editable="true" searchtype="user" internalfield="false">Home Phone
+    <name> 
+      <language id="en"><![CDATA[Home Phone]]></language> 
+    </name> 
+  </property>  
+  <property id="business" index="true" keyword="true" stored="true" editable="true" searchtype="user">Business / Affiliation Name
+    <name> 
+      <language id="en"><![CDATA[Business / Affiliation Name]]></language> 
+    </name> 
+  </property>  
+  <property id="jobtitle" index="true" keyword="true" stored="true" editable="true" searchtype="user">Job Title
+    <name> 
+      <language id="en"><![CDATA[Job Title]]></language> 
+    </name> 
+  </property>  
+  <property id="country" index="true" keyword="true" stored="true" editable="true" searchtype="user" internalfield="false" datatype="list" required="true">Primary Country
+    <name> 
+      <language id="en"><![CDATA[Primary Country]]></language> 
+    </name> 
+  </property>  
+  <property id="address1" index="true" keyword="true" stored="true" editable="true" searchtype="user" internalfield="false" required="true">Primary Address 1
+    <name> 
+      <language id="en"><![CDATA[Primary Address 1]]></language> 
+    </name> 
+  </property>  
+  <property id="address2" index="true" keyword="true" stored="true" editable="true" searchtype="user" internalfield="false">Primary Address 2
+    <name> 
+      <language id="en"><![CDATA[Primary Address 2]]></language> 
+    </name> 
+  </property>  
+  <property id="city" index="true" keyword="true" stored="true" editable="true" searchtype="user" internalfield="false" required="true">Primary City
+    <name> 
+      <language id="en"><![CDATA[Primary City]]></language> 
+    </name> 
+  </property>  
+  <property id="state_province" index="true" keyword="true" stored="true" editable="true" searchtype="user" internalfield="false" listid="states" datatype="list" required="true">Primary State / Province
+    <name> 
+      <language id="en"><![CDATA[Primary State / Province]]></language> 
+    </name> 
+  </property>  
+  <property id="postal_code" index="true" keyword="true" stored="true" editable="true" searchtype="user" internalfield="false" required="true">Primary Postal Code
+    <name> 
+      <language id="en"><![CDATA[Primary Postal Code]]></language> 
+    </name> 
+  </property>  
+  <property id="screenname" index="true" keyword="true" stored="true" editable="true" searchtype="user">Screen Name
+    <name> 
+      <language id="en"><![CDATA[Screen Name]]></language> 
+    </name> 
+  </property>  
+  <property id="firstName" index="true" keyword="true" stored="true" editable="true" searchtype="user" required="true">First Name
+    <name> 
+      <language id="en"><![CDATA[First Name]]></language> 
+    </name> 
+  </property>  
+  <property id="lastName" index="true" keyword="true" stored="true" editable="true" searchtype="user" required="true">Last Name
+    <name> 
+      <language id="en"><![CDATA[Last Name]]></language> 
+    </name> 
+  </property>  
+  <property id="enabled" index="true" keyword="true" stored="true" editable="true" sortable="true" searchtype="user" datatype="boolean">Enabled
+    <name> 
+      <language id="en"><![CDATA[Enabled]]></language> 
+    </name> 
+  </property>  
+  <property id="password" index="true" keyword="true" stored="true" editable="true" viewtype="password" searchtype="user">Password
+    <name> 
+      <language id="en"><![CDATA[Password]]></language> 
+    </name> 
+  </property>  
+  <property id="email" index="true" stored="true" editable="true" searchtype="user" internalfield="false" required="true" indextype="not_analyzed">Email
+    <name> 
+      <language id="en"><![CDATA[Email]]></language> 
+    </name> 
+  </property>  
+  <property id="profilepicture" index="true" stored="true" editable="true" viewtype="asset" searchtype="user" internalfield="false" datatype="list">Profile Picture
+    <name> 
+      <language id="en"><![CDATA[Profile Picture]]></language> 
+    </name> 
+  </property>  
+  <property id="dob" index="true" stored="true" editable="true" sortable="true" viewtype="date" searchtype="user" internalfield="false" datatype="date" required="true">Date of Birth
+    <name> 
+      <language id="en"><![CDATA[Date of Birth]]></language> 
+    </name> 
+  </property>  
+  <property id="workphone" index="true" stored="true" editable="true" searchtype="user" internalfield="false">Work Phone
+    <name> 
+      <language id="en"><![CDATA[Work Phone]]></language> 
+    </name> 
+  </property>  
+  <property id="cellphone" index="true" stored="true" editable="true" searchtype="user" internalfield="false">Cell Phone
+    <name> 
+      <language id="en"><![CDATA[Cell Phone]]></language> 
+    </name> 
+  </property>  
+  <property id="postsecondary" index="true" stored="true" editable="true" sortable="true" viewtype="list" searchtype="user" internalfield="false" listid="yesno" datatype="boolean" required="true" note="Select Yes if you are currently attending a post-secondary school.">Post Secondary Eduction
+    <name> 
+      <language id="en"><![CDATA[Post Secondary Eduction]]></language> 
+    </name> 
+  </property>  
+  <property id="postsecondarytrue" index="true" stored="true" editable="true" dependson="postsecondary" searchtype="user" internalfield="false" note="Where and which program are you attending?" dependsonvalue="true">&amp;nbsp;
+    <name> 
+      <language id="en"><![CDATA[&nbsp;]]></language> 
+    </name> 
+  </property>  
+  <property id="hazmatoperations" index="true" stored="true" editable="true" sortable="true" viewtype="list" searchtype="user" internalfield="false" listid="yesno" datatype="boolean" required="true" note="If applying to &lt;strong&gt;Hazmat Operations,&lt;/strong&gt; select Yes if you have completed the written test A and B, or post 2009 test #1.">Hazmat Operations
+    <name> 
+      <language id="en"><![CDATA[Hazmat Operations]]></language> 
+    </name> 
+  </property>  
+  <property id="volunteerfirefighter" index="true" stored="true" editable="true" sortable="true" viewtype="list" searchtype="user" internalfield="false" listid="yesno" datatype="boolean" required="true" note="Select Yes if you are working as a volunteer firefighter.">Volunteer Firefighter
+    <name> 
+      <language id="en"><![CDATA[Volunteer Firefighter]]></language> 
+    </name> 
+  </property>  
+  <property id="volunteerfirefightertrue" index="true" stored="true" editable="true" dependson="volunteerfirefighter" searchtype="user" internalfield="false" note="For how long have you been a volunteer firefighter?" dependsonvalue="true">&amp;nbsp;
+    <name> 
+      <language id="en"><![CDATA[&nbsp;]]></language> 
+    </name> 
+  </property>  
+  <property id="ofmfirefighter" index="true" stored="true" editable="true" sortable="true" viewtype="list" searchtype="user" internalfield="false" listid="yesno" datatype="boolean" required="true" note="Select Yes if you have completed the OFM Firefighter Curriculum.">OFM Firefighter
+    <name> 
+      <language id="en"><![CDATA[OFM Firefighter]]></language> 
+    </name> 
+  </property>  
+  <property id="ofmfirefightertrue" index="true" stored="true" editable="true" dependson="ofmfirefighter" searchtype="user" internalfield="false" note="What level did you achieve?" dependsonvalue="true"> 
+    <name> 
+      <language id="en"><![CDATA[ ]]></language> 
+    </name> 
+  </property>  
+  <property id="professionalfirefighter" index="true" stored="true" editable="true" sortable="true" viewtype="list" searchtype="user" internalfield="false" listid="yesno" datatype="boolean" required="true" note="Select Yes if you are a professional firefighter.">Professional Firefighter
+    <name> 
+      <language id="en"><![CDATA[Professional Firefighter]]></language> 
+    </name> 
+  </property>  
+  <property id="professionalfirefightertrue" index="true" stored="true" editable="true" dependson="professionalfirefighter" searchtype="user" internalfield="false" note="What title do you hold as a professional firefighter?" dependsonvalue="true">&amp;nbsp;
+    <name> 
+      <language id="en"><![CDATA[&nbsp;]]></language> 
+    </name> 
+  </property>  
+  <property id="other" index="true" stored="true" editable="true" searchtype="user" internalfield="false" note="Provide any additional information here.">Other (describe)
+    <name> 
+      <language id="en"><![CDATA[Other (describe)]]></language> 
+    </name> 
+  </property>  
+  <property id="studentid" index="true" stored="true" editable="true" searchtype="user">Student ID
+    <name> 
+      <language id="en"><![CDATA[Student ID]]></language> 
+    </name> 
+  </property>  
+  <property id="mailingaddress1" index="true" stored="true" editable="true" searchtype="user" internalfield="false" required="true">Mailing Address 1
+    <name> 
+      <language id="en"><![CDATA[Mailing Address 1]]></language> 
+    </name> 
+  </property>  
+  <property id="mailingaddress2" index="true" stored="true" editable="true" searchtype="user" internalfield="false">Mailing Address 2
+    <name> 
+      <language id="en"><![CDATA[Mailing Address 2]]></language> 
+    </name> 
+  </property>  
+  <property id="mailingcity" index="true" stored="true" editable="true" searchtype="user" internalfield="false" required="true">Mailing City
+    <name> 
+      <language id="en"><![CDATA[Mailing City]]></language> 
+    </name> 
+  </property>  
+  <property id="mailingstateprovince" index="true" stored="true" editable="true" searchtype="user" internalfield="false" listid="states" datatype="list" required="true">Mailing State/Province
+    <name> 
+      <language id="en"><![CDATA[Mailing State/Province]]></language> 
+    </name> 
+  </property>  
+  <property id="mailingpostalcode" index="true" stored="true" editable="true" searchtype="user" internalfield="false" required="true">Mailing Postal Code
+    <name> 
+      <language id="en"><![CDATA[Mailing Postal Code]]></language> 
+    </name> 
+  </property>  
+  <property id="mailingcountry" index="true" stored="true" editable="true" searchtype="user" internalfield="false" required="true">Mailing Country
+    <name> 
+      <language id="en"><![CDATA[Mailing Country]]></language> 
+    </name> 
+  </property>  
+  <property id="birthcity" index="true" stored="true" editable="true" searchtype="user">Birth City
+    <name> 
+      <language id="en"><![CDATA[Birth City]]></language> 
+    </name> 
+  </property>  
+  <property id="mothersmaidenname" index="true" stored="true" editable="true" searchtype="user">Mothers Maiden Name
+    <name> 
+      <language id="en"><![CDATA[Mothers Maiden Name]]></language> 
+    </name> 
+  </property>  
+  <property id="emirateidnumber" index="true" stored="true" editable="true" searchtype="user">Emirate ID Number
+    <name> 
+      <language id="en"><![CDATA[Emirate ID Number]]></language> 
+    </name> 
+  </property>  
+  <property id="name" index="true" stored="true" editable="true">name
+    <name> 
+      <language id="en"><![CDATA[name]]></language> 
+    </name> 
+  </property>  
+  <property id="description" defaultoperation="freeform" index="true" stored="true" sortable="true" editable="false">All Fields 
+    <name> 
+      <language id="de"><![CDATA[All Fields]]></language>  
+      <language id="en"><![CDATA[All Fields]]></language>  
+      <language id="es"><![CDATA[Todos]]></language>  
+      <language id="fr"><![CDATA[Tous les champs]]></language> 
+    </name> 
+  </property>  
+  <property id="notes" index="true" stored="true" editable="true" searchtype="user" internalfield="false">Admin Notes
+    <name> 
+      <language id="en"><![CDATA[Admin Notes]]></language> 
+    </name> 
+  </property>  
+  <property id="sourcepath">New
+    <name> 
+      <language id="en"><![CDATA[SourcePath]]></language> 
+    </name> 
+  </property>  
+  <property id="creationdate" index="true" deleted="false" datatype="date" editable="true" stored="true">New
+    <name> 
+      <language id="de"><![CDATA[Erstellungsdatum]]></language>  
+      <language id="en"><![CDATA[Created Date]]></language>  
+      <language id="es"><![CDATA[Fecha de creación]]></language>  
+      <language id="fr"><![CDATA[Date de création]]></language> 
+    </name> 
+  </property>  
+  <property id="groups" index="true" deleted="false" editable="true" stored="true" datatype="list">New
+    <name> 
+      <language id="en"><![CDATA[groups]]></language> 
+    </name> 
+  </property>  
+  <property id="catalogid" index="true" deleted="false" editable="true" stored="true" sortable="true" filter="false" keyword="false">New
+    <name> 
+      <language id="de"><![CDATA[CatalogID]]></language>  
+      <language id="en"><![CDATA[CatalogID]]></language>  
+      <language id="es"><![CDATA[CatalogID]]></language>  
+      <language id="fr"><![CDATA[CatalogID]]></language> 
+    </name> 
+  </property>  
+  <property id="virtual" index="true" deleted="false" editable="true" stored="true">New
+    <name>
+      <language id="en"><![CDATA[virtual]]></language>
+    </name>
+  </property> 
+</properties>

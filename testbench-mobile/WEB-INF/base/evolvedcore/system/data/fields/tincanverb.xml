@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties beanname="dataSearcher"> 
+  
+  <property id="id" index="true" internalfield="true" deleted="false" editable="true" stored="true" sortable="true" filter="false" keyword="true">
+    <name>
+      <language id="de"><![CDATA[Id]]></language>
+      <language id="en"><![CDATA[Id]]></language>
+      <language id="es"><![CDATA[Id]]></language>
+      <language id="fr"><![CDATA[Id]]></language>
+    </name>
+  </property> 
+  
+   <property id="name" index="true" internalfield="true" deleted="false" editable="true" stored="true" sortable="true" filter="false" keyword="true">Verb
+  </property> 
+  
+</properties>

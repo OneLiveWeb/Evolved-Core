@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <property id="asset" viewtype="asset"/>
+  <property id="asset" render="${asset.name}"/>
+  <property id="asset" render="${asset.assettype}"/>
+  
+</root>

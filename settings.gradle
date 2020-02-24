@@ -1,2 +1,2 @@
-include ':app'
-rootProject.name='TestBench Mobile'
+include ':evolved-core', ':testbench-mobile'
+rootProject.name='Evolved Core'

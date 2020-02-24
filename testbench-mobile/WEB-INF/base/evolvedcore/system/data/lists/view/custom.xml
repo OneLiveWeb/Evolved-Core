@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+  <data id="userprofile" moduleid="user" systemdefined="false" ordering="1535644999530"> 
+    <name> 
+      <language id="en"><![CDATA[Profile]]></language> 
+    </name> 
+  </data>  
+  <data id="prepaidgeneral" moduleid="prepaid" systemdefined="false" ordering="1535897286842"> 
+    <name> 
+      <language id="en"><![CDATA[General]]></language> 
+    </name> 
+  </data>  
+  <data id="testplangeneral" moduleid="testplan" systemdefined="false" ordering="1535897454862"> 
+    <name> 
+      <language id="en"><![CDATA[General]]></language> 
+    </name> 
+  </data>  
+  <data id="testgeneral" moduleid="test" systemdefined="false" ordering="1535897546310">
+    <name>
+      <language id="en"><![CDATA[General]]></language>
+    </name>
+  </data>
+  
+  
+    <data id="applicationapp_details" moduleid="application" systemdefined="false" ordering="1365560486746">App Details</data>  
+  <data id="accountaccount_details" moduleid="account" systemdefined="false" ordering="1365560790207">Account Details</data>  
+  <data id="couponregistration_code_details" moduleid="coupon" systemdefined="false" ordering="1366305872797">Registration Code Details</data>  
+  <data id="prepaidprepaid_code_details" moduleid="prepaid" systemdefined="false" ordering="1366306416682">Prepaid Code Details</data>  
+  <data id="prepaidheaderdetail" moduleid="prepaid" systemdefined="true" ordering="1370970357896">HeaderDetail</data>  
+  <data id="applicationheaderdetail" moduleid="application" systemdefined="true" ordering="1370971838309">Header Detail</data>  
+  <data id="userprofileaddress" name="Address" moduleid="userprofile" systemdefined="false" ordering="1380201483498" recordstatus="deleted"/>  
+  <data id="userprofilesystem_settings" name="System Settings" moduleid="userprofile" systemdefined="false" ordering="1380201524633" recordstatus="deleted"/>  
+  <data id="userprofileglobal_settings" name="Global Settings" moduleid="userprofile" systemdefined="false" ordering="1380201728603" recordstatus="deleted"/>  
+  <data id="backupbackup_details" name="Backup Details" moduleid="backup" systemdefined="false" ordering="1383055285623"/>  
+  <data id="backupbackup_history" name="Backup History" moduleid="backup" ordering="1383055292358" rendertype="table" rendertable="backuphistory" renderexternalid="backup"/>  
+  <data id="monitoredsitessite_details" name="Site Details" moduleid="monitoredsites" systemdefined="false" ordering="1384444620747"/>  
+  <data id="reportreport_details" moduleid="report" systemdefined="false" ordering="1363349365637">Report Details</data>  
+  <data id="departmentassetpresentation_details" name="Presentation Details" moduleid="departmentasset" systemdefined="false" ordering="1378396996114"/>  
+  <data id="reportreport_history" name="Report History" moduleid="report" ordering="1378998351470" rendertype="table" rendertable="reporthistory" renderexternalid="report" rendersort="date"/>  
+  <data id="certificationpackagepackage_details" name="Package Details" moduleid="certificationpackage" systemdefined="false" ordering="1383326069033"/>  
+  <data id="certificationpackagerequired_modules" name="Required Modules" moduleid="certificationpackage" ordering="1383326074243" rendertype="table" rendertable="certificationmodule" renderexternalid="certificationpackage"/>  
+  <data id="userprofilecourses" name="Courses" moduleid="userprofile" systemdefined="false" ordering="1383326615570" recordstatus="deleted"/>  
+  <data id="contractcontract_details" name="Contract Details" moduleid="contract" systemdefined="false" ordering="1383327158066"/>  
+  <data id="contractvouchers" name="Vouchers" moduleid="contract" systemdefined="false" ordering="0" recordstatus="deleted"/>  
+  <data id="contractprepaid_codes" name="Prepaid Codes" moduleid="contract" ordering="1383327167682" rendertype="table" rendertable="prepaid" renderexternalid="contract"/>  
+  <data id="contractaccomodation_and_meal_details" name="Accomodation and Meal Details" moduleid="contract" systemdefined="false" ordering="1383327269250"/>  
+  <data id="userprofileadditional_documentation" name="Additional Documentation" moduleid="userprofile" ordering="1383327441994" rendertype="table" rendertable="userdocumentation" renderexternalid="userprofile" recordstatus="deleted"/>  
+  <data id="registrationregistration_details" name="Registration Details" moduleid="registration" systemdefined="false" ordering="1386595857062" recordstatus="deleted"/>  
+  <data id="userprofileaddress_details" name="Address Details" moduleid="userprofile" systemdefined="false" ordering="2" recordstatus="deleted"/>  
+  <property id="fileproperties" moduleid="asset" systemdefined="false" byassettype="true" ordering="0" recordstatus="deleted">File Properties</property>  
+  <data id="assetgeneral_details" name="General Details" moduleid="asset" systemdefined="false" ordering="0"/>  
+  <data id="assetgeo_location_details" name="Geo Location Details" moduleid="asset" systemdefined="false" ordering="1"/>  
+  <data id="userprofileclasses" name="Classes" moduleid="userprofile" ordering="4" rendertype="table" rendertable="userclasses" renderexternalid="class" recordstatus="deleted"/>  
+  <data id="userprofilesecurity" name="Security" moduleid="userprofile" systemdefined="false" ordering="1" recordstatus="deleted"/>  
+  <data id="userprofilestudent_profile" name="Student Profile" moduleid="userprofile" systemdefined="false" ordering="2" recordstatus="deleted"/>  
+  <data id="faqfaq" name="FAQ" moduleid="faq" systemdefined="false" ordering="1390338857547"/>  
+  <data id="contactrequestrequest_details" name="Request Details" moduleid="contactrequest" systemdefined="false" ordering="1390596925506"/>  
+  <data id="testplanplan_instructions" name="planinstruction" moduleid="testplan" ordering="2" rendertype="table" rendertable="planinstruction" renderexternalid="plan" recordstatus="deleted"/>  
+  <data id="testplanskip_rules" name="Skip Rules" moduleid="testplan" systemdefined="false" ordering="1" recordstatus="deleted"/>  
+  <data id="creditcredit_details" name="Credit Details" moduleid="credit" systemdefined="false" ordering="1390761767966"/>  
+  <data id="questionplan_editor" name="Plan Editor" moduleid="question" systemdefined="true" ordering="1391086373483"/>  
+  <data id="classtemplatetemplate_details" name="Template Details" moduleid="classtemplate" systemdefined="false" ordering="1392928512045"/>  
+  <data id="storeOrdermy_account" moduleid="storeOrder" systemdefined="true" ordering="0">My Account</data>  
+  <property id="storeOrderadvancedsearch" moduleid="storeOrder" systemdefined="true" byassettype="false" ordering="1">Advanced Search</property>  
+  <property id="storeOrderresultstable" moduleid="storeOrder" systemdefined="true" byassettype="false" ordering="2">Results Table</property>  
+  <data id="slideshowslideshow_details" name="Slideshow Details" moduleid="slideshow" systemdefined="false" ordering="0"/>  
+  <data id="slideshowslides" name="Slides" moduleid="slideshow" ordering="1" rendertype="table" rendertable="slides" renderexternalid="slideshow"/>  
+  <data id="learningGroupclass_details" moduleid="learningGroup" systemdefined="false" ordering="0">Class Details</data>  
+  <data id="learningGroupstudent_list" name="Student List" moduleid="learningGroup" ordering="1" rendertype="table" rendertable="studentclasses" renderexternalid="learninggroup" rendersort="firstname"/>  
+  <data id="learningGrouptest_quiz_history" name="Test/Quiz History" moduleid="learningGroup" ordering="2" rendertype="table" rendertable="test" renderexternalid="class"/>  
+  <data id="coursecourse_details" moduleid="course" ordering="0" name="Module Details"/>  
+  <data id="coursepresentations" name="Presentations" moduleid="course" ordering="1" rendertype="table" rendertable="coursepresentations" renderexternalid="course"/>  
+  <data id="coursemodule_files" name="Module Resources" moduleid="course" ordering="2" rendertype="table" rendertable="moduleassets" renderexternalid="course"/>  
+  <data id="courseactivities" name="Activities" moduleid="course" ordering="3" rendertype="table" rendertable="moduleactivities" renderexternalid="course" rendersort="order"/>  
+  <data id="classtemplatemodules" name="Modules" moduleid="classtemplate" ordering="1398973021793" rendertype="table" rendertable="classmodules" renderexternalid="classtemplate"/>  
+  <data id="coursesettings" name="Settings" moduleid="course" systemdefined="false" ordering="1402248433722"/>  
+  <data id="testuser_test_details" moduleid="test" systemdefined="false" ordering="0">User Test Details</data>  
+  <data id="testworkflow" name="Workflow" moduleid="test" systemdefined="false" ordering="1"/>  
+  <data id="userprofiledetails" name="Details" moduleid="userprofile" systemdefined="false" ordering="0"/>  
+  <data id="learningGroupclass_activities" name="Class Modules" moduleid="learningGroup" ordering="1409150476398" rendertype="table" rendertable="classmodules" renderexternalid="learninggroup"/>  
+  <data id="learningGrouptest_plans" name="Tests" moduleid="learningGroup" ordering="3" rendertype="table" rendertable="grouptest" renderexternalid="learningGroup" recordstatus="deleted"/>  
+  <data id="productproduct_details" moduleid="product" systemdefined="false" ordering="0">Product Details</data>  
+  <data id="productmedia" moduleid="product" systemdefined="false" ordering="1" rendertype="table" rendertable="prodmedia" renderexternalid="product">Additional Media</data>  
+  <data id="producttestimonials" name="Testimonials" moduleid="product" ordering="2" rendertype="table" rendertable="testimonials" renderexternalid="productid"/>  
+  <data id="productspecial_fields" name="Special Fields" moduleid="product" systemdefined="false" ordering="3"/>  
+  <data id="productstock_assets" name="Stock Assets" moduleid="product" systemdefined="false" ordering="4" recordstatus="deleted"/>  
+  <data id="testbenchsettingmain_" name="Main " moduleid="testbenchsetting" systemdefined="false" ordering="1410368171903" recordstatus="deleted"/>  
+  <data id="testbenchsettingmain" name="Main" moduleid="testbenchsetting" systemdefined="false" ordering="0"/>  
+  <data id="testbenchsettingecommerce" name="Ecommerce" moduleid="testbenchsetting" systemdefined="false" ordering="1"/>  
+  <data id="testbenchsettingnotifications" name="Notifications" moduleid="testbenchsetting" systemdefined="false" ordering="1410368218446"/>  
+  <data id="testinstructor_results" name="Instructor Results" moduleid="test" systemdefined="true" ordering="1410529354290"/>  
+  <data id="userprofilecredit_history" name="Credit History" moduleid="userprofile" ordering="1" rendertype="table" rendertable="credit" renderexternalid="userprofile" rendersort="date" recordstatus="deleted"/>  
+  <data id="userprofilesystem_registration" name="System Registration" moduleid="userprofile" systemdefined="true" ordering="0" showonregistration="true"/>  
+  <data id="userprofilefesti_application" name="Festi Application" moduleid="userprofile" systemdefined="true" ordering="1" showonregistration="true"/>  
+  <property id="userprofileedit" moduleid="userprofile" systemdefined="true" byassettype="false" ordering="2">Edit</property>  
+  <property id="userprofileadvancedsearch" moduleid="userprofile" systemdefined="true" byassettype="false" ordering="3">Advanced Search</property>  
+  <property id="userprofileresultstable" moduleid="userprofile" systemdefined="true" byassettype="false" ordering="4">Results Table</property>  
+  <property id="userprofilebatchedit" moduleid="userprofile" systemdefined="true" byassettype="false" ordering="5">Batch Edit</property>  
+  <property id="userprofilepopupdetail" moduleid="userprofile" systemdefined="true" byassettype="false" ordering="6">Popup Details</property>  
+  <property id="userprofileheaderdetail" moduleid="userprofile" systemdefined="true" byassettype="false" ordering="7">Header Details</property>  
+  <property id="registrationdetails" moduleid="userprofile" systemdefined="true" byassettype="false" showonregistration="true" ordering="8">Registration Details</property>  
+  <data id="learningGroupinstructor_results" name="Instructor Results" moduleid="learningGroup" systemdefined="true" ordering="0"/>  
+  <property id="learningGroupadvancedsearch" moduleid="learningGroup" systemdefined="true" byassettype="false" ordering="4">Advanced Search</property>  
+  <property id="learningGroupresultstable" moduleid="learningGroup" systemdefined="true" byassettype="false" ordering="5">Results Table</property>  
+  <property id="learningGroupbatchedit" moduleid="learningGroup" systemdefined="true" byassettype="false" ordering="6">Batch Edit</property>  
+  <data id="testplanplan_details" moduleid="testplan" ordering="0" name="Activity Details"/>  
+  <data id="testplannotifications" name="Notifications" moduleid="testplan" systemdefined="false" ordering="1"/>  
+  <data id="questionfile_upload_questions" name="File Upload Questions" moduleid="question" systemdefined="false" ordering="1" recordstatus="deleted"/>  
+  <data id="questionquestion_details" moduleid="question" systemdefined="false" ordering="0">Question Details</data>  
+  <data id="questionfile_upload" name="File Upload" moduleid="question" systemdefined="true" ordering="1" recordstatus="deleted"/>  
+  <data id="questionfileupload" name="File Upload" moduleid="question" systemdefined="true" ordering="1420557061028"/>  
+  <data id="questiontexffield" name="texffield" moduleid="question" systemdefined="false" ordering="1420565467282" recordstatus="deleted"/>  
+  <data id="questiontextfield" name="Text Field" moduleid="question" systemdefined="true" ordering="1420565514506"/>
+  
+  
+</root>

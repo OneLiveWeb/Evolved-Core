@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<property id="projectresulttypes" index="true" stored="true"  editable="true" viewtype="list" type="list" tooltip="This will show either a gallery or list view of your projects">Projects Page Style</property>
+	
+</properties>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<deliverytypes>
+  <deliverytype id="inclass" name="In Class">In Class</deliverytype>
+  <deliverytype id="online" name="Online Only">Online</deliverytype>
+  <deliverytype id="blended" name="Blended">Blended</deliverytype>
+</deliverytypes>

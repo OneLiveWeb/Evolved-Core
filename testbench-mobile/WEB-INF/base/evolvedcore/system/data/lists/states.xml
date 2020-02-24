@@ -1,0 +1,71 @@
+<properties>
+
+<property id="AB" country="ca">Alberta</property>
+<property id="AK" country="us">Alaska</property>
+<property id="AL" country="us">Alabama</property>
+<property id="AR" country="us">Arkansas</property>
+<property id="AS" country="us">American Samoa</property>
+<property id="AZ" country="us">Arizona</property>
+<property id="BC"  country="ca">British Columbia</property>
+<property id="CA" country="us">California</property>
+<property id="CO" country="us">Colorado</property>
+<property id="CT" country="us">Connecticut</property>
+<property id="DC" country="us">District of Columbia</property>
+<property id="DE" country="us">Delaware</property>
+<property id="FL" country="us">Florida</property>
+<property id="FM" country="us">Micronesia</property>
+<property id="GA" country="us">Georgia</property>
+<property id="GU" country="us">Guam</property>
+<property id="HI" country="us">Hawaii</property>
+<property id="IA" country="us">Iowa</property>
+<property id="ID" country="us">Idaho</property>
+<property id="IL" country="us">Illinois</property>
+<property id="IN" country="us">Indiana</property>
+<property id="KS" country="us">Kansas</property>
+<property id="KY" country="us">Kentucky</property>
+<property id="LA" country="us">Louisiana</property>
+<property id="MA" country="us">Massachusetts</property>
+<property id="MB"  country="ca">Manitoba</property>
+<property id="MD" country="us">Maryland</property>
+<property id="ME" country="us">Maine</property>
+<property id="MI" country="us">Michigan</property>
+<property id="MN" country="us">Minnesota</property>
+<property id="MO" country="us">Missouri</property>
+<property id="MS" country="us">Mississippi</property>
+<property id="MT" country="us">Montana</property>
+<property id="NB"  country="ca">New Brunswick</property>
+<property id="NC" country="us">North Carolina</property>
+<property id="ND" country="us">North Dakota</property>
+<property id="NE" country="us">Nebraska</property>
+<property id="NH" country="us">New Hampshire</property>
+<property id="NJ" country="us">New Jersey</property>
+<property id="NL"  country="ca">Newfoundland/Labrador</property>
+<property id="NM" country="us">New Mexico</property>
+<property id="NS"  country="ca">Nova Scotia</property>
+<property id="NT"  country="ca">Northwest Territories</property>
+<property id="NU" country="ca">Nunavut</property>
+<property id="NV" country="us">Nevada</property>
+<property id="NY" country="us">New York</property>
+<property id="OH" country="us">Ohio</property>
+<property id="OK" country="us">Oklahoma</property>
+<property id="ON"  country="ca">Ontario</property>
+<property id="OR" country="us">Oregon</property>
+<property id="PA" country="us">Pennsylvania</property>
+<property id="PE"  country="ca">Prince Edward Island</property>
+<property id="QC"  country="ca">Quebec</property>
+<property id="RI" country="us">Rhode Island</property>
+<property id="SC" country="us">South Carolina</property>
+<property id="SD" country="us">South Dakota</property>
+<property id="SK"  country="ca">Saskatchewan</property>
+<property id="TN" country="us">Tennessee</property>
+<property id="TX" country="us">Texas</property>
+<property id="UT" country="us">Utah</property>
+<property id="VA" country="us">Virginia</property>
+<property id="VI" country="us">Virgin Islands</property>
+<property id="VT" country="us">Vermont</property>
+<property id="WA" country="us">Washington</property>
+<property id="WI" country="us">Wisconsin</property>
+<property id="WV" country="us">West Virginia</property>
+<property id="WY" country="us">Wyoming</property>
+<property id="YT"  country="ca">Yukon</property>
+</properties>

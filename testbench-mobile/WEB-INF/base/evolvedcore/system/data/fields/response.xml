@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties> 
+  <property id="id" searchtype="response">ID</property>  
+    	<property id="description" defaultoperation="freeform" index="true">All Fields</property>
+  
+  <property id="questionid" catalogid="testbench" index="true" stored="true" editable="true" viewtype="list" searchtype="testplan" listid="testplan" required="true">Test Type</property>  
+  <property id="text" index="true" keyword="true" stored="true" editable="true" searchtype="response" required="true">Response Text</property>  
+  <property id="responsetext" index="true" keyword="true" stored="true" editable="true" searchtype="response" required="true">Response Text</property>  
+  <property id="responseimage" editable="true" type="list" viewtype="asset" searchtype="response" listid="asset" datatype="list">Response Image:</property>  
+  <property id="correct" editable="true" sortable="true" type="boolean" viewtype="boolean" searchtype="response" datatype="boolean">Correct:</property>  
+  <property id="matrixtype" index="true" stored="true" editable="true" type="list" viewtype="list" searchtype="response" internalfield="false" datatype="list">Row or Column</property>  
+  <property id="uselist" index="true" stored="true" editable="true" sortable="true" type="boolean" viewtype="boolean" searchtype="response" internalfield="false" datatype="boolean">Use List</property>  
+  <property id="listid" index="true" stored="true" editable="true" searchtype="response" internalfield="false">List ID:</property>  
+  <property id="maxvalueforrow" index="true" stored="true" editable="true" searchtype="response">Max Value for row</property>  
+  <property id="includeintotalcalculation" index="true" stored="true" editable="true" sortable="true" type="boolean" searchtype="response" internalfield="false" datatype="boolean">Include in total calculation</property>  
+  <property id="datatype" index="true" stored="true" editable="true" searchtype="response" internalfield="false" keyword="false" filter="false" sortable="false" indextype="not_analyzed" required="false" internaluse="false" multilanguage="false" autocreatefromexif="false" writenametoexif="false">Data Type for field
+    <name>
+      <language id="en"><![CDATA[Data Type for field]]></language>
+    </name>
+  </property>  
+  <property id="units" index="true" stored="true" editable="true" type="list" searchtype="response" internalfield="false" datatype="list">Units</property> 
+</properties>

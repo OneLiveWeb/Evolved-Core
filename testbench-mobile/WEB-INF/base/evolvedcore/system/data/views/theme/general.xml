@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+	<!-- tiles, colours, opacity -->
+	<property id="backgroundtile" />
+	<property id="tileupload"/>
+	<property id="backgroundstyle" />
+	<property id="contentbackgroundcolor" />
+	<property id="backgroundoppacity"  />
+	<property id="disableshadows" />
+</properties>

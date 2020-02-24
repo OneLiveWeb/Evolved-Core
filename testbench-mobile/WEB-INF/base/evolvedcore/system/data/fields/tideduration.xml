@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties> 
+  <property id="A" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[A]]></language> 
+    </name> 
+  </property>  
+  <property id="B" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[B]]></language> 
+    </name> 
+  </property>  
+  <property id="C" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[C]]></language> 
+    </name> 
+  </property>  
+  <property id="D" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[D]]></language> 
+    </name> 
+  </property>  
+  <property id="E" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[E]]></language> 
+    </name> 
+  </property>  
+  <property id="F" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[F]]></language> 
+    </name> 
+  </property>  
+  <property id="G" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[G]]></language> 
+    </name> 
+  </property>  
+  <property id="H" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[H]]></language> 
+    </name> 
+  </property>  
+  <property id="I" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[I]]></language> 
+    </name> 
+  </property>  
+  <property id="J" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[J]]></language> 
+    </name> 
+  </property>  
+  <property id="name" index="true" deleted="false" editable="true" stored="true" searchtype="address">New
+    <name> 
+      <language id="en"><![CDATA[Name]]></language> 
+    </name> 
+  </property>  
+  <property id="tideduration" index="true" type="number">Duration</property>
+  <property id="id" index="true" internalfield="true" deleted="false" editable="true" stored="true" searchtype="address">New
+    <name>
+      <language id="en"><![CDATA[Id]]></language>
+    </name>
+  </property>
+</properties>

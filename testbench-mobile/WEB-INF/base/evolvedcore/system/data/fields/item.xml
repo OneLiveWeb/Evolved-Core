@@ -1,0 +1,9 @@
+
+<properties lazy-init="true">
+  <property id="saleenddate" index="true" stored="true" editable="true" sortable="true" type="date" internalfield="false" datatype="date" searchtype="item">Sale Ends</property>
+ 
+ 
+  <property id="taxexemptamount" searchtype="item">Tax Exempt Amount</property>
+  <property id="active" index="true" stored="true" editable="true" searchtype="item">active</property>
+  <property id="learninggroup" index="true" stored="true" editable="true" type="list" listid="learningGroup" internalfield="false" datatype="list">Class</property>
+</properties>

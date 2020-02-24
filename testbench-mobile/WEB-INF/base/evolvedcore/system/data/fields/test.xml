@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties lazy-init="true"> 
+  <property id="id" searchtype="test">ID
+    <name> 
+      <language id="en"><![CDATA[ID]]></language> 
+    </name> 
+  </property>  
+  <property id="sourcepath" searchtype="test">Source Path
+    <name> 
+      <language id="en"><![CDATA[Source Path]]></language> 
+    </name> 
+  </property>  
+  <property id="description" defaultoperation="freeform" index="true">All Fields
+    <name> 
+      <language id="en"><![CDATA[All Fields]]></language> 
+    </name> 
+  </property>  
+  <property id="plan" index="true" stored="true" editable="true" viewtype="list" listid="testplan" required="true" searchtype="test">Test Type
+    <name> 
+      <language id="en"><![CDATA[Test Type]]></language> 
+    </name> 
+  </property>  
+  <property id="descrip" index="true" keyword="true" stored="true" editable="true" internalfield="false" searchtype="test">Description
+    <name> 
+      <language id="en"><![CDATA[Description]]></language> 
+    </name> 
+  </property>  
+  <property id="name" index="true" keyword="true" stored="true" editable="true" internalfield="false" required="true" searchtype="test">Test Name
+    <name> 
+      <language id="en"><![CDATA[Test Name]]></language> 
+    </name> 
+  </property>  
+  <property id="lastname" index="true" stored="true" editable="true" internalfield="false" required="true" searchtype="test">Last Name
+    <name> 
+      <language id="en"><![CDATA[Last Name]]></language> 
+    </name> 
+  </property>  
+  <property id="status" index="true" stored="true" editable="true" datatype="list" required="true" searchtype="test">Status
+    <name> 
+      <language id="en"><![CDATA[Status]]></language> 
+    </name> 
+  </property>  
+  <property id="starttime" index="true" stored="true" editable="true" sortable="true" viewtype="date" internalfield="false" datatype="date" searchtype="test">Date
+    <name> 
+      <language id="en"><![CDATA[Date]]></language> 
+    </name> 
+  </property>  
+  <property id="passmark" index="true" stored="true" editable="true" sortable="true" internalfield="false" datatype="double">Pass Mark
+    <name> 
+      <language id="en"><![CDATA[Pass Mark]]></language> 
+    </name> 
+  </property>  
+  <property id="user" index="true" stored="true" editable="true" internalfield="false" datatype="list" required="true" searchtype="test" isbadge="false" viewtype="user" rendertype="user" filter="false" multilanguage="false" highlight="false" deleted="false" autocreatefromexif="false" keyword="false" writenametoexif="false">User
+    <name>
+      <language id="en"><![CDATA[User]]></language>
+    </name>
+  </property>  
+  <property id="displayname" stored="true" editable="true" required="true" searchtype="test">Display Name
+    <name> 
+      <language id="en"><![CDATA[Display Name]]></language> 
+    </name> 
+  </property>  
+  <property id="class" index="true" stored="true" editable="true" viewtype="list" listid="learningGroup" internalfield="false" datatype="list" searchtype="test">Class
+    <name> 
+      <language id="en"><![CDATA[Class]]></language> 
+    </name> 
+  </property>  
+  <property id="correct" editable="true" internalfield="false" searchtype="test" index="true" datatype="long">Correct Responses
+    <name> 
+      <language id="en"><![CDATA[Correct Responses]]></language> 
+    </name> 
+  </property>  
+  <property id="incorrect" editable="true" internalfield="false" searchtype="test" index="true" datatype="long">Incorrect Responses
+    <name> 
+      <language id="en"><![CDATA[Incorrect Responses]]></language> 
+    </name> 
+  </property>  
+  <property id="attempted" editable="true" required="true" searchtype="test" index="true" datatype="long">Questions Attempted
+    <name> 
+      <language id="en"><![CDATA[Questions Attempted]]></language> 
+    </name> 
+  </property>  
+  <property id="total" editable="true" required="true" searchtype="test" index="true" datatype="long">Total Questions
+    <name> 
+      <language id="en"><![CDATA[Total Questions]]></language> 
+    </name> 
+  </property>  
+  <property id="percentage" editable="true" viewtype="percentage" index="true" required="true" searchtype="test" datatype="double">Percentage
+    <name> 
+      <language id="en"><![CDATA[Percentage]]></language> 
+    </name> 
+  </property>  
+  <property id="testmode" index="true" stored="true" editable="true" internalfield="false" datatype="list" searchtype="test">Test Mode
+    <name> 
+      <language id="en"><![CDATA[Test Mode]]></language> 
+    </name> 
+  </property>  
+  <property id="approved" index="true" stored="true" editable="true" listid="testapprovalstatus" internalfield="false" datatype="list" searchtype="test">Approval Status
+    <name> 
+      <language id="en"><![CDATA[Approval Status]]></language> 
+    </name> 
+  </property>  
+  <property id="submitted" index="true" stored="true" editable="true" sortable="true" internalfield="false" datatype="boolean" searchtype="test">Submitted
+    <name> 
+      <language id="en"><![CDATA[Submitted]]></language> 
+    </name> 
+  </property>  
+  <property id="elapsedtime" index="true" stored="true" editable="true" internalfield="false" searchtype="test">Elapsed Time
+    <name> 
+      <language id="en"><![CDATA[Elapsed Time]]></language> 
+    </name> 
+  </property>  
+  <property id="notes" index="true" stored="true" editable="true" searchtype="test">Notes
+    <name> 
+      <language id="en"><![CDATA[Notes]]></language> 
+    </name> 
+  </property>  
+  <property id="course" index="true" stored="true" editable="true" internalfield="false" datatype="list" searchtype="test">course
+    <name> 
+      <language id="en"><![CDATA[course]]></language> 
+    </name> 
+  </property>  
+  <property id="category" index="true" stored="true" editable="true" internalfield="false" datatype="list">Category
+    <name> 
+      <language id="en"><![CDATA[Category]]></language> 
+    </name> 
+  </property>  
+  <property id="timecode" index="true" stored="true" editable="true" internalfield="false" searchtype="test" datatype="number">Time Code
+    <name> 
+      <language id="en"><![CDATA[Time Code]]></language> 
+    </name> 
+  </property>  
+  <property id="planname" index="true" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[planname]]></language> 
+    </name> 
+  </property>  
+  <property id="ip" index="true" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[ip]]></language> 
+    </name> 
+  </property>  
+  <property id="referringpage" index="true" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[referringpage]]></language> 
+    </name> 
+  </property>  
+  <property id="user-agent" index="true" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[user-agent]]></language> 
+    </name> 
+  </property>  
+  <property id="date" index="true" viewtype="date" sortable="true" filter="true" deleted="false" datatype="date" stored="true" searchcomponent="datesearch" editable="false" keyword="false">New
+    <name> 
+      <language id="de"><![CDATA[Datum]]></language>  
+      <language id="en"><![CDATA[Date]]></language>  
+      <language id="es"><![CDATA[Fecha]]></language>  
+      <language id="fr"><![CDATA[Date]]></language> 
+    </name> 
+  </property>  
+  <property id="permissions" index="true" listid="permissionsapp" deleted="false" stored="true" viewtype="multiselect" sortable="true" datatype="list" filter="false" editable="false" keyword="false">New
+    <name> 
+      <language id="de"><![CDATA[Berechtigungen]]></language>  
+      <language id="en"><![CDATA[Permissions]]></language>  
+      <language id="es"><![CDATA[permisos]]></language>  
+      <language id="fr"><![CDATA[Autorisations]]></language> 
+    </name> 
+  </property>  
+  <property id="group" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[group]]></language> 
+    </name> 
+  </property> 
+</properties>

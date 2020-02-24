@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<purchasetypes>
+  <purchasetype id="choose" name="User Must Choose one class">User Must Choose one class</purchasetype>
+  <purchasetype id="all" name="User will be placed in all classes">User will be placed in all classes</purchasetype>
+</purchasetypes>

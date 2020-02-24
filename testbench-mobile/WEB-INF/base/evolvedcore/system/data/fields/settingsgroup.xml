@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties index="true" stored="true"> 
+  <property id="id" index="true" stored="true" keyword="false" filter="false" editable="false" sortable="true">Id 
+    <name> 
+      <language id="de"><![CDATA[Ich würde]]></language>  
+      <language id="en"><![CDATA[Id]]></language>  
+      <language id="es"><![CDATA[Carné de identidad]]></language>  
+      <language id="fr"><![CDATA[Id]]></language> 
+    </name> 
+  </property>  
+  <property id="name" index="true" stored="true" editable="true" keyword="false" filter="false" sortable="true">Name 
+    <name> 
+      <language id="de"><![CDATA[Name]]></language>  
+      <language id="en"><![CDATA[Name]]></language>  
+      <language id="es"><![CDATA[Nombre]]></language>  
+      <language id="fr"><![CDATA[Prénom]]></language> 
+    </name> 
+  </property>  
+  <property id="profilesearchfilters" index="true" stored="true" editable="true" note="Used for filtering" keyword="false" filter="false" sortable="true">Filters 
+    <name> 
+      <language id="de"><![CDATA[Filter]]></language>  
+      <language id="en"><![CDATA[Filters]]></language>  
+      <language id="es"><![CDATA[filtros]]></language>  
+      <language id="fr"><![CDATA[Filtres]]></language> 
+    </name> 
+  </property>  
+  <property id="viewtableresults" index="true" editable="true" keyword="false" filter="false" stored="false" sortable="true">Table Columns 
+    <name> 
+      <language id="de"><![CDATA[Tabellenspalten]]></language>  
+      <language id="en"><![CDATA[Table Columns]]></language>  
+      <language id="es"><![CDATA[Columnas de la tabla]]></language>  
+      <language id="fr"><![CDATA[Colonnes de la table]]></language> 
+    </name> 
+  </property>  
+  <property id="permissions" viewtype="multiselect" editable="false" index="true" stored="true" type="list" listid="permissionsapp" keyword="false" filter="false" sortable="true">Permissions 
+    <name> 
+      <language id="de"><![CDATA[Berechtigungen]]></language>  
+      <language id="en"><![CDATA[Permissions]]></language>  
+      <language id="es"><![CDATA[permisos]]></language>  
+      <language id="fr"><![CDATA[Autorisations]]></language> 
+    </name> 
+  </property>  
+  <property id="resultview" editable="true" index="true" stored="true" type="list" keyword="false" filter="false" sortable="true">Default Result View
+    <name> 
+      <language id="de"><![CDATA[Standardergebnisansicht]]></language>  
+      <language id="en"><![CDATA[Default Result View]]></language>  
+      <language id="es"><![CDATA[El resultado predeterminado Ver]]></language>  
+      <language id="fr"><![CDATA[Vue Résultat Par Défaut]]></language> 
+    </name> 
+  </property>  
+  <property id="hideassettype" index="true" stored="true" internalfield="true" viewtype="multiselect" datatype="list" listid="assettype" editable="true" type="list"> 
+    <name> 
+      <language id="de"><![CDATA[verstecken Asset-Typen]]></language>  
+      <language id="en"><![CDATA[Hidden Asset Types]]></language>  
+      <language id="es"><![CDATA[Ocultar los tipos de activos]]></language>  
+      <language id="fr"><![CDATA[Cacher les Types d&#39;item]]></language> 
+    </name> 
+  </property>  
+  <property id="assethitsperpage" index="true" stored="true" type="list" listid="hitcount" editable="true" keyword="false" filter="false" sortable="true">Number of Assets to view per page 
+    <name> 
+      <language id="de"><![CDATA[Anzahl der Assets pro Seite zu sehen]]></language>  
+      <language id="en"><![CDATA[Number of Assets to view per page]]></language>  
+      <language id="es"><![CDATA[Número de Activos para ver por página]]></language>  
+      <language id="fr"><![CDATA[Nombre d&#39;items à afficher par page]]></language> 
+    </name> 
+  </property>  
+  <property id="modulehitsperpage" index="true" stored="true" type="list" listid="hitcount" editable="true" keyword="false" filter="false" sortable="true">Number of rows show on Module results 
+    <name> 
+      <language id="de"><![CDATA[Anzahl der Zeilen zeigen Modul Ergebnisse]]></language>  
+      <language id="en"><![CDATA[Number of rows show on Module results]]></language>  
+      <language id="es"><![CDATA[Número de filas muestran en los resultados del módulo]]></language>  
+      <language id="fr"><![CDATA[Nombre de lignes affichées sur le module des résultats]]></language> 
+    </name> 
+  </property>  
+  <property id="sendcollectionnotifications" index="true" type="boolean" internalfield="true" keyword="false" filter="false" editable="false"> 
+    <name> 
+      <language id="en"><![CDATA[Receive Collection Email Notifications]]></language> 
+    </name> 
+  </property>  
+  <property id="sendapprovalnotifications" index="true" type="boolean" internalfield="true" keyword="false" filter="false" editable="false"> 
+    <name> 
+      <language id="en"><![CDATA[Receive Approval or Rejection Notifications]]></language> 
+    </name> 
+  </property>  
+  <property id="preferedapp" index="true" internalfield="true" keyword="false" filter="false" editable="true"> 
+    <name> 
+      <language id="en"><![CDATA[Prefered Application]]></language> 
+    </name> 
+  </property>  
+  <property id="multiedit" editable="true" type="boolean" index="true" stored="true" keyword="false" filter="false" sortable="true">Multi-Edit
+    <name> 
+      <language id="de"><![CDATA[Multi-Edit]]></language>  
+      <language id="en"><![CDATA[Multi-Edit]]></language>  
+      <language id="es"><![CDATA[Multi-Edit]]></language>  
+      <language id="fr"><![CDATA[Edition multiple]]></language> 
+    </name> 
+  </property>  
+  <property id="viewmap" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[viewmap]]></language> 
+    </name> 
+  </property>  
+  <property id="admintoolbar" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[admintoolbar]]></language> 
+    </name> 
+  </property>  
+  <property id="upload" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[upload]]></language> 
+    </name> 
+  </property>  
+  <property id="deletetest" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[deletetest]]></language> 
+    </name> 
+  </property>  
+  <property id="viewcomments" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[viewcomments]]></language> 
+    </name> 
+  </property>  
+  <property id="editshoppingcart" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[editshoppingcart]]></language> 
+    </name> 
+  </property>  
+  <property id="adminprofiles" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[adminprofiles]]></language> 
+    </name> 
+  </property>  
+  <property id="quicksearch" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[quicksearch]]></language> 
+    </name> 
+  </property>  
+  <property id="metadatageneral" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[metadatageneral]]></language> 
+    </name> 
+  </property>  
+  <property id="convert" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[convert]]></language> 
+    </name> 
+  </property>  
+  <property id="converthistory" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[converthistory]]></language> 
+    </name> 
+  </property>  
+  <property id="viewshoppingcart" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[viewshoppingcart]]></language> 
+    </name> 
+  </property>  
+  <property id="maximize" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[maximize]]></language> 
+    </name> 
+  </property>  
+  <property id="view" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[view]]></language> 
+    </name> 
+  </property>  
+  <property id="download" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[download]]></language> 
+    </name> 
+  </property>  
+  <property id="viewmetadatageneral" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[viewmetadatageneral]]></language> 
+    </name> 
+  </property>  
+  <property id="edittest" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[edittest]]></language> 
+    </name> 
+  </property>  
+  <property id="deleteasset" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[Auto Delete Asset]]></language> 
+    </name> 
+  </property>  
+  <property id="viewsearcheditor" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[viewsearcheditor]]></language> 
+    </name> 
+  </property>  
+  <property id="asseteditorlibraries" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[asseteditorlibraries]]></language> 
+    </name> 
+  </property>  
+  <property id="quickpublish" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[quickpublish]]></language> 
+    </name> 
+  </property>  
+  <property id="deletetestplan" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[deletetestplan]]></language> 
+    </name> 
+  </property>  
+  <property id="editassettags" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[editassettags]]></language> 
+    </name> 
+  </property>  
+  <property id="forcewatermark" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[forcewatermark]]></language> 
+    </name> 
+  </property>  
+  <property id="viewbasket" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[viewbasket]]></language> 
+    </name> 
+  </property>  
+  <property id="ignorerules" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[ignorerules]]></language> 
+    </name> 
+  </property>  
+  <property id="viewcategorynav" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[viewcategorynav]]></language> 
+    </name> 
+  </property>  
+  <property id="viewfilemenu" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[viewfilemenu]]></language> 
+    </name> 
+  </property>  
+  <property id="filterbyassettype" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[filterbyassettype]]></language> 
+    </name> 
+  </property>  
+  <property id="viewupload" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[viewupload]]></language> 
+    </name> 
+  </property>  
+  <property id="assetpermissions" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[assetpermissions]]></language> 
+    </name> 
+  </property>  
+  <property id="multiupload" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[multiupload]]></language> 
+    </name> 
+  </property>  
+  <property id="viewassets" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[viewassets]]></language> 
+    </name> 
+  </property>  
+  <property id="createnewrecord" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[createnewrecord]]></language> 
+    </name> 
+  </property>  
+  <property id="editlists" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[editlists]]></language> 
+    </name> 
+  </property>  
+  <property id="viewsettings" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[viewsettings]]></language> 
+    </name> 
+  </property>  
+  <property id="viewuploadmulti" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[viewuploadmulti]]></language> 
+    </name> 
+  </property>  
+  <property id="sharetosocialmedia" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[sharetosocialmedia]]></language> 
+    </name> 
+  </property>  
+  <property id="viewattachments" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[viewattachments]]></language> 
+    </name> 
+  </property>  
+  <property id="forcewatermarkasset" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[forcewatermarkasset]]></language> 
+    </name> 
+  </property>  
+  <property id="setupstripe" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[setupstripe]]></language> 
+    </name> 
+  </property>  
+  <property id="deletecomments" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[deletecomments]]></language> 
+    </name> 
+  </property>  
+  <property id="metadatadetails" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[metadatadetails]]></language> 
+    </name> 
+  </property>  
+  <property id="viewfatwire" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[viewfatwire]]></language> 
+    </name> 
+  </property>  
+  <property id="admin" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[admin]]></language> 
+    </name> 
+  </property>  
+  <property id="viewtestplan" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[viewtestplan]]></language> 
+    </name> 
+  </property>  
+  <property id="managelms" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[managelms]]></language> 
+    </name> 
+  </property>  
+  <property id="browseproducts" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[browseproducts]]></language> 
+    </name> 
+  </property>  
+  <property id="editcategories" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[editcategories]]></language> 
+    </name> 
+  </property>  
+  <property id="printpreview" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[printpreview]]></language> 
+    </name> 
+  </property>  
+  <property id="viewmediaedit" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[viewmediaedit]]></language> 
+    </name> 
+  </property>  
+  <property id="contentedit" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[contentedit]]></language> 
+    </name> 
+  </property>  
+  <property id="editmetadatasetup" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[editmetadatasetup]]></language> 
+    </name> 
+  </property>  
+  <property id="assetadmin" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[assetadmin]]></language> 
+    </name> 
+  </property>  
+  <property id="editassetcategories" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[editassetcategories]]></language> 
+    </name> 
+  </property>  
+  <property id="manageecommerce" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[manageecommerce]]></language> 
+    </name> 
+  </property>  
+  <property id="checkout" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[checkout]]></language> 
+    </name> 
+  </property>  
+  <property id="changeattachment" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[changeattachment]]></language> 
+    </name> 
+  </property>  
+  <property id="viewfatwirecrop" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[viewfatwirecrop]]></language> 
+    </name> 
+  </property>  
+  <property id="socialshare" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[socialshare]]></language> 
+    </name> 
+  </property>  
+  <property id="embedasset" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[embedasset]]></language> 
+    </name> 
+  </property>  
+  <property id="viewassetpreviewhistory" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[viewassetpreviewhistory]]></language> 
+    </name> 
+  </property>  
+  <property id="viewtest" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[viewtest]]></language> 
+    </name> 
+  </property>  
+  <property id="editadvancedsearch" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[editadvancedsearch]]></language> 
+    </name> 
+  </property>  
+  <property id="viewconversions" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[viewconversions]]></language> 
+    </name> 
+  </property>  
+  <property id="capturehistory" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[capturehistory]]></language> 
+    </name> 
+  </property>  
+  <property id="asseteditorpickanylibrary" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[asseteditorpickanylibrary]]></language> 
+    </name> 
+  </property>  
+  <property id="vieworders" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[vieworders]]></language> 
+    </name> 
+  </property>  
+  <property id="embedlinks" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[embedlinks]]></language> 
+    </name> 
+  </property>  
+  <property id="edittablecolumns" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[edittablecolumns]]></language> 
+    </name> 
+  </property>  
+  <property id="editallprofiles" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[editallprofiles]]></language> 
+    </name> 
+  </property>  
+  <property id="viewhomelink" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[viewhomelink]]></language> 
+    </name> 
+  </property>  
+  <property id="publish" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[publish]]></language> 
+    </name> 
+  </property>  
+  <property id="shareasset" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[shareasset]]></language> 
+    </name> 
+  </property>  
+  <property id="viewmyaccount" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[viewmyaccount]]></language> 
+    </name> 
+  </property>  
+  <property id="viewassetedit" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[viewassetedit]]></language> 
+    </name> 
+  </property>  
+  <property id="viewvoting" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[viewvoting]]></language> 
+    </name> 
+  </property>  
+  <property id="comment" index="true" filter="false" deleted="false" editable="false" stored="true" sortable="true" keyword="false">New
+    <name> 
+      <language id="de"><![CDATA[Kommentar]]></language>  
+      <language id="en"><![CDATA[Comment]]></language>  
+      <language id="es"><![CDATA[Comentario]]></language>  
+      <language id="fr"><![CDATA[Commentaire]]></language> 
+    </name> 
+  </property>  
+  <property id="edittestplan" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[edittestplan]]></language> 
+    </name> 
+  </property>  
+  <property id="emaillink" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[emaillink]]></language> 
+    </name> 
+  </property>  
+  <property id="category" externalid="assetcategory.categoryid" deleted="false" datatype="textjoin" searchtype="asset" query="assetcategory.assetid = asset.id">New
+    <name> 
+      <language id="en"><![CDATA[Categories]]></language> 
+    </name> 
+  </property>  
+  <property id="editsearch" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[editsearch]]></language> 
+    </name> 
+  </property>  
+  <property id="savesearch" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[savesearch]]></language> 
+    </name> 
+  </property>  
+  <property id="viewasset" internalfield="true" deleted="false" searchtype="asset">New
+    <name> 
+      <language id="en"><![CDATA[Readable]]></language> 
+    </name> 
+  </property>  
+  <property id="addnewcollection" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[addnewcollection]]></language> 
+    </name> 
+  </property>  
+  <property id="editasset" internalfield="true" deleted="false" searchtype="asset">New
+    <name>
+      <language id="en"><![CDATA[Writable]]></language>
+    </name>
+  </property>
+</properties>

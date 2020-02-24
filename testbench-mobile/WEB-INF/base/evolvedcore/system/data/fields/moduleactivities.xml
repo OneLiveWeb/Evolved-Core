@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties lazy-init="true" beanname="elasticXmlFileSearcher" prefix="moduleactivities"> 
+  <property id="id" index="true" stored="true" editable="true" internalfield="true" searchtype="moduleactivities">Id</property>  
+  <property id="name" index="true" stored="true" editable="true" internalfield="false" searchtype="moduleactivities">Notes</property>  
+  <property id="testplan" index="true" stored="true" editable="true" type="list" internalfield="false" datatype="list" searchtype="moduleactivities">Activity</property>  
+  <property id="order" index="true" stored="true" editable="true" sortable="true" type="long" viewtype="text" internalfield="false" datatype="long" searchtype="moduleactivities">order</property>  
+  <property id="course" index="true" stored="true" editable="true" type="list" internalfield="false" datatype="list">course</property>  
+  <property id="sourcepath" deleted="false">New
+    <name>
+      <language id="en"><![CDATA[SourcePath]]></language>
+    </name>
+  </property>
+</properties>

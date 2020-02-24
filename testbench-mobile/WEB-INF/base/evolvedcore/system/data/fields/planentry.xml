@@ -1,0 +1,8 @@
+
+<properties lazy-init="true">
+  <property id="id" searchtype="planentry">ID</property>
+  <property id="type" index="true" stored="true" editable="true" type="list" internalfield="false" datatype="list" required="true" searchtype="planentry" indextype="not_analyzed">Entry Type</property>
+  <property id="count" index="true" keyword="true" stored="true" editable="true" required="true" searchtype="planentry">Number of Questions</property>
+  <property id="timecode" index="true" stored="true" editable="true" sortable="true" type="number" internalfield="false" beanname="dataSearcher" datatype="number" prefix="videocue" searchtype="planentry">Time Code</property>
+  <property id="questioncategory" index="true" stored="true" editable="true" sortable="true" type="list" viewtype="list" listid="questioncategory" internalfield="false" sort="name" datatype="list" legacy="category">Main Category</property>
+</properties>

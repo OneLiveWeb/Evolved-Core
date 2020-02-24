@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties prefix="studentclasses" beanname="elasticXmlFileSearcher" lazy-init="true"> 
+  <property id="id" index="true" stored="true" editable="true" internalfield="true" searchtype="studentclasses">Id</property>  
+  <property id="userprofile" index="true" stored="true" editable="true" type="list" viewtype="list" internalfield="false" datatype="list" searchtype="studentclasses" listid="user">User</property>  
+  <property id="grouprole" index="true" stored="true" editable="true" type="list" internalfield="false" datatype="list" searchtype="studentclasses">Role in group (instructor, TA, marker, student)</property>  
+  <property id="sourcepath" index="true" stored="true" editable="true" searchtype="studentclasses">sourcepath</property>  
+  <property id="learninggroup" index="true" stored="true" editable="true" type="list" listid="learningGroup" internalfield="false" datatype="list">Class</property>  
+  <property id="addeddate" index="true" stored="true" editable="true" sortable="true" type="date" viewtype="date" internalfield="false" datatype="date">Added Date</property>  
+  <property id="name" index="true" deleted="false" editable="true" stored="true" searchtype="address">New
+    <name> 
+      <language id="en"><![CDATA[Name]]></language> 
+    </name> 
+  </property>  
+  <property id="role" index="true" editable="true" stored="true">New
+    <name>
+      <language id="en"><![CDATA[role]]></language>
+    </name>
+  </property>
+</properties>

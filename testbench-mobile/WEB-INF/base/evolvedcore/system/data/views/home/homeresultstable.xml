@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <property id="headerimage"/>
+  <property id="address1" editable="true">Address:</property>
+  <property id="city"/>
+  <property id="mlsnum"/>
+  <property id="bathrooms"/>
+  <property id="bedrooms"/>
+  <property id="flag"/>
+  <property id="name"/>
+  <property id="price"/>
+</root>

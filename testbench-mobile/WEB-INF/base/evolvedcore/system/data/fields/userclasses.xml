@@ -1,0 +1,8 @@
+
+<properties lazy-init="true">
+  <property id="id" index="true" stored="true" editable="true" internalfield="true" searchtype="userclasses">Id</property>
+  <property id="name" index="true" stored="true" editable="true" searchtype="userclasses">Name</property>
+  <property id="userprofile" index="true" stored="true" editable="true" type="list" viewtype="list" internalfield="false" datatype="list" listid="user" searchtype="userclasses">User Profile</property>
+  <property id="learningGroup" index="true" stored="true" editable="true" type="list" viewtype="list" internalfield="false" datatype="list">Class</property>
+
+</properties>

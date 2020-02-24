@@ -1,0 +1,15 @@
+
+<properties prefix="invoiceprofile" beanname="dataSearcher">
+  <property id="id" index="true" stored="true" editable="true" searchtype="invoiceprofile" internalfield="true">Id</property>
+  <property id="name" index="true" stored="true" editable="true" searchtype="invoiceprofile">Name</property>
+  
+  <property id="orderid" index="true" stored="true" editable="true" searchtype="invoiceprofile">Order Id</property>
+  <property id="querytype" index="true" stored="true" editable="true" searchtype="invoiceprofile">Query Type</property><!-- invoice or recurringprofile -->
+  <property id="invoicefrequency" index="true" stored="true" editable="true" searchtype="invoiceprofile">Invoice Frequency</property>
+  <property id="invoiceoccurrence" index="true" stored="true" editable="true" searchtype="invoiceprofile">Invoice Occurrences</property>
+  <property id="remoteid" index="true" stored="true" editable="true" searchtype="invoiceprofile">Remote Id</property>
+  <property id="remotestatus" index="true" stored="true" editable="true" searchtype="invoiceprofile">Remote Status</property>
+  <property id="requiresupdate" index="true" stored="true" editable="true" sortable="true" type="boolean" viewtype="boolean" searchtype="invoiceprofile" internalfield="false" datatype="boolean">Requires Update</property>
+  <property id="querycount" index="true" stored="true" editable="true" searchtype="invoiceprofile">Query Count</property>
+  <property id="querystate" index="true" stored="true" editable="true" searchtype="invoiceprofile">Query State</property>
+</properties>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties> 
+  <property id="id" index="true" keyword="true" stored="true" editable="true" searchtype="testplan">ID
+    <name> 
+      <language id="en"><![CDATA[ID]]></language> 
+    </name> 
+  </property>  
+  <property id="name" index="true" keyword="true" stored="true" editable="true" searchtype="testplan" internalfield="false" required="true">Activity Name
+    <name> 
+      <language id="en"><![CDATA[Activity Name]]></language> 
+    </name> 
+  </property>  
+  <property id="description" defaultoperation="freeform" index="true">All Fields
+    <name> 
+      <language id="en"><![CDATA[All Fields]]></language> 
+    </name> 
+  </property>  
+  <property id="descrip" index="true" keyword="true" stored="true" editable="true" viewtype="html" searchtype="testplan">Description
+    <name> 
+      <language id="en"><![CDATA[Description]]></language> 
+    </name> 
+  </property>  
+  <property id="singleattempt" index="true" stored="true" editable="true" sortable="true" searchtype="testplan" datatype="boolean">Single Attempt only?
+    <name> 
+      <language id="en"><![CDATA[Single Attempt only?]]></language> 
+    </name> 
+  </property>  
+  <property id="passmark" index="true" stored="true" editable="true" sortable="true" internalfield="false" note="As decimal, eg 0.8 as 80%.  Default is 0.7." datatype="double">Pass Mark
+    <name> 
+      <language id="en"><![CDATA[Pass Mark]]></language> 
+    </name> 
+  </property>  
+  <property id="timed" index="true" stored="true" editable="true" sortable="true" viewtype="list" searchtype="testplan" internalfield="false" listid="yesno" datatype="boolean">Timed Activity
+    <name> 
+      <language id="en"><![CDATA[Timed Activity]]></language> 
+    </name> 
+  </property>  
+  <property id="time" index="true" keyword="true" stored="true" editable="true" sortable="true" dependson="timed" searchtype="testplan" datatype="number" dependsonvalue="true">Time (Seconds)
+    <name> 
+      <language id="en"><![CDATA[Time (Seconds)]]></language> 
+    </name> 
+  </property>  
+  <property id="sourcepath" searchtype="testplan">SourcePath
+    <name> 
+      <language id="en"><![CDATA[SourcePath]]></language> 
+    </name> 
+  </property>  
+  <property id="test" index="true" stored="true" editable="true" searchtype="testplan">test
+    <name> 
+      <language id="en"><![CDATA[test]]></language> 
+    </name> 
+  </property>  
+  <property id="testtype" index="true" stored="true" editable="true" viewtype="list" searchtype="testplan" internalfield="false" datatype="list">Test Builder Type
+    <name> 
+      <language id="en"><![CDATA[Test Builder Type]]></language> 
+    </name> 
+  </property>  
+  <property id="questioncount" index="true" stored="true" editable="true" searchtype="testplan" internalfield="false">Number of Questions
+    <name> 
+      <language id="en"><![CDATA[Number of Questions]]></language> 
+    </name> 
+  </property>  
+  <property id="qrcode" index="true" stored="true" editable="true" viewtype="asset" searchtype="testplan" internalfield="false" listid="asset" datatype="list">QR Code
+    <name> 
+      <language id="en"><![CDATA[QR Code]]></language> 
+    </name> 
+  </property>  
+  <property id="numberofpages" index="true" stored="true" editable="true" searchtype="testplan">Number of Pages
+    <name> 
+      <language id="en"><![CDATA[Number of Pages]]></language> 
+    </name> 
+  </property>  
+  <property id="testmode" index="true" stored="true" editable="true" searchtype="testplan" internalfield="false" datatype="list">Activity Type
+    <name> 
+      <language id="en"><![CDATA[Activity Type]]></language> 
+    </name> 
+  </property>  
+  <property id="presentation" index="true" stored="true" editable="true" viewtype="asset" searchtype="testplan" internalfield="false" listid="asset" datatype="list">Presentation
+    <name> 
+      <language id="en"><![CDATA[Presentation]]></language> 
+    </name> 
+  </property>  
+  <property id="shortdescription" index="true" stored="true" editable="true" searchtype="testplan">Short Description
+    <name> 
+      <language id="en"><![CDATA[Short Description]]></language> 
+    </name> 
+  </property>  
+  <property id="showelapsedtime" index="true" stored="true" editable="true" sortable="true" searchtype="testplan" internalfield="false" datatype="boolean">Show Elapsed Time
+    <name> 
+      <language id="en"><![CDATA[Show Elapsed Time]]></language> 
+    </name> 
+  </property>  
+  <property id="notifyoncompletion" index="true" stored="true" editable="true" sortable="true" searchtype="testplan" internalfield="false" datatype="boolean">Notify on Completion
+    <name> 
+      <language id="en"><![CDATA[Notify on Completion]]></language> 
+    </name> 
+  </property>  
+  <property id="notificationemail" index="true" stored="true" editable="true" searchtype="testplan" internalfield="false" note="Please note you can use commas to separate additional users.">Notification Email
+    <name> 
+      <language id="en"><![CDATA[Notification Email]]></language> 
+    </name> 
+  </property>  
+  <property id="geo_point" index="true" keyword="true" stored="true" editable="true" sortable="true" viewtype="map" rendertype="map" required="false" internaluse="false" multilanguage="false" datatype="geo_point" autocreatefromexif="false" writenametoexif="false" filter="false">New
+    <name> 
+      <language id="en"><![CDATA[geo_point]]></language> 
+    </name> 
+  </property>  
+  <property id="ian" index="true" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[IAN]]></language> 
+    </name> 
+  </property>  
+  <property id="occupationid" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[occupationid]]></language> 
+    </name> 
+  </property>  
+  <property id="regionid" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[regionid]]></language> 
+    </name> 
+  </property>  
+  <property id="owner" index="true" listid="user" filter="true" deleted="false" editable="true" stored="true" listcatalogid="system" viewtype="user" keyword="true" datatype="list">New
+    <name> 
+      <language id="de"><![CDATA[Owner]]></language>  
+      <language id="en"><![CDATA[Owner]]></language>  
+      <language id="es"><![CDATA[Propietario]]></language>  
+      <language id="fr"><![CDATA[Propriétaire]]></language> 
+    </name> 
+  </property>  
+  <property id="videopresentation" index="true" deleted="false" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[videopresentation]]></language> 
+    </name> 
+  </property>  
+  <property id="tincanid" index="true" deleted="false" editable="true" stored="true" indextype="not_analyzed"> 
+    <name>
+      <language id="en"><![CDATA[videopresentation]]></language>
+    </name>
+  </property> 
+</properties>

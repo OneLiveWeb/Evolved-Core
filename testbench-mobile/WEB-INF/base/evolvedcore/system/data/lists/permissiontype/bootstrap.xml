@@ -1,0 +1,9 @@
+<permissions name="Content Management">
+
+	<permission id="cms" >Content Management</permission>
+				<permission id="profiles" >User Profile Management</permission>
+			
+	
+</permissions>
+
+	

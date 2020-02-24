@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <property id="name"/>
+  <property id="product"/>
+  <property id="audience"/>
+  <property id="courseobjectives"/>
+  <property id="deliverytype"/>
+  <property id="pre-requisites"/>
+  <property id="shortdescription"/>
+</root>

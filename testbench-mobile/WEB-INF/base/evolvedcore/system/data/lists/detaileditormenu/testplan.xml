@@ -1,0 +1,10 @@
+<linktree>
+	<a folder="editor" moduleid="testplan"  id="planeditor"  useajax="false" multiedit="false" name="Plan Editor" />
+
+	<a folder="embed" moduleid="testplan"  id="embed"  useajax="false" multiedit="false" name="Embed and QR codes" />
+
+		<a folder="reports" moduleid="testplan"  id="reports"  useajax="false" multiedit="false" name="Reports" />
+	
+	
+	
+</linktree>

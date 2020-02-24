@@ -1,0 +1,31 @@
+<properties>
+  
+  <property id="generatepassword" editable="true">Should the system auto generate passwords or ask for a password on registration</property>
+  <property id="showtracker" editable="true" type="boolean">Show the issue tracker?</property>
+  <property id="showgroups" editable="true" type="boolean">Show Groups?</property>
+  <property id="from" editable="true">Address the system sends mail from</property>
+  <property id="fromname" editable="true">The name the system sends email from</property>
+  <property id="showassets" editable="true" boolean="true">Show the DAM plugin</property>
+  <property id="showrecentnews" editable="true" boolean="true">Show the recent news plugin</property>
+  <property id="showjobs" editable="true" boolean="true">Show the issue tracker</property>
+  <property id="auto_translate" editable="true" type="boolean" boolean="true" helptext="Enables auto translation for the system.  Not recommended in production as it is very slow">Enable Auto Translation(Very slow)</property>
+  <property id="showpeersearch" editable="true" boolean="true">Show the Members area</property>
+  <property id="emailprefix" editable="true">Email Prefix:</property>
+  <property id="defaultfromemail" editable="true">The "From" email that the system will use to send messages</property>
+  <property id="showevents" editable="true" boolean="true">false</property>
+  <property id="title" editable="true" helptext="This will display in the browser title bar"/>
+  <property id="showcalendar" />
+  
+  <property id="showmainblog" editable="true"  boolean="true">Show Main Blog</property>
+  <property id="useadvancedsearch" editable="true">Show the advanced search dialog for members/groups</property>
+  <property id="allowguestregistration" editable="true" boolean="true">Should guests be allowed to register as new users?</property>
+  <property id="sitename" editable="true">Your site name</property>
+  <property id="showhover" editable="true" boolean="true">Enable Hovering over photos</property>
+  <property id="projecttab" editable="true" boolean="true">Show the projects tab</property>
+  <property id="shownotifications" editable="true" boolean="true">Show the Notification Manager</property>
+  <property id="showlibrarybrowser" editable="true" boolean="true">Show the Library Browser</property>
+  <property id="showgroupsummary" editable="true" boolean="true">Show the group summary</property>
+  <property id="text.headertext"/>
+
+
+</properties>

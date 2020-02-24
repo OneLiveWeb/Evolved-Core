@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+ 
+   
+ 
+   
+ 	
+
+   <property id="creativefields" type="list" viewtype="list">Creative Fields</property>
+ 
+  <property id="mediatype" type="list">Type of Media</property>
+<property id="toolsused" type="list" viewtype="multiselect">Tools used on this project</property>
+  
+ 
+  <property id="jobfield"/>
+
+
+
+</properties>

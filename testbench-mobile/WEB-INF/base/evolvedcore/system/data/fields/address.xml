@@ -1,0 +1,13 @@
+
+<properties prefix="account" class="address" beanname="dataSearcher" lazy-init="true">
+  <property id="id" index="true" stored="true" editable="true" internalfield="true" searchtype="account">Id</property>
+  <property id="name" index="true" stored="true" editable="true" searchtype="account">Name</property>
+  <property id="sourcepath" searchtype="address">SourcePath</property>
+  <property id="business" index="true" stored="true" editable="true" searchtype="account">Name</property>
+  <property id="address1" index="true" stored="true" editable="true" searchtype="account">Name</property>
+  <property id="state" index="true" stored="true" editable="true" type="list" datatype="list" searchtype="account">Name</property>
+  <property id="zip" index="true" stored="true" editable="true" searchtype="account">Name</property>
+  <property id="userprofile" index="true" stored="true" editable="true" type="list" listid="user" datatype="list" searchtype="address">Name</property>
+  <property id="country" index="true" stored="true" editable="true" type="list" viewtype="list" listchild="state" datatype="list" prefix="userprofile" searchtype="address" foreignkeyid="region">Country</property>
+    <property id="city" index="true" stored="true" keyword="true" editable="true" >City</property>
+</properties>

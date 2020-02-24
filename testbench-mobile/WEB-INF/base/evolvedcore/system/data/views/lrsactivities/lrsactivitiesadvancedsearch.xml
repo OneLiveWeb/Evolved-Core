@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+  <property id="date"/>  
+  <property id="userid"/>  
+  <property id="actorname"/>  
+  <property id="verbid"/>  
+  <property id="activitydefinition"/>  
+  <property id="learningGroup"/>  
+  <property id="course"/>  
+  <property id="testplan"/>  
+  <property id="result"/>
+</root>

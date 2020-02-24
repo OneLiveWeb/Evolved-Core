@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<docsections> 
+  <docsection name="Assets" id="moduleasset">Assets</docsection>  
+  <docsection name="Asset Media" id="assetmedia">Asset Media</docsection>  
+  <docsection id="moduledivision" name="Divisions"/>  
+  <docsection id="modulelibrary" name="Projects"/>  
+  <docsection id="modulelibrarycollection" name="Collections">Collections</docsection>  
+  <docsection id="moduleorder" name="Orders"/>  
+  <docsection id="modules" name="Data Modules">Data Modules</docsection>  
+  <docsection name="Data Lists" id="1418330376263">Data Lists</docsection>  
+  <docsection id="datamanager" name="Data Manager">Data Manager</docsection>  
+  <docsection id="events" name="Events">Events</docsection>  
+  <docsection name="User" id="1420730727080">Users</docsection>  
+  <docsection name="System" id="1418334117799">System</docsection>  
+  <docsection id="moduletestmodule" name="Test Module"/>  
+  <docsection id="modulegroups" name="Groups"/>  
+  <docsection id="modulestoreOrder" name="Orders"/>  
+  <docsection id="moduleproduct" name="Products"/>  
+  <docsection id="moduleprepaid" name="Prepaid Codes"/>  
+  <docsection id="moduleclasstemplate" name="Class Template"/>  
+  <docsection id="modulelearningGroup" name="Classes"/>  
+  <docsection id="modulecourse" name="Modules"/>  
+  <docsection id="moduletestplan" name="Activities"/>  
+  <docsection id="modulequestion" name="Question Bank"/>  
+  <docsection id="moduleuserprofile" name="User Profile"/>  
+  <docsection id="modulefaq" name="FAQ"/>  
+  <docsection id="moduletest" name="Completed Activities"/>  
+  <docsection id="modulepermissions" name="permissions"/>  
+  <docsection id="moduleattendance"> 
+    <name> 
+      <language id="en"><![CDATA[Attendance]]></language> 
+    </name> 
+  </docsection>  
+  <docsection id="moduleuser"> 
+    <name> 
+      <language id="en"><![CDATA[Users]]></language> 
+    </name> 
+  </docsection>  
+  <docsection id="moduletides"> 
+    <name> 
+      <language id="en"><![CDATA[Tides]]></language> 
+    </name> 
+  </docsection>  
+  <docsection id="moduletidelocation">
+    <name>
+      <language id="en"><![CDATA[Tide Location]]></language>
+    </name>
+  </docsection>
+</docsections>

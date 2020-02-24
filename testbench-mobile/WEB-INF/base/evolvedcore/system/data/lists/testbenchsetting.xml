@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testbenchsettings> 
+  <testbenchsetting id="default" notifyonsubmit="false" showbanner="false" checkoutflow="single" productpagetype="elearning" sitename="TestBench Learning Management System" browsertitle="TestBench Learning Management System" productresulttype="stacked" hidetoolbar="false" homepage="classlist">
+    <name><![CDATA[Default Bench Settings]]></name>
+  </testbenchsetting>  
+  <testbenchsetting id="elearning" product-frontend-resulttype="stacked" name="E-Learning" checkoutflow="single" activemodules="prepaid | asset | test | faq | testplan | product | course | storeOrder | departmentasset | report | question | classtemplate | userprofile | learningGroup" productpagetype="elearning" homepage="classlist" sitename="Festi E-learning" productresulttype="stacked">E-Learning</testbenchsetting>  
+  <testbenchsetting id="ecommerce" name="Ecommerce Setup" activemodules="product | asset | storeOrder | faq | report | userprofile" productpagetype="simple-learning" sitename="Emond Montgomery" homepage="classlist">Ecommerce Setup</testbenchsetting>  
+  <testbenchsetting id="portfolio" name="Default Bench Settings" checkoutflow="single" activemodules="product | asset | storeOrder | faq | report | userprofile" productpagetype="elearning">Default Bench Settings</testbenchsetting>  
+  <testbenchsetting id="mapper" name="Mapper Setup" assetresulttype="map" activemodules="product | asset | storeOrder | faq | report | userprofile" productpagetype="tabs-right">Mapper Setup</testbenchsetting>  
+  <testbenchsetting id="sportforge" name="SportForge" assetresulttype="map" activemodules="product | asset | storeOrder | faq | report | userprofile" productpagetype="tabs-right">Mapper Setup</testbenchsetting>  
+  <testbenchsetting id="survey" notifyonsubmit="true" name="Survey/Data Collection Mode" productresulttype="stacked" checkoutflow="single" activemodules="test | faq | userprofile | testplan | learningGroup" productpagetype="simple">Survey/Data Collection Mode</testbenchsetting>  
+  <testbenchsetting id="distributorportal" name="Distributor Portal" productresulttype="gallery" checkoutflow="multi" activemodules="product | faq" productpagetype="distributor">Distributor Portal</testbenchsetting>  
+  <testbenchsetting id="appstore" name="App Store" productresulttype="gallery" checkoutflow="multi" activemodules="product | faq" productpagetype="distributor">Distributor Portal</testbenchsetting>  
+  <testbenchsetting id="testsales" name="Exams Only" productresulttype="stacked" checkoutflow="single" productpagetype="simple" homepage="tests">Exams Only</testbenchsetting>  
+  <testbenchsetting id="explorer" name="Explorer" checkoutflow="single" activemodules="product | asset | storeOrder | faq | report | userprofile" productpagetype="elearning">Default Bench Settings</testbenchsetting> 
+
+
+
+
+
+</testbenchsettings>

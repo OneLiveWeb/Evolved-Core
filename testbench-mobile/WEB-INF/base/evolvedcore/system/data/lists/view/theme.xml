@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+    <data id="themetheme_details" name="Theme Details" moduleid="theme" systemdefined="false" ordering="1379378400808"></data>
+	<property id="header" moduleid="theme" systemdefined="false" byassettype="false">Header</property>
+	<property id="nav" moduleid="theme" systemdefined="false" byassettype="false">Navigation Bar</property>
+	<property id="main" moduleid="theme" systemdefined="false" byassettype="false">Main Page</property>
+	<property id="general" moduleid="theme" systemdefined="false" byassettype="false">Global Styles</property>
+	<property id="fonts" moduleid="theme" systemdefined="false" byassettype="false">Global Fonts</property>
+<property id="themeadvancedsearch" moduleid="theme" systemdefined="true" byassettype="false">Advanced Search</property>
+  <property id="themeresultstable" moduleid="theme" systemdefined="true" byassettype="false">Results Table</property>
+  <property id="themebatchedit" moduleid="theme" systemdefined="true" byassettype="false">Batch Edit</property>
+  <property id="themepopupdetail" moduleid="theme" systemdefined="true" byassettype="false">Popup Details</property>
+  <property id="themeheaderdetail" moduleid="theme" systemdefined="true" byassettype="false">Header Details</property>
+  	 
+</properties>

@@ -1,0 +1,11 @@
+
+<properties>
+  <property id="id">ID</property>
+  <property id="name" index="true" stored="true" editable="true" required="true">Test Name</property>
+  <property id="time" type="number" editable="true" stored="true" index="true" keyword="true" >Time (Seconds)</property>
+  <property id="description" required="true" html="true" editable="true" stored="true" index="true" keyword="true" >Course Description</property>
+  
+ 
+  
+  
+</properties>

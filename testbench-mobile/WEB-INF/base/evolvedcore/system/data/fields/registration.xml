@@ -1,0 +1,6 @@
+
+<properties prefix="registration" beanname="dataSearcher">
+  <property id="id" index="true" stored="true" editable="true" searchtype="registration" internalfield="true">Id</property>
+  <property id="name" index="true" stored="true" editable="true" searchtype="registration">Name</property>
+  <property id="sourcepath">SourcePath</property>
+</properties>

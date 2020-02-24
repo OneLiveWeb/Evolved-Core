@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+  <property id="name"/>
+  <property id="home" icon="home" type="point" viewtype="map">location</property>
+  <property id="address1"/>
+  <property id="salesrep"/>
+  <property id="mlsnum"/>
+  <property id="postalcode" editable="true">Postal Code:</property>
+  <property id="city" editable="true">City:</property>
+  <property id="province" type="list" editable="true">Province:</property>
+  <property id="country" type="list" editable="true">Country:</property>
+  <property id="price" editable="true">Listing Price:</property>
+  <property id="bathrooms" editable="true">Number of Bathrooms:</property>
+  <property id="bathroomnotes"/>
+  <property id="bedrooms" editable="true">Number of Bedrooms:</property>
+  <property id="bedroomnotes"/>
+  <property id="propertytax" required="false" editable="true">Property Taxes:</property>
+  <property id="yearbuild" required="false" editable="true">Built In:</property>
+  <property id="storeys" required="false" editable="true">Number of Storeys:</property>
+  <property id="featuresummary" editable="true">Feature Summary:</property>
+  <property id="floorspace" editable="true"/>
+  <property id="tagline" editable="true">Tag Line:</property>
+  <property id="longdescription" editable="true" type="html">Long Description for Detail Page:</property>
+  <property id="type"/>
+  <property id="other_type"/>
+  <property id="services"/>
+  <property id="property_size"/>
+  <property id="exterior"/>
+  <property id="style"/>
+  <property id="driveway"/>
+  <property id="other_driveway"/>
+  <property id="waterfront_features"/>
+  <property id="land_features"/>
+  <property id="foundation"/>
+  <property id="basement"/>
+  <property id="other_basement"/>
+  <property id="garage_type"/>
+  <property id="water"/>
+  <property id="sewer"/>
+  <property id="flooring"/>
+  <property id="hvac"/>
+  <property id="fuel"/>
+  <property id="purchase_type"/>
+  <property id="features"/>
+  <property id="roof"/>
+  <property id="rental_equipment"/>
+  <property id="virtualtour"/>
+  <property id="forrent"/>
+  <property id="flag"/>
+  <property id="totalsquarefootage"/>
+  <property id="archived"/>
+</properties>

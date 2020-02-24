@@ -1,0 +1,9 @@
+<linktree>
+	<a folder="pricing" moduleid="product"  id="productpricing"  useajax="false" multiedit="false" name="Pricing" />
+
+	<a folder="items" moduleid="product"  id="productitems"  useajax="false" multiedit="false" name="Inventory Items" />
+
+	
+	
+	
+</linktree>

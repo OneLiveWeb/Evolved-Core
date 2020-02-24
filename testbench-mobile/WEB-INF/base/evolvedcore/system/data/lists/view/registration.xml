@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+  <property id="registrationadvancedsearch" moduleid="registration" systemdefined="true" byassettype="false">Advanced Search</property>
+  <property id="registrationresultstable" moduleid="registration" systemdefined="true" byassettype="false">Results Table</property>
+  <property id="registrationbatchedit" moduleid="registration" systemdefined="true" byassettype="false">Batch Edit</property>
+  <property id="registrationpopupdetail" moduleid="registration" systemdefined="true" byassettype="false">Popup Details</property>
+  <property id="registrationheaderdetail" moduleid="registration" systemdefined="true" byassettype="false">Header Details</property>
+</properties>

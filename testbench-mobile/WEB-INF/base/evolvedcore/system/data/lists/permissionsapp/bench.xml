@@ -1,0 +1,11 @@
+<permissions name="Application Permissions">
+		<permission id="admin" permissiontype="bench" name="Act as System Administator" description="Enables removal of an asset, and the option to remove the original." ordering="200"/>
+		<permission id="managelms" permissiontype="bench" name="Manage E-Learning Components" description="Allows user to work with " ordering="200"/>
+		<permission id="manageecommerce" permissiontype="bench" name="Manage E-commerce  Components" description="Allows user to work with " ordering="200"/>
+		<permission id="setupstripe" permissiontype="bench" name="Setup Stripe" description="Enables users to view and setup the connection to Stripe for e-commerce" ordering="200"/>
+		<permission id="ignorerules" permissiontype="bench" name="Ignore Start and Pass Rules" description="Allow user to view content and tests even if they haven't met start/pass criteria." ordering="200"/>
+		<permission id="managerrefunds" permissiontype="bench" name="Allow user to make refunds" description="Allow users to make refunds" ordering="200"/>
+	
+</permissions>
+
+	

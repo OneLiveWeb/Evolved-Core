@@ -1,0 +1,10 @@
+
+<properties index="true" stored="true" editable="true">
+  <property id="college"  index="true" stored="true" editable="true"  type="list">Organization</property>
+  <property id="product" index="true" stored="true" editable="true" type="list" searchtype="prepaid" internalfield="false" datatype="list">Product</property>
+  <property id="available"  editable="true"  >Available</property>
+  <property id="startdate" dateformat="dd/MM/yyyy" viewtype="date" editable="true"  >Start</property>
+  <property id="expiry" viewtype="date" editable="true"  >Expiry</property>
+    <property id="batchid"/>
+  
+</properties>

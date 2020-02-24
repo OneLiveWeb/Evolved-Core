@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+  <property id="userid"/>
+  <property id="verb"/>
+  <property id="activitydefinition"/>
+  <property id="date"/>
+  <property id="learningGroup"/>
+  <property id="course"/>
+  <property id="object"/>
+  <property id="activitydescription"/>
+</root>

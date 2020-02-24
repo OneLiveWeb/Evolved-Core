@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<productpagetypes>
+  <productpagetype id="simple" name="Simple ">Simple</productpagetype>
+  <productpagetype id="elearning" name="E-Learning Course">E-Learning Course</productpagetype>
+  <productpagetype id="tabs-right" name="Product images on left, tabs on right for content">Tabs Right</productpagetype>
+  <productpagetype id="tabs-left" name="Product images on right, tabs on left for content">Tabs Left</productpagetype>
+  <productpagetype id="distributor" name="Distributor">Distributor</productpagetype>
+  <productpagetype id="simple-learning" name="Simple E-learning Checkout - Online Only">Simple E-learning Checkout - Online Only</productpagetype>
+</productpagetypes>

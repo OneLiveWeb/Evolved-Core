@@ -1,0 +1,6 @@
+
+<properties>
+  <property id="name" index="true" stored="true" editable="true" required="true">Module Name</property>
+  
+  
+</properties>

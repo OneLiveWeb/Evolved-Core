@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+  <property id="orderadvancedsearch" moduleid="order" systemdefined="true" byassettype="false">Advanced Search</property>
+  <property id="orderresultstable" moduleid="order" systemdefined="true" byassettype="false">Results Table</property>
+  <property id="orderbatchedit" moduleid="order" systemdefined="true" byassettype="false">Batch Edit</property>
+  <property id="orderpopupdetail" moduleid="order" systemdefined="true" byassettype="false">Popup Details</property>
+  <property id="orderheaderdetail" moduleid="order" systemdefined="true" byassettype="false">Header Details</property>
+</properties>

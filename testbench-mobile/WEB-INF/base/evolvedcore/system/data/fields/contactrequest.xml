@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties prefix="contactrequest" beanname="dataSearcher"> 
+  <property id="id" index="true" stored="true" editable="true" searchtype="contactrequest" internalfield="true">Id</property>  
+  <property id="name" index="true" stored="true" editable="true" searchtype="contactrequest">Name</property>  
+  <property id="sourcepath" searchtype="contactrequest">SourcePath</property>  
+  <property id="subject" index="true" stored="true" editable="true" searchtype="contactrequest">Subject</property>  
+  <property id="firstname" index="true" stored="true" editable="true" searchtype="contactrequest">First Name</property>  
+  <property id="lastname" index="true" stored="true" editable="true" searchtype="contactrequest">Last Name</property>  
+  <property id="email" index="true" stored="true" editable="true" searchtype="contactrequest" internalfield="false" keyword="false" filter="false" sortable="false" indextype="not_analyzed" required="false" internaluse="false" multilanguage="false" autocreatefromexif="false" writenametoexif="false">Email
+    <name>
+      <language id="en"><![CDATA[Email]]></language>
+    </name>
+  </property>  
+  <property id="phone" index="true" stored="true" editable="true" searchtype="contactrequest" internalfield="false">Phone</property>  
+  <property id="date" index="true" stored="true" editable="true" sortable="true" type="date" searchtype="contactrequest" internalfield="false" datatype="date">date</property>  
+  <property id="requeststatus" index="true" stored="true" editable="true" type="list" viewtype="list" searchtype="contactrequest" internalfield="false" datatype="list">Request Status</property>  
+  <property id="comment" index="true" stored="true" editable="true" searchtype="contactrequest">Comment</property> 
+</properties>

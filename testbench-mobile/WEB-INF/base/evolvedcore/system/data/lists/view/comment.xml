@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+  <property id="commentadvancedsearch" moduleid="comment" systemdefined="true" byassettype="false">Advanced Search</property>
+  <property id="commentresultstable" moduleid="comment" systemdefined="true" byassettype="false">Results Table</property>
+  <property id="commentbatchedit" moduleid="comment" systemdefined="true" byassettype="false">Batch Edit</property>
+  <property id="commentpopupdetail" moduleid="comment" systemdefined="true" byassettype="false">Popup Details</property>
+  <property id="commentheaderdetail" moduleid="comment" systemdefined="true" byassettype="false">Header Details</property>
+    <data id="commentcomment_properties" name="Comment Properties" moduleid="comment" systemdefined="false" ordering="1386086790120"></data>
+  
+</properties>

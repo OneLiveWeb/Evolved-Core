@@ -1,0 +1,10 @@
+<properties>
+  
+  <property id="starttime"  />
+  <property id="descrip"  />
+  
+  <property id="plan" index="true" stored="true" editable="true" required="true">Survey Name</property>
+  <property id="attempted" index="false" stored="false" editable="true" required="true">Questions Answered</property>
+  <property id="total" index="false" stored="false" editable="true" required="true">Total Questions</property>
+ 
+</properties>

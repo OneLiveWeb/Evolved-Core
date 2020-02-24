@@ -1,0 +1,8 @@
+<linktree>
+	<a folder="orderdetails" moduleid="storeOrder"  id="storeorderdetails"  useajax="false" multiedit="false" name="Additional Details" />
+	<a folder="shippingdetails" moduleid="storeOrder"  id="ordershippingdetails"  useajax="false" multiedit="false" name="Shipping Status" />
+	<a folder="refund" moduleid="storeOrder"  id="orderrefunds"  useajax="false" multiedit="false" name="Refunds" permission="superadmin" />
+	<!-- 
+	<a folder="librarycollaborators" moduleid="library"  id="libraryassets"  useajax="false" multiedit="false" name="Permissions" />
+ -->
+</linktree>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+  <property id="id"/>  
+  <property id="name"/>  
+  <property id="testplan"/>  
+  <property id="descrip"/>  
+  <property id="descripfr"/>  
+  <property id="electronicshipping"/>  
+  <property id="image"/>  
+  <property id="ecommercedisabled"/>  
+  <property id="customprice"/>
+</root>

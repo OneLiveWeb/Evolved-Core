@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <property id="firstName"/>
+  <property id="lastName"/>
+  <property id="profilepicture"/>
+  <property id="address1"/>
+  <property id="address2"/>
+  <property id="city"/>
+  <property id="country"/>
+  <property id="screenname"/>
+  <property id="dob"/>
+  <property id="organization"/>
+  <property id="email"/>
+  <property id="website"/>
+</root>

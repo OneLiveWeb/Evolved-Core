@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<property id="navcolor" viewtype="colors">Navigation Colour</property>
+	<property id="navbuttoncolor" viewtype="colors">Navigation Button Colour</property>
+	<property id="navbuttonhovercolor" viewtype="colors">Navigation Button Hover Colour</property>
+	<property id="navfont" viewtype="font2" >Navigation Button Font</property>
+	<property id="navhoverfont" viewtype="font2">Navigation Button Hover Font</property>
+</properties>

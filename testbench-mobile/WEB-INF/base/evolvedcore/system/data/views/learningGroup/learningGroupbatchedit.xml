@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <property id="classstatus"/>
+  <property id="classtemplate"/>
+  <property id="starttime"/>
+  <property id="endtime"/>
+  <property id="deliverytype"/>
+  <property id="cap"/>
+</root>

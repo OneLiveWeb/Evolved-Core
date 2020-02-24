@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<partnershipfeetypes> 
+  <partnershipfeetype id="flatrate" name="Flat Rate"/>  
+  <partnershipfeetype id="percentage" name="Percentage"/>
+</partnershipfeetypes>

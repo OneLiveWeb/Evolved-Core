@@ -1,0 +1,9 @@
+<permissions name="">
+
+		<permission id="editallprofiles" permissiontype="bench" name="Edit All profiles" description="Super User access to user profiles" ordering="200"/>
+		<permission id="adminprofiles" permissiontype="bench" name="Administration of Profiles" description="Super User access to admin of user profiles" ordering="200"/>
+		
+	
+</permissions>
+
+	

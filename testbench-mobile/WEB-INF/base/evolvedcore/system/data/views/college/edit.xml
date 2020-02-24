@@ -1,0 +1,7 @@
+<properties>
+ 	<property id="id" required="true" editable="true" stored="true" index="true" keyword="true" >ID</property>
+    <property id="name" required="true"  editable="true" stored="true" index="true" keyword="true" >Class Name</property>
+  	<property id="description" required="true" html="true" editable="true" stored="true" index="true" keyword="true" >Class Description</property>
+
+  
+</properties>

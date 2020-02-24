@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paymentmethods>
+  <paymentmethod id="creditcard" name="Credit Card">Credit Card</paymentmethod>
+  <paymentmethod id="prepaidcode" name="Prepaid Code">Prepaid Code</paymentmethod>
+</paymentmethods>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<reports>
+<!-- 
+  	<report id="salesbysku" reportname="salesbysku.rptdesign" reportdescription="Overall sales information by product SKU" outputname="salesbysku">Sales By Sku</report>
+	<report id="salesbycategory" reportname="salesbycategory.rptdesign" reportdescription="Overall sales information by product category" outputname="salesbycategory">Sales By Category</report>
+	<report id="manufacturers" searchtype="product" view="productreports" reportname="manufacturers.rptdesign" reportdescription="Overall Sales by Manufacturer" outputname="manufacturers">Manufacturers</report>
+	<report id="revenue" reportname="revenue.rptdesign" reportdescription="Revenue Report" outputname="revenue">Revenue</report>
+	<report id="finances" reportname="finances.rptdesign" reportdescription="Finance Report" outputname="finances">Finances</report>
+-->
+<!-- 
+ <report id="question" reportname="questions.rptdesign" reportdescription="This is a generic report">Question Anaylsis</report>
+  <report id="1" reportname="new_report.rptdesign" reportdescription="This is a generic report" outputname="generic">Generic Report</report>
+  
+ -->
+</reports>

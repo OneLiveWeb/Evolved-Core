@@ -1,0 +1,11 @@
+
+<properties index="true" stored="true" editable="true">
+  <property id="id">ID</property>
+  
+  <property id="available" viewtype="boolean" editable="true" required="true" >Available</property>
+  <property id="startdate" dateformat="dd/MM/yyyy" viewtype="date" editable="true" required="true" >Start</property>
+  <property id="expiry" dateformat="dd/MM/yyyy" viewtype="date" editable="true" required="true" >Expiry</property>
+  <property id="class" defaultsort="college" />
+  <property id="college"  />
+
+</properties>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+  <property id="faqadvancedsearch" moduleid="faq" systemdefined="true" byassettype="false">Advanced Search</property>
+  <property id="faqresultstable" moduleid="faq" systemdefined="true" byassettype="false">Results Table</property>
+  <property id="faqbatchedit" moduleid="faq" systemdefined="true" byassettype="false">Batch Edit</property>
+  <property id="faqpopupdetail" moduleid="faq" systemdefined="true" byassettype="false">Popup Details</property>
+  <property id="faqheaderdetail" moduleid="faq" systemdefined="true" byassettype="false">Header Details</property>
+  <property id="addnew" moduleid="faq" systemdefined="true" byassettype="false">Header Details</property>
+
+</properties>

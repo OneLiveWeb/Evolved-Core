@@ -1,0 +1,50 @@
+<properties>
+	
+	<property id="logo" index="true" stored="true"  type="asset" viewtype="upload" editable="true" sourcepath="users/${userid}/logo">Logo</property>
+	
+	<property id="showphoto" index="true" stored="true" type="boolean" viewtype="boolean" editable="true" >Show Profile Image on Home Page?</property>
+	
+	<property id="profileimage" index="true" stored="true"  type="asset" viewtype="upload" editable="true" sourcepath="users/${userid}/profileimage">Profile Image</property>
+	
+	<!-- Template related stuff -->
+	
+
+
+	<!-- Bio Stuff -->
+	
+	<property id="academic" index="true" stored="true"  editable="true">Academic Background</property>
+	<property id="bio" index="true" stored="true"  editable="true">Bio</property>
+
+		<property id="occupation" index="true" stored="true"  editable="true">Occupation</property>
+	
+	
+	<!-- Contact Stuff -->
+	<property id="contactdisplayname" index="true" stored="true"  editable="true">Contact Display Name</property>
+	<property id="contactlocation" index="true" stored="true"  editable="true">Contact Location</property>
+	
+	<property id="contactemail" index="true" stored="true"  editable="true">Contact Email</property>
+	<property id="contactphone" index="true" stored="true"  editable="true">Contact Phone</property>
+
+
+	
+	<!-- header -->
+	
+	<property id="headercolor" index="true" stored="true"  editable="true" viewtype="color">Header Colour</property>
+	<property id="headerfontcolor" index="true" stored="true"  editable="true" viewtype="color">Header Font Colour</property>
+	<property id="headerfonthover" index="true" stored="true"  editable="true" viewtype="color">Header Hovor Colour</property>
+	
+	<property id="navbackground" index="true" stored="true"  editable="true" viewtype="color">Nav Background Colour</property>
+	
+	
+	<property id="title" index="true" stored="true" editable="true">Title</property>
+	<property id="subheading" index="true" stored="true"  editable="true">Site Subheading</property>
+	
+	<property id="footercolor1" index="true" stored="true"  editable="true" viewtype="color">Footer  Color 1</property>
+
+	<property id="projectresulttypes" index="true" stored="true"  editable="true" viewtype="list" type="list">Projects Page Style</property>
+
+	<property id="backgroundtile" index="true" stored="true"  editable="true" viewtype="list" type="list">Background Tile</property>
+	
+	<property id="headerstyle" index="true" stored="true"  editable="true" viewtype="list" type="list">Header Style</property>
+	
+</properties>

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+  <data id="modulestoreOrdercreate" name="Create a new Orders" uploadfile="false" namesorted="Create a new Orders" httpmethod="POST" docsection="modulestoreOrder" url="/${mediadbappid}/services/module/storeOrder/create"> 
+    <samplerequest><![CDATA[{      
+     "name": "JSON Orders Test"
+     }]]></samplerequest> 
+  </data>  
+  <data id="modulestoreOrdersearch" name="Search for Orders" uploadfile="false" namesorted="Search for Orders" httpmethod="POST" docsection="modulestoreOrder" url="/${mediadbappid}/services/module/storeOrder/search"> 
+    <samplerequest><![CDATA[
+    	{
+    	    "page": "1", 
+    	    "hitsperpage":"20",
+            "query": 
+            {
+            	"terms":[{
+	            	"field": "id",
+					"operator": "matches",
+					"value": "*"
+				}]
+	         }
+	        } 
+	      ]]></samplerequest> 
+  </data>  
+  <data id="modulestoreOrderretrieve" name="Load Data " uploadfile="false" namesorted="Load Data " httpmethod="GET" docsection="modulestoreOrder" url="/${mediadbappid}/services/module/storeOrder/data/101"/>  
+  <data id="modulestoreOrderupdate" name="Update Data" uploadfile="false" namesorted="Update Data" httpmethod="PUT" docsection="modulestoreOrder" url="/${mediadbappid}/services/module/storeOrder/data/101"> 
+    <samplerequest><![CDATA[{  "name": "JSON NAME CHANGE"
+   }]]></samplerequest> 
+  </data>  
+  <data id="modulestoreOrderdelete" name="Delete Data" uploadfile="false" namesorted="Delete Data" httpmethod="DELETE" docsection="modulestoreOrder" url="/${mediadbappid}/services/module/storeOrder/data/101"/>  
+  <data id="moduleproductcreate" name="Create a new Products" description="Creates a new record with or without an ID." httpmethod="POST" docsection="moduleproduct" url="/${mediadbappid}/services/module/product/create"> 
+    <samplerequest><![CDATA[{      
+     "name": "JSON Products Test"
+     }]]></samplerequest> 
+  </data>  
+  <data id="moduleproductsearch" name="Search for Products" httpmethod="POST" docsection="moduleproduct" url="/${mediadbappid}/services/module/product/search"> 
+    <samplerequest><![CDATA[
+    	{
+    	    "page": "1", 
+    	    "hitsperpage":"20",
+            "query": 
+            {
+            	"terms":[{
+	            	"field": "id",
+					"operator": "matches",
+					"value": "*"
+				}]
+	         }
+	        } 
+	      ]]></samplerequest> 
+  </data>  
+  <data id="moduleproductretrieve" name="Load Data " httpmethod="GET" docsection="moduleproduct" url="/${mediadbappid}/services/module/product/data/101"/>  
+  <data id="moduleproductupdate" name="Update Data" description="Update data with key/values in request" httpmethod="PUT" docsection="moduleproduct" url="/${mediadbappid}/services/module/product/data/101"> 
+    <samplerequest><![CDATA[{  "name": "JSON NAME CHANGE"
+   }]]></samplerequest> 
+  </data>  
+  <data id="moduleproductdelete" name="Delete Data" description="Delete Data" httpmethod="DELETE" docsection="moduleproduct" url="/${mediadbappid}/services/module/product/data/101"/>  
+  <data id="moduleprepaidcreate" name="Create a new Prepaid Codes" uploadfile="false" namesorted="Create a new Prepaid Codes" httpmethod="POST" docsection="moduleprepaid" url="/${mediadbappid}/services/module/prepaid/create"> 
+    <samplerequest><![CDATA[{      
+     "name": "JSON Prepaid Codes Test"
+     }]]></samplerequest> 
+  </data>  
+  <data id="moduleprepaidsearch" name="Search for Prepaid Codes" uploadfile="false" namesorted="Search for Prepaid Codes" httpmethod="POST" docsection="moduleprepaid" url="/${mediadbappid}/services/module/prepaid/search"> 
+    <samplerequest><![CDATA[
+    	{
+    	    "page": "1", 
+    	    "hitsperpage":"20",
+            "query": 
+            {
+            	"terms":[{
+	            	"field": "id",
+					"operator": "matches",
+					"value": "*"
+				}]
+	         }
+	        } 
+	      ]]></samplerequest> 
+  </data>  
+  <data id="moduleprepaidretrieve" name="Load Data " uploadfile="false" namesorted="Load Data " httpmethod="GET" docsection="moduleprepaid" url="/${mediadbappid}/services/module/prepaid/data/101"/>  
+  <data id="moduleprepaidupdate" name="Update Data" uploadfile="false" namesorted="Update Data" httpmethod="PUT" docsection="moduleprepaid" url="/${mediadbappid}/services/module/prepaid/data/101"> 
+    <samplerequest><![CDATA[{  "name": "JSON NAME CHANGE"
+   }]]></samplerequest> 
+  </data>  
+  <data id="moduleprepaiddelete" name="Delete Data" uploadfile="false" namesorted="Delete Data" httpmethod="DELETE" docsection="moduleprepaid" url="/${mediadbappid}/services/module/prepaid/data/101"/>  
+  <data id="moduleclasstemplatecreate" name="Create a new Class Template" description="Creates a new record with or without an ID." httpmethod="POST" docsection="moduleclasstemplate" url="/${mediadbappid}/services/module/classtemplate/create"> 
+    <samplerequest><![CDATA[{      
+     "name": "JSON Class Template Test"
+     }]]></samplerequest> 
+  </data>  
+  <data id="moduleclasstemplatesearch" name="Search for Class Template" httpmethod="POST" docsection="moduleclasstemplate" url="/${mediadbappid}/services/module/classtemplate/search"> 
+    <samplerequest><![CDATA[
+    	{
+    	    "page": "1", 
+    	    "hitsperpage":"20",
+            "query": 
+            {
+            	"terms":[{
+	            	"field": "id",
+					"operator": "matches",
+					"value": "*"
+				}]
+	         }
+	        } 
+	      ]]></samplerequest> 
+  </data>  
+  <data id="moduleclasstemplateretrieve" name="Load Data " httpmethod="GET" docsection="moduleclasstemplate" url="/${mediadbappid}/services/module/classtemplate/data/101"/>  
+  <data id="moduleclasstemplateupdate" name="Update Data" description="Update data with key/values in request" httpmethod="PUT" docsection="moduleclasstemplate" url="/${mediadbappid}/services/module/classtemplate/data/101"> 
+    <samplerequest><![CDATA[{  "name": "JSON NAME CHANGE"
+   }]]></samplerequest> 
+  </data>  
+  <data id="moduleclasstemplatedelete" name="Delete Data" description="Delete Data" httpmethod="DELETE" docsection="moduleclasstemplate" url="/${mediadbappid}/services/module/classtemplate/data/101"/>  
+  <data id="modulelearningGroupcreate" name="Create a new Classes" uploadfile="false" namesorted="Create a new Classes" httpmethod="POST" docsection="modulelearningGroup" url="/${mediadbappid}/services/module/learningGroup/create"> 
+    <samplerequest><![CDATA[{      
+     "name": "JSON Classes Test"
+     }]]></samplerequest> 
+  </data>  
+  <data id="modulelearningGroupsearch" name="Search for Classes" uploadfile="false" namesorted="Search for Classes" httpmethod="POST" docsection="modulelearningGroup" url="/${mediadbappid}/services/module/learningGroup/search"> 
+    <samplerequest><![CDATA[
+    	{
+    	    "page": "1", 
+    	    "hitsperpage":"20",
+            "query": 
+            {
+            	"terms":[{
+	            	"field": "id",
+					"operator": "matches",
+					"value": "*"
+				}]
+	         }
+	        } 
+	      ]]></samplerequest> 
+  </data>  
+  <data id="modulelearningGroupretrieve" name="Load Data " uploadfile="false" namesorted="Load Data " httpmethod="GET" docsection="modulelearningGroup" url="/${mediadbappid}/services/module/learningGroup/data/101"/>  
+  <data id="modulelearningGroupupdate" name="Update Data" uploadfile="false" namesorted="Update Data" httpmethod="PUT" docsection="modulelearningGroup" url="/${mediadbappid}/services/module/learningGroup/data/101"> 
+    <samplerequest><![CDATA[{  "name": "JSON NAME CHANGE"
+   }]]></samplerequest> 
+  </data>  
+  <data id="modulelearningGroupdelete" name="Delete Data" uploadfile="false" namesorted="Delete Data" httpmethod="DELETE" docsection="modulelearningGroup" url="/${mediadbappid}/services/module/learningGroup/data/101"/>  
+  <data id="modulecoursecreate" name="Create a new Modules" uploadfile="false" namesorted="Create a new Modules" httpmethod="POST" docsection="modulecourse" url="/${mediadbappid}/services/module/course/create"> 
+    <samplerequest><![CDATA[{      
+     "name": "JSON Modules Test"
+     }]]></samplerequest> 
+  </data>  
+  <data id="modulecoursesearch" name="Search for Modules" uploadfile="false" namesorted="Search for Modules" httpmethod="POST" docsection="modulecourse" url="/${mediadbappid}/services/module/course/search"> 
+    <samplerequest><![CDATA[
+    	{
+    	    "page": "1", 
+    	    "hitsperpage":"20",
+            "query": 
+            {
+            	"terms":[{
+	            	"field": "id",
+					"operator": "matches",
+					"value": "*"
+				}]
+	         }
+	        } 
+	      ]]></samplerequest> 
+  </data>  
+  <data id="modulecourseretrieve" name="Load Data " uploadfile="false" namesorted="Load Data " httpmethod="GET" docsection="modulecourse" url="/${mediadbappid}/services/module/course/data/101"/>  
+  <data id="modulecourseupdate" name="Update Data" uploadfile="false" namesorted="Update Data" httpmethod="PUT" docsection="modulecourse" url="/${mediadbappid}/services/module/course/data/101"> 
+    <samplerequest><![CDATA[{  "name": "JSON NAME CHANGE"
+   }]]></samplerequest> 
+  </data>  
+  <data id="modulecoursedelete" name="Delete Data" uploadfile="false" namesorted="Delete Data" httpmethod="DELETE" docsection="modulecourse" url="/${mediadbappid}/services/module/course/data/101"/>  
+  <data id="moduletestplancreate" name="Create a new Activities" description="Creates a new record with or without an ID." httpmethod="POST" docsection="moduletestplan" url="/${mediadbappid}/services/module/testplan/create"> 
+    <samplerequest><![CDATA[{      
+     "name": "JSON Activities Test"
+     }]]></samplerequest> 
+  </data>  
+  <data id="moduletestplansearch" name="Search for Activities" httpmethod="POST" docsection="moduletestplan" url="/${mediadbappid}/services/module/testplan/search"> 
+    <samplerequest><![CDATA[
+    	{
+    	    "page": "1", 
+    	    "hitsperpage":"20",
+            "query": 
+            {
+            	"terms":[{
+	            	"field": "id",
+					"operator": "matches",
+					"value": "*"
+				}]
+	         }
+	        } 
+	      ]]></samplerequest> 
+  </data>  
+  <data id="moduletestplanretrieve" name="Load Data " httpmethod="GET" docsection="moduletestplan" url="/${mediadbappid}/services/module/testplan/data/101"/>  
+  <data id="moduletestplanupdate" name="Update Data" description="Update data with key/values in request" httpmethod="PUT" docsection="moduletestplan" url="/${mediadbappid}/services/module/testplan/data/101"> 
+    <samplerequest><![CDATA[{  "name": "JSON NAME CHANGE"
+   }]]></samplerequest> 
+  </data>  
+  <data id="moduletestplandelete" name="Delete Data" description="Delete Data" httpmethod="DELETE" docsection="moduletestplan" url="/${mediadbappid}/services/module/testplan/data/101"/>  
+  <data id="modulequestioncreate" name="Create a new Question Bank" description="Creates a new record with or without an ID." httpmethod="POST" docsection="modulequestion" url="/${mediadbappid}/services/module/question/create"> 
+    <samplerequest><![CDATA[{      
+     "name": "JSON Question Bank Test"
+     }]]></samplerequest> 
+  </data>  
+  <data id="modulequestionsearch" name="Search for Question Bank" httpmethod="POST" docsection="modulequestion" url="/${mediadbappid}/services/module/question/search"> 
+    <samplerequest><![CDATA[
+    	{
+    	    "page": "1", 
+    	    "hitsperpage":"20",
+            "query": 
+            {
+            	"terms":[{
+	            	"field": "id",
+					"operator": "matches",
+					"value": "*"
+				}]
+	         }
+	        } 
+	      ]]></samplerequest> 
+  </data>  
+  <data id="modulequestionretrieve" name="Load Data " httpmethod="GET" docsection="modulequestion" url="/${mediadbappid}/services/module/question/data/101"/>  
+  <data id="modulequestionupdate" name="Update Data" description="Update data with key/values in request" httpmethod="PUT" docsection="modulequestion" url="/${mediadbappid}/services/module/question/data/101"> 
+    <samplerequest><![CDATA[{  "name": "JSON NAME CHANGE"
+   }]]></samplerequest> 
+  </data>  
+  <data id="modulequestiondelete" name="Delete Data" description="Delete Data" httpmethod="DELETE" docsection="modulequestion" url="/${mediadbappid}/services/module/question/data/101"/>  
+  <data id="moduleuserprofilecreate" name="Create a new User Profile" uploadfile="false" namesorted="Create a new User Profile" httpmethod="POST" docsection="moduleuserprofile" url="/${mediadbappid}/services/module/userprofile/create"> 
+    <samplerequest><![CDATA[{      
+     "name": "JSON User Profile Test"
+     }]]></samplerequest> 
+  </data>  
+  <data id="moduleuserprofilesearch" name="Search for User Profile" uploadfile="false" namesorted="Search for User Profile" httpmethod="POST" docsection="moduleuserprofile" url="/${mediadbappid}/services/module/userprofile/search"> 
+    <samplerequest><![CDATA[
+    	{
+    	    "page": "1", 
+    	    "hitsperpage":"20",
+            "query": 
+            {
+            	"terms":[{
+	            	"field": "id",
+					"operator": "matches",
+					"value": "*"
+				}]
+	         }
+	        } 
+	      ]]></samplerequest> 
+  </data>  
+  <data id="moduleuserprofileretrieve" name="Load Data " uploadfile="false" namesorted="Load Data " httpmethod="GET" docsection="moduleuserprofile" url="/${mediadbappid}/services/module/userprofile/data/101"/>  
+  <data id="moduleuserprofileupdate" name="Update Data" uploadfile="false" namesorted="Update Data" httpmethod="PUT" docsection="moduleuserprofile" url="/${mediadbappid}/services/module/userprofile/data/101"> 
+    <samplerequest><![CDATA[{  "name": "JSON NAME CHANGE"
+   }]]></samplerequest> 
+  </data>  
+  <data id="moduleuserprofiledelete" name="Delete Data" uploadfile="false" namesorted="Delete Data" httpmethod="DELETE" docsection="moduleuserprofile" url="/${mediadbappid}/services/module/userprofile/data/101"/>  
+  <data id="modulefaqcreate" name="Create a new FAQ" uploadfile="false" namesorted="Create a new FAQ" httpmethod="POST" docsection="modulefaq" url="/${mediadbappid}/services/module/faq/create"> 
+    <samplerequest><![CDATA[{      
+     "name": "JSON FAQ Test"
+     }]]></samplerequest> 
+  </data>  
+  <data id="modulefaqsearch" name="Search for FAQ" uploadfile="false" namesorted="Search for FAQ" httpmethod="POST" docsection="modulefaq" url="/${mediadbappid}/services/module/faq/search"> 
+    <samplerequest><![CDATA[
+    	{
+    	    "page": "1", 
+    	    "hitsperpage":"20",
+            "query": 
+            {
+            	"terms":[{
+	            	"field": "id",
+					"operator": "matches",
+					"value": "*"
+				}]
+	         }
+	        } 
+	      ]]></samplerequest> 
+  </data>  
+  <data id="modulefaqretrieve" name="Load Data " uploadfile="false" namesorted="Load Data " httpmethod="GET" docsection="modulefaq" url="/${mediadbappid}/services/module/faq/data/101"/>  
+  <data id="modulefaqupdate" name="Update Data" uploadfile="false" namesorted="Update Data" httpmethod="PUT" docsection="modulefaq" url="/${mediadbappid}/services/module/faq/data/101"> 
+    <samplerequest><![CDATA[{  "name": "JSON NAME CHANGE"
+   }]]></samplerequest> 
+  </data>  
+  <data id="modulefaqdelete" name="Delete Data" uploadfile="false" namesorted="Delete Data" httpmethod="DELETE" docsection="modulefaq" url="/${mediadbappid}/services/module/faq/data/101"/>  
+  <data id="moduletestcreate" name="Create a new Completed Activities" description="Creates a new record with or without an ID." httpmethod="POST" docsection="moduletest" url="/${mediadbappid}/services/module/test/create"> 
+    <samplerequest><![CDATA[{      
+     "name": "JSON Completed Activities Test"
+     }]]></samplerequest> 
+  </data>  
+  <data id="moduletestsearch" name="Search for Completed Activities" httpmethod="POST" docsection="moduletest" url="/${mediadbappid}/services/module/test/search"> 
+    <samplerequest><![CDATA[
+    	{
+    	    "page": "1", 
+    	    "hitsperpage":"20",
+            "query": 
+            {
+            	"terms":[{
+	            	"field": "id",
+					"operator": "matches",
+					"value": "*"
+				}]
+	         }
+	        } 
+	      ]]></samplerequest> 
+  </data>  
+  <data id="moduletestretrieve" name="Load Data " httpmethod="GET" docsection="moduletest" url="/${mediadbappid}/services/module/test/data/101"/>  
+  <data id="moduletestupdate" name="Update Data" description="Update data with key/values in request" httpmethod="PUT" docsection="moduletest" url="/${mediadbappid}/services/module/test/data/101"> 
+    <samplerequest><![CDATA[{  "name": "JSON NAME CHANGE"
+   }]]></samplerequest> 
+  </data>  
+  <data id="moduletestdelete" name="Delete Data" description="Delete Data" httpmethod="DELETE" docsection="moduletest" url="/${mediadbappid}/services/module/test/data/101"/>  
+  <data id="moduletestmodulecreate" name="Create a new Test Module" description="Creates a new record with or without an ID." httpmethod="POST" docsection="moduletestmodule" url="/${mediadbappid}/services/module/testmodule/create"> 
+    <samplerequest><![CDATA[{      
+     "name": "JSON Test Module Test"
+     }]]></samplerequest> 
+  </data>  
+  <data id="moduletestmodulesearch" name="Search for Test Module" httpmethod="POST" docsection="moduletestmodule" url="/${mediadbappid}/services/module/testmodule/search"> 
+    <samplerequest><![CDATA[
+    	{
+    	    "page": "1", 
+    	    "hitsperpage":"20",
+            "query": 
+            {
+            	"terms":[{
+	            	"field": "id",
+					"operator": "matches",
+					"value": "*"
+				}]
+	         }
+	        } 
+	      ]]></samplerequest> 
+  </data>  
+  <data id="moduletestmoduleretrieve" name="Load Data " httpmethod="GET" docsection="moduletestmodule" url="/${mediadbappid}/services/module/testmodule/data/101"/>  
+  <data id="moduletestmoduleupdate" name="Update Data" description="Update data with key/values in request" httpmethod="PUT" docsection="moduletestmodule" url="/${mediadbappid}/services/module/testmodule/data/101"> 
+    <samplerequest><![CDATA[{  "name": "JSON NAME CHANGE"
+   }]]></samplerequest> 
+  </data>  
+  <data id="moduletestmoduledelete" name="Delete Data" description="Delete Data" httpmethod="DELETE" docsection="moduletestmodule" url="/${mediadbappid}/services/module/testmodule/data/101"/>  
+  <data id="moduleassetcreate" name="Create a new Assets" description="Creates a new record with or without an ID." httpmethod="POST" docsection="moduleasset" url="/${mediadbappid}/services/module/asset/create"> 
+    <samplerequest><![CDATA[{      
+     "name": "JSON Assets Test"
+     }]]></samplerequest> 
+  </data>  
+  <data id="moduleassetsearch" name="Search for Assets" httpmethod="POST" docsection="moduleasset" url="/${mediadbappid}/services/module/asset/search"> 
+    <samplerequest><![CDATA[
+    	{
+    	    "page": "1", 
+    	    "hitsperpage":"20",
+            "query": 
+            {
+            	"terms":[{
+	            	"field": "id",
+					"operator": "matches",
+					"value": "*"
+				}]
+	         }
+	        } 
+	      ]]></samplerequest> 
+  </data>  
+  <data id="moduleassetretrieve" name="Load Data " httpmethod="GET" docsection="moduleasset" url="/${mediadbappid}/services/module/asset/data/101"/>  
+  <data id="moduleassetupdate" name="Update Data" description="Update data with key/values in request" httpmethod="PUT" docsection="moduleasset" url="/${mediadbappid}/services/module/asset/data/101"> 
+    <samplerequest><![CDATA[{  "name": "JSON NAME CHANGE"
+   }]]></samplerequest> 
+  </data>  
+  <data id="moduleassetdelete" name="Delete Data" description="Delete Data" httpmethod="DELETE" docsection="moduleasset" url="/${mediadbappid}/services/module/asset/data/101"/>  
+  <data name="Search for permissions" namesorted="Search for permissions" id="modulepermissionssearch" docsection="modulepermissions"/>  
+  <data name="Create a new permissions" namesorted="Create a new permissions" id="modulepermissionscreate" docsection="modulepermissions"/>  
+  <data name="Load Data " namesorted="Load Data " id="modulepermissionsretrieve" docsection="modulepermissions"/>  
+  <data name="Update Data" namesorted="Update Data" id="modulepermissionsupdate" docsection="modulepermissions"/>  
+  <data name="Delete Data" namesorted="Delete Data" id="modulepermissionsdelete" docsection="modulepermissions"/>  
+  <data httpmethod="POST" id="moduleattendancecreate" url="/${mediadbappid}/services/module/attendance/create" docsection="moduleattendance"> 
+    <samplerequest><![CDATA[{ "name": "JSON Attendance Test" }]]></samplerequest>  
+    <name> 
+      <language id="en"><![CDATA[Create a new Attendance]]></language> 
+    </name> 
+  </data>  
+  <data httpmethod="DELETE" id="moduleattendancedelete" url="/${mediadbappid}/services/module/attendance/data/101" docsection="moduleattendance"> 
+    <name> 
+      <language id="en"><![CDATA[Delete Data]]></language> 
+    </name> 
+  </data>  
+  <data httpmethod="GET" id="moduleattendanceretrieve" url="/${mediadbappid}/services/module/attendance/data/101" docsection="moduleattendance"> 
+    <name> 
+      <language id="en"><![CDATA[Load Data ]]></language> 
+    </name> 
+  </data>  
+  <data httpmethod="POST" id="moduleattendancesearch" url="/${mediadbappid}/services/module/attendance/search" docsection="moduleattendance"> 
+    <samplerequest><![CDATA[{ "page": "1", "hitsperpage":"20", "query": { "terms":[{ "field": "id", "operator": "matches", "value": "*" }] } }]]></samplerequest>  
+    <name> 
+      <language id="en"><![CDATA[Search for Attendance]]></language> 
+    </name> 
+  </data>  
+  <data httpmethod="PUT" id="moduleattendanceupdate" url="/${mediadbappid}/services/module/attendance/data/101" docsection="moduleattendance"> 
+    <samplerequest><![CDATA[{ "name": "JSON NAME CHANGE" }]]></samplerequest>  
+    <name> 
+      <language id="en"><![CDATA[Update Data]]></language> 
+    </name> 
+  </data>  
+  <data httpmethod="POST" id="moduleusercreate" url="/${mediadbappid}/services/module/user/create" docsection="moduleuser"> 
+    <samplerequest><![CDATA[{ "name": "JSON Users Test" }]]></samplerequest>  
+    <name> 
+      <language id="en"><![CDATA[Create a new Users]]></language> 
+    </name> 
+  </data>  
+  <data httpmethod="DELETE" id="moduleuserdelete" url="/${mediadbappid}/services/module/user/data/101" docsection="moduleuser"> 
+    <name> 
+      <language id="en"><![CDATA[Delete Data]]></language> 
+    </name> 
+  </data>  
+  <data httpmethod="GET" id="moduleuserretrieve" url="/${mediadbappid}/services/module/user/data/101" docsection="moduleuser"> 
+    <name> 
+      <language id="en"><![CDATA[Load Data ]]></language> 
+    </name> 
+  </data>  
+  <data httpmethod="POST" id="moduleusersearch" url="/${mediadbappid}/services/module/user/search" docsection="moduleuser"> 
+    <samplerequest><![CDATA[{ "page": "1", "hitsperpage":"20", "query": { "terms":[{ "field": "id", "operator": "matches", "value": "*" }] } }]]></samplerequest>  
+    <name> 
+      <language id="en"><![CDATA[Search for Users]]></language> 
+    </name> 
+  </data>  
+  <data httpmethod="PUT" id="moduleuserupdate" url="/${mediadbappid}/services/module/user/data/101" docsection="moduleuser"> 
+    <samplerequest><![CDATA[{ "name": "JSON NAME CHANGE" }]]></samplerequest>  
+    <name> 
+      <language id="en"><![CDATA[Update Data]]></language> 
+    </name> 
+  </data>  
+  <data httpmethod="POST" id="moduletidescreate" url="/${mediadbappid}/services/module/tides/create" docsection="moduletides"> 
+    <samplerequest><![CDATA[{ "name": "JSON Tides Test" }]]></samplerequest>  
+    <name> 
+      <language id="en"><![CDATA[Create a new Tides]]></language> 
+    </name> 
+  </data>  
+  <data httpmethod="DELETE" id="moduletidesdelete" url="/${mediadbappid}/services/module/tides/data/101" docsection="moduletides"> 
+    <name> 
+      <language id="en"><![CDATA[Delete Data]]></language> 
+    </name> 
+  </data>  
+  <data httpmethod="GET" id="moduletidesretrieve" url="/${mediadbappid}/services/module/tides/data/101" docsection="moduletides"> 
+    <name> 
+      <language id="en"><![CDATA[Load Data ]]></language> 
+    </name> 
+  </data>  
+  <data httpmethod="POST" id="moduletidessearch" url="/${mediadbappid}/services/module/tides/search" docsection="moduletides"> 
+    <samplerequest><![CDATA[{ "page": "1", "hitsperpage":"20", "query": { "terms":[{ "field": "id", "operator": "matches", "value": "*" }] } }]]></samplerequest>  
+    <name> 
+      <language id="en"><![CDATA[Search for Tides]]></language> 
+    </name> 
+  </data>  
+  <data httpmethod="PUT" id="moduletidesupdate" url="/${mediadbappid}/services/module/tides/data/101" docsection="moduletides">
+    <samplerequest><![CDATA[{ "name": "JSON NAME CHANGE" }]]></samplerequest>
+    <name>
+      <language id="en"><![CDATA[Update Data]]></language>
+    </name>
+  </data>
+</root>

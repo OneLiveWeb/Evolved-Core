@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<reportss> 
+
+  <reports id="timeperweek" x_axis_title="Date" y_axis_title="Students" ordering="7" searchtype="lrsactivities" outputtype="timeperweek" dashboard="false" >Time Per Week spent by students
+    <aggs><![CDATA[{
+	"lrsactivities_date": {
+		"date_histogram": {
+			"field": "date",
+                 "interval": "week",
+                 "format" : "yyyy-MM-dd" 
+		}
+	}
+}]]></aggs>
+  </reports>  
+  
+  <reports id="activityprogress" searchtype="lrsactivities" scalefactor="0.0003" x_axis_title = "Activity Time in hours" y_axis_title = "Students" charttype="horizontalbar" reporttype="termbucket" ticklabel=" hrs" >
+    <name>
+      <language id="en"><![CDATA[Activity Progress by Student]]></language>
+    </name>
+    <aggs><![CDATA[{ 			"user_userid": { 				"terms": { 					"field": "userid" ,"size":0				}, 				"aggs": { 					"user_userid_response": { 						"sum": { 							"field": "period" 						} 					} 				} 			} 		}]]></aggs>
+  </reports>
+  
+  
+   <reports id="percentagescore" x_axis_title="student scores" y_axis_title="Students" ordering="0" searchtype="lrsactivities" charttype="bar" reporttype="termbucket" ticklabel="%">
+    <name>
+      <language id="en"><![CDATA[Percentage Scores By Student]]></language>
+    </name>
+    <aggs><![CDATA[{ "user_userid": { "terms": { "field": "userid", "size":500 }, "aggs": { "user_userid_response": { "avg": { "field": "scaled" } } } } }]]></aggs>
+  </reports> 
+  
+   <reports id="statementsperday" searchtype="lrsactivities" x_axis_title="Date" y_axis_title="Number of Tin Can Statements" ordering="0" charttype="bar" reporttype="datehistogram">
+    <name>
+      <language id="en"><![CDATA[Statements Per Day]]></language>
+    </name>
+    <aggs><![CDATA[{
+	"lrsactivities_date": {
+		"date_histogram": {
+			"field": "date",
+                 "interval": "day",
+                 "format" : "yyyy-MM-dd" 
+		}
+
+	}
+}]]></aggs>
+  </reports> 
+  
+</reportss>
+

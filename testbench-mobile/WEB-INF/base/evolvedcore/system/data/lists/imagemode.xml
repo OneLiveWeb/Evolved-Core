@@ -1,0 +1,5 @@
+<page>
+<property id="once">Show Category Media once at the start of the category.</property>
+<property id="always">Show Category Media on every category question.</property>
+
+</page>

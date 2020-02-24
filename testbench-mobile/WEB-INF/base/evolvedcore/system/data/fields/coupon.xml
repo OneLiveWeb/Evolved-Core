@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<properties> 
+  <property id="id" index="true" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[id]]></language> 
+    </name> 
+  </property>  
+  <property id="name" index="true" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[Name]]></language> 
+    </name> 
+  </property>  
+  <property id="percentage" index="true" editable="true" stored="true" internalfield="false" isbadge="false" required="false" filter="false" multilanguage="false" highlight="false" deleted="false" datatype="double" autocreatefromexif="false" keyword="false" writenametoexif="false">New
+    <name> 
+      <language id="en"><![CDATA[Percentage]]></language> 
+    </name> 
+  </property>  
+  <property id="productids" index="true" editable="true" stored="true" internalfield="false" isbadge="false" viewtype="multiselect" rendertype="multiselect" required="false" multilanguage="false" highlight="false" deleted="false" datatype="list" autocreatefromexif="false" writenametoexif="false" filter="false" listid="product" keyword="false">New
+    <name> 
+      <language id="en"><![CDATA[Applicable Products]]></language> 
+    </name> 
+  </property>  
+  <property id="minquantity" index="true" editable="true" stored="true" internalfield="false" isbadge="false" required="false" filter="false" multilanguage="false" highlight="false" deleted="false" datatype="double" autocreatefromexif="false" keyword="false" writenametoexif="false">New
+    <name> 
+      <language id="en"><![CDATA[Minimum Quantity]]></language> 
+    </name> 
+  </property>  
+  <property id="minsubtotal" index="true" editable="true" stored="true" internalfield="false" isbadge="false" required="false" filter="false" multilanguage="false" highlight="false" deleted="false" datatype="double" autocreatefromexif="false" keyword="false" writenametoexif="false">New
+    <name> 
+      <language id="en"><![CDATA[Minimum Subtotal]]></language> 
+    </name> 
+  </property>  
+  <property id="expiry" index="true" editable="true" stored="true" internalfield="false" isbadge="false" required="false" filter="false" multilanguage="false" highlight="false" deleted="false" datatype="date" autocreatefromexif="false" keyword="false" writenametoexif="false">New
+    <name> 
+      <language id="en"><![CDATA[Expiry Date]]></language> 
+    </name> 
+  </property>  
+  <property id="oneperuser" index="true" editable="true" stored="true" internalfield="false" isbadge="false" required="false" filter="false" multilanguage="false" highlight="false" deleted="false" datatype="boolean" autocreatefromexif="false" keyword="false" writenametoexif="false">New
+    <name> 
+      <language id="en"><![CDATA[Limit to one use per user]]></language> 
+    </name> 
+  </property>  
+  <property id="user" index="true" editable="true" stored="true" internalfield="false" isbadge="false" required="false" filter="false" multilanguage="false" highlight="false" deleted="false" autocreatefromexif="false" keyword="false" writenametoexif="false">New
+    <name> 
+      <language id="en"><![CDATA[Specific Users]]></language> 
+    </name> 
+  </property>  
+  <property id="couponcode" index="true" editable="true" stored="true" indextype="not_analyzed" internalfield="false" isbadge="false" required="false" filter="false" multilanguage="false" highlight="false" deleted="false" autocreatefromexif="false" keyword="false" writenametoexif="false">New
+    <name> 
+      <language id="en"><![CDATA[Coupon Code]]></language> 
+    </name> 
+  </property>  
+  <property id="couponvalue" index="true" editable="true" stored="true" internalfield="false" isbadge="false" required="false" multilanguage="false" highlight="false" deleted="false" datatype="double" autocreatefromexif="false" writenametoexif="false" filter="false" keyword="false">New
+    <name>
+      <language id="en"><![CDATA[Fixed Dollar Amount]]></language>
+    </name>
+  </property>  
+  <property id="couponavailable" index="true" editable="true" stored="true" internalfield="false" isbadge="false" required="false" multilanguage="false" highlight="false" deleted="false" autocreatefromexif="false" writenametoexif="false" filter="false" datatype="boolean" keyword="false">New
+    <name> 
+      <language id="en"><![CDATA[Coupon Available]]></language> 
+    </name> 
+  </property>  
+  <property id="dollardiscount" index="true" editable="true" stored="true">New
+    <name> 
+      <language id="en"><![CDATA[Dollar Discount]]></language> 
+    </name> 
+  </property> 
+</properties>

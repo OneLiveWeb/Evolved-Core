@@ -1,0 +1,8 @@
+
+<properties>
+  <property id="order" index="true" internalfield="false" deleted="false" datatype="long" editable="true" stored="true" searchtype="classmodules" viewtype="text" sortable="true">New
+    <name>
+      <language id="en"><![CDATA[order]]></language>
+    </name>
+  </property>
+</properties>

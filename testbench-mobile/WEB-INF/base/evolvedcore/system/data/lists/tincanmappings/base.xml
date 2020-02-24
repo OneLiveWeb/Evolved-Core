@@ -1,0 +1,20 @@
+<mappings>
+<mapping id="accessed"		operation="accessed"	verbid="http://activitystrea.ms/schema/1.0/access"></mapping>
+<mapping id="answered"		operation="answered"	verbid="http://adlnet.gov/expapi/verbs/answered"></mapping>
+<mapping id="attempted"		operation="attempted"	verbid="http://adlnet.gov/expapi/verbs/attempted"></mapping>
+<mapping id="completed"		operation="completed"	verbid="http://adlnet.gov/expapi/verbs/completed"></mapping>
+<mapping id="experienced"	operation="experienced"	verbid="http://adlnet.gov/expapi/verbs/experienced"></mapping>
+<mapping id="failed"		operation="failed"		verbid="http://adlnet.gov/expapi/verbs/failed"></mapping>
+<mapping id="initialized"	operation="initialized"	verbid="http://adlnet.gov/expapi/verbs/initialized"></mapping>
+<mapping id="launched"		operation="launched"	verbid="http://adlnet.gov/expapi/verbs/launched"></mapping>
+<mapping id="opened"		operation="opened"		verbid="http://activitystrea.ms/schema/1.0/open"></mapping>
+<mapping id="passed"		operation="passed"		verbid="http://adlnet.gov/expapi/verbs/passed"></mapping>
+<mapping id="paused"		operation="paused"		verbid="http://id.tincanapi.com/verb/paused"></mapping>
+<mapping id="purchased"		operation="purchased"	verbid="http://activitystrea.ms/schema/1.0/purchase"></mapping>
+<mapping id="resumed"		operation="resumed"		verbid="http://adlnet.gov/expapi/verbs/resumed"></mapping>
+<mapping id="reviewed"		operation="reviewed"	verbid="https://brindlewaye.com/xAPITerms/verbs/reviewed/"></mapping>
+<mapping id="saved"			operation="saved"		verbid="http://activitystrea.ms/schema/1.0/save"></mapping>
+<mapping id="started"		operation="preview"		verbid="http://activitystrea.ms/schema/1.0/start"></mapping>
+<mapping id="submitted"		operation="submitted"	verbid="http://activitystrea.ms/schema/1.0/submit"></mapping>
+<mapping id="suspended"		operation="suspended"	verbid="http://adlnet.gov/expapi/verbs/suspended"></mapping>
+</mappings>

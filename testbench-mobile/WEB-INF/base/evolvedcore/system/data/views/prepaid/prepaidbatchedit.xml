@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <property id="available"/>
+  <property id="product"/>
+  <property id="contract"/>
+  <property id="startdate"/>
+  <property id="expiry"/>
+  <property id="college"/>
+  <property id="sku"/>
+</root>

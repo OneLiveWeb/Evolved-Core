@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+  <property id="learningcategory"/>  
+  <property id="audience"/>  
+  <property id="ecommercedisabled"/>  
+  <property id="hide"/>  
+  <property id="partnershipfee"/>  
+  <property id="partnershipfeetype"/>  
+  <property id="apprequired"/>
+</root>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <property id="firstName"/>
+  <property id="lastName"/>
+  <property note="Please note that the email must be unique and will be used to allow the user to login" id="email"/>
+  <property id="password"/>
+    <property id="settingsgroup"/>
+  
+</root>

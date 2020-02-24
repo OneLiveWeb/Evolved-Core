@@ -1,0 +1,27 @@
+<linktree>
+	
+		<a folder="tests" moduleid="user"  id="tests"  useajax="false" multiedit="false" name="Previously attempted activities" />
+	
+	<a folder="applications" moduleid="user"  id="applications"  useajax="false" multiedit="false" name="Your Current Applications" />
+	
+	<a folder="storeorders" moduleid="user"  id="orders"  useajax="false" multiedit="false" name="Order history" />
+	<!-- 
+	<a folder="wishlist" moduleid="userprofile"  id="wishlist"  useajax="false" multiedit="false" name="Wish List" />
+	<a folder="projects" moduleid="userprofile"  id="projects"  useajax="false" multiedit="false" name="Your Projects" />
+		<a folder="surveys" moduleid="userprofile"  id="surveys"  useajax="false" multiedit="false" name="Your Surveys" />
+
+
+ -->
+
+
+	<a folder="password" moduleid="user"  id="user"  useajax="false" multiedit="false" name="Update Your Password" />
+	<a folder="admin" moduleid="user"  id="administer"  useajax="false" multiedit="false" name="Administration" />
+	
+
+<!-- 
+	<a folder="edit/items" moduleid="product"  id="productitems"  useajax="false" multiedit="false" name="Inventory Items" />
+ -->
+	
+	
+	
+</linktree>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<grouproles>
+  <grouprole id="instructor" name="Instructor">Instructor</grouprole>
+  <grouprole id="student" name="Student">Student</grouprole>
+</grouproles>

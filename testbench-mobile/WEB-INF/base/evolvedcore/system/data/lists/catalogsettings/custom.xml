@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+  <data id="log_all_searches" name="Log All Searches" namesorted="Log All Searches" value="true"/>  
+  <data id="stripe_access_token" value="sk_test_CnyeWhsK0ZPUU15xXELPQvFf"> 
+    <name><![CDATA[Stripe Connect Access Token]]></name> 
+  </data>  
+  <data id="stripe_user_id" value="acct_1CS2XlCdyETpo596"> 
+    <name><![CDATA[Stripe Connect User ID]]></name> 
+  </data>  
+  <data id="stripe_publishable_key" value="pk_test_ArYxyuavn7iiNyfRjUeREq25"> 
+    <name><![CDATA[Stripe Connect Publish Key]]></name> 
+  </data>  
+  <data id="stripe_refresh_token" value="rt_DbtMMmdM7VA55cT1ypE8oEFazV5RAa11dAgPIFeoqovBlqrT"> 
+    <name><![CDATA[Stripe Refresh Token]]></name> 
+  </data>  
+  <!-- 
+  <data id="detailsavepath" value="/WEB-INF/base/bootstrapfrontend/system/data"/>
+   -->
+</root>
